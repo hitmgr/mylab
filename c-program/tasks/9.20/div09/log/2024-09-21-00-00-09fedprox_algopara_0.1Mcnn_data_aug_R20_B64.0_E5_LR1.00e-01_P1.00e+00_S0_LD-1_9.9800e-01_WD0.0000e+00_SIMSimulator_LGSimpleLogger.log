@@ -84,3 +84,14 @@
 2024-09-21 00:13:59,850 simple_logger.py log_once [line:28] INFO mean_val_loss                 1.7814
 2024-09-21 00:13:59,850 simple_logger.py log_once [line:28] INFO std_val_loss                  0.0475
 2024-09-21 00:13:59,850 fedbase.py run [line:305] INFO Eval Time Cost:               5.1446s
+2024-09-21 00:16:14,945 fedbase.py run [line:300] INFO --------------Round 7--------------
+2024-09-21 00:16:14,945 simple_logger.py log_once [line:14] INFO Current_time:7
+2024-09-21 00:16:19,588 simple_logger.py log_once [line:28] INFO test_accuracy                 0.4232
+2024-09-21 00:16:19,588 simple_logger.py log_once [line:28] INFO test_loss                     1.6798
+2024-09-21 00:16:19,589 simple_logger.py log_once [line:28] INFO val_accuracy                  0.4177
+2024-09-21 00:16:19,589 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.4177
+2024-09-21 00:16:19,589 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.0525
+2024-09-21 00:16:19,589 simple_logger.py log_once [line:28] INFO val_loss                      1.6744
+2024-09-21 00:16:19,589 simple_logger.py log_once [line:28] INFO mean_val_loss                 1.6744
+2024-09-21 00:16:19,589 simple_logger.py log_once [line:28] INFO std_val_loss                  0.0580
+2024-09-21 00:16:19,589 fedbase.py run [line:305] INFO Eval Time Cost:               4.6440s
