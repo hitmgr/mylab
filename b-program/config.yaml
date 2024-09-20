@@ -1,0 +1,55 @@
+base_path: 'tasks/origin/multi_demo_custom_tasks'
+
+tasks:
+  div01_fedavg:
+    benchmark:
+      name: flgo.benchmark.cifar10_classification
+    partitioner:
+      name: DiversityPartitioner
+      para:
+        num_clients: 100
+        diversity: 0.1
+    algorithm: fedavg
+    option:
+      log_file: true
+      num_rounds: 50
+      proportion: 1.0
+      learning_rate: 0.01
+      num_epochs: 5
+      sample: uniform
+
+  dir01_fedprox:
+    benchmark:
+      name: flgo.benchmark.cifar10_classification
+    partitioner:
+      name: DirichletPartitioner
+      para:
+        num_clients: 100
+        alpha: 0.1
+    algorithm: fedprox
+    option:
+      log_file: true
+      num_rounds: 60
+      proportion: 0.8
+      learning_rate: 0.005
+      num_epochs: 3
+      sample: uniform
+
+  div05_origin:
+    benchmark:
+      name: flgo.benchmark.cifar10_classification
+    partitioner:
+      name: DiversityPartitioner
+      para:
+        num_clients: 100
+        diversity: 0.5
+    algorithm: OriginAlgorithm
+    option:
+      log_file: true
+      num_rounds: 40
+      proportion: 1.0
+      learning_rate: 0.02
+      num_epochs: 4
+      sample: uniform
+
+gpu_ids: [0, 1]
