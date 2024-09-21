@@ -813,3 +813,682 @@
 2024-09-21 00:16:39,820 fedbase.py run [line:305] INFO Eval Time Cost:               5.1065s
 2024-09-21 00:16:39,820 v2.py iterate [line:216] INFO Round 8 started
 2024-09-21 00:16:39,820 v2.py sample [line:61] INFO Round 8: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:18:53,984 v2.py calculate_client_scores [line:141] INFO Round 8, Client 0: Acc Improvement=1.0000, Gradient Quality=0.0626, Time Decay=1.0000, Committee Reward=0.4000, Final Score=0.5950, Total Score=5.3/8, Average Score=0.6648
+2024-09-21 00:18:53,985 v2.py calculate_client_scores [line:141] INFO Round 8, Client 1: Acc Improvement=0.9490, Gradient Quality=0.2599, Time Decay=1.0000, Committee Reward=1.0000, Final Score=0.6784, Total Score=6.1/8, Average Score=0.7579
+2024-09-21 00:18:53,986 v2.py calculate_client_scores [line:141] INFO Round 8, Client 2: Acc Improvement=1.0000, Gradient Quality=0.1080, Time Decay=1.0000, Committee Reward=0.6000, Final Score=0.6232, Total Score=4.9/8, Average Score=0.6165
+2024-09-21 00:18:53,986 v2.py calculate_client_scores [line:141] INFO Round 8, Client 3: Acc Improvement=0.9618, Gradient Quality=0.1078, Time Decay=1.0000, Committee Reward=0.2000, Final Score=0.5840, Total Score=5.2/8, Average Score=0.6445
+2024-09-21 00:18:53,992 v2.py calculate_client_scores [line:141] INFO Round 8, Client 4: Acc Improvement=1.0000, Gradient Quality=0.1198, Time Decay=1.0000, Committee Reward=0.8000, Final Score=0.6379, Total Score=6.0/8, Average Score=0.7516
+2024-09-21 00:18:53,992 v2.py calculate_client_scores [line:141] INFO Round 8, Client 5: Acc Improvement=0.9745, Gradient Quality=0.1956, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6155, Total Score=5.2/8, Average Score=0.6548
+2024-09-21 00:18:53,994 v2.py calculate_client_scores [line:141] INFO Round 8, Client 6: Acc Improvement=0.9490, Gradient Quality=0.2377, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6196, Total Score=5.4/8, Average Score=0.6758
+2024-09-21 00:18:53,994 v2.py calculate_client_scores [line:141] INFO Round 8, Client 7: Acc Improvement=0.4900, Gradient Quality=0.8495, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6348, Total Score=4.3/8, Average Score=0.5409
+2024-09-21 00:18:53,994 v2.py calculate_client_scores [line:141] INFO Round 8, Client 8: Acc Improvement=1.0000, Gradient Quality=0.0102, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5541, Total Score=4.8/8, Average Score=0.6038
+2024-09-21 00:18:53,995 v2.py calculate_client_scores [line:141] INFO Round 8, Client 9: Acc Improvement=0.9618, Gradient Quality=0.4348, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7048, Total Score=5.1/8, Average Score=0.6410
+2024-09-21 00:18:53,996 v2.py calculate_client_scores [line:141] INFO Round 8, Client 10: Acc Improvement=1.0000, Gradient Quality=0.0597, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5739, Total Score=5.0/8, Average Score=0.6265
+2024-09-21 00:18:53,997 v2.py calculate_client_scores [line:141] INFO Round 8, Client 11: Acc Improvement=0.9235, Gradient Quality=0.2688, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6193, Total Score=4.9/8, Average Score=0.6079
+2024-09-21 00:18:53,998 v2.py calculate_client_scores [line:141] INFO Round 8, Client 12: Acc Improvement=0.5961, Gradient Quality=0.6975, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6271, Total Score=5.8/8, Average Score=0.7190
+2024-09-21 00:18:53,998 v2.py calculate_client_scores [line:141] INFO Round 8, Client 13: Acc Improvement=1.0000, Gradient Quality=0.0775, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5810, Total Score=5.2/8, Average Score=0.6470
+2024-09-21 00:18:53,998 v2.py calculate_client_scores [line:141] INFO Round 8, Client 14: Acc Improvement=0.9108, Gradient Quality=0.2744, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6151, Total Score=5.4/8, Average Score=0.6692
+2024-09-21 00:18:53,999 v2.py calculate_client_scores [line:141] INFO Round 8, Client 15: Acc Improvement=1.0000, Gradient Quality=0.0836, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5834, Total Score=5.0/8, Average Score=0.6289
+2024-09-21 00:18:53,999 v2.py calculate_client_scores [line:141] INFO Round 8, Client 16: Acc Improvement=0.9745, Gradient Quality=0.2870, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6521, Total Score=5.5/8, Average Score=0.6894
+2024-09-21 00:18:54,000 v2.py calculate_client_scores [line:141] INFO Round 8, Client 17: Acc Improvement=0.9621, Gradient Quality=0.2400, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6271, Total Score=6.0/8, Average Score=0.7562
+2024-09-21 00:18:54,000 v2.py calculate_client_scores [line:141] INFO Round 8, Client 18: Acc Improvement=0.7833, Gradient Quality=1.0000, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.8416, Total Score=6.0/8, Average Score=0.7491
+2024-09-21 00:18:54,001 v2.py calculate_client_scores [line:141] INFO Round 8, Client 19: Acc Improvement=1.0000, Gradient Quality=0.0860, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5844, Total Score=5.1/8, Average Score=0.6368
+2024-09-21 00:18:54,007 v2.py calculate_client_scores [line:141] INFO Round 8, Client 20: Acc Improvement=0.9235, Gradient Quality=0.4752, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7018, Total Score=4.8/8, Average Score=0.5963
+2024-09-21 00:18:54,007 v2.py calculate_client_scores [line:141] INFO Round 8, Client 21: Acc Improvement=0.9748, Gradient Quality=0.3511, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6778, Total Score=4.8/8, Average Score=0.5977
+2024-09-21 00:18:54,008 v2.py calculate_client_scores [line:141] INFO Round 8, Client 22: Acc Improvement=1.0000, Gradient Quality=0.0000, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5500, Total Score=4.8/8, Average Score=0.6021
+2024-09-21 00:18:54,008 v2.py calculate_client_scores [line:141] INFO Round 8, Client 23: Acc Improvement=0.5709, Gradient Quality=0.4965, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5340, Total Score=4.2/8, Average Score=0.5289
+2024-09-21 00:18:54,009 v2.py calculate_client_scores [line:141] INFO Round 8, Client 24: Acc Improvement=0.8470, Gradient Quality=0.7880, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7887, Total Score=5.0/8, Average Score=0.6277
+2024-09-21 00:18:54,009 v2.py calculate_client_scores [line:141] INFO Round 8, Client 25: Acc Improvement=1.0000, Gradient Quality=0.0926, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5870, Total Score=5.0/8, Average Score=0.6312
+2024-09-21 00:18:54,010 v2.py calculate_client_scores [line:141] INFO Round 8, Client 26: Acc Improvement=0.8485, Gradient Quality=0.2841, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5879, Total Score=5.1/8, Average Score=0.6395
+2024-09-21 00:18:54,010 v2.py calculate_client_scores [line:141] INFO Round 8, Client 27: Acc Improvement=0.2806, Gradient Quality=0.6508, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.4506, Total Score=4.9/8, Average Score=0.6177
+2024-09-21 00:18:54,011 v2.py calculate_client_scores [line:141] INFO Round 8, Client 28: Acc Improvement=0.9369, Gradient Quality=0.5785, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7498, Total Score=6.3/8, Average Score=0.7879
+2024-09-21 00:18:54,017 v2.py calculate_client_scores [line:141] INFO Round 8, Client 29: Acc Improvement=0.8980, Gradient Quality=0.2293, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5907, Total Score=5.1/8, Average Score=0.6434
+2024-09-21 00:18:54,018 v2.py calculate_client_scores [line:141] INFO Round 8, Client 30: Acc Improvement=0.8485, Gradient Quality=0.7200, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7623, Total Score=6.3/8, Average Score=0.7882
+2024-09-21 00:18:54,022 v2.py calculate_client_scores [line:141] INFO Round 8, Client 31: Acc Improvement=0.9874, Gradient Quality=0.0386, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5591, Total Score=4.8/8, Average Score=0.5989
+2024-09-21 00:18:54,023 v2.py calculate_client_scores [line:141] INFO Round 8, Client 32: Acc Improvement=0.9874, Gradient Quality=0.0724, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5727, Total Score=5.1/8, Average Score=0.6408
+2024-09-21 00:18:54,023 v2.py calculate_client_scores [line:141] INFO Round 8, Client 33: Acc Improvement=0.5204, Gradient Quality=0.7214, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5987, Total Score=4.2/8, Average Score=0.5268
+2024-09-21 00:18:54,024 v2.py calculate_client_scores [line:141] INFO Round 8, Client 34: Acc Improvement=0.9618, Gradient Quality=0.2045, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6127, Total Score=5.2/8, Average Score=0.6470
+2024-09-21 00:18:54,024 v2.py calculate_client_scores [line:141] INFO Round 8, Client 35: Acc Improvement=0.8359, Gradient Quality=0.7170, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7548, Total Score=5.8/8, Average Score=0.7217
+2024-09-21 00:18:54,024 v2.py calculate_client_scores [line:141] INFO Round 8, Client 36: Acc Improvement=0.9243, Gradient Quality=0.4511, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6926, Total Score=5.9/8, Average Score=0.7333
+2024-09-21 00:18:54,025 v2.py calculate_client_scores [line:141] INFO Round 8, Client 37: Acc Improvement=0.0000, Gradient Quality=0.0509, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.0704, Total Score=4.4/8, Average Score=0.5502
+2024-09-21 00:18:54,025 v2.py calculate_client_scores [line:141] INFO Round 8, Client 38: Acc Improvement=1.0000, Gradient Quality=0.2302, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6421, Total Score=5.5/8, Average Score=0.6841
+2024-09-21 00:18:54,027 v2.py calculate_client_scores [line:141] INFO Round 8, Client 39: Acc Improvement=0.8738, Gradient Quality=0.4993, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6866, Total Score=6.1/8, Average Score=0.7656
+2024-09-21 00:18:54,027 v2.py calculate_client_scores [line:141] INFO Round 8, Client 40: Acc Improvement=1.0000, Gradient Quality=0.0701, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5780, Total Score=5.2/8, Average Score=0.6514
+2024-09-21 00:18:54,028 v2.py calculate_client_scores [line:141] INFO Round 8, Client 41: Acc Improvement=1.0000, Gradient Quality=0.0547, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5719, Total Score=5.0/8, Average Score=0.6248
+2024-09-21 00:18:54,028 v2.py calculate_client_scores [line:141] INFO Round 8, Client 42: Acc Improvement=0.9874, Gradient Quality=0.0049, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5457, Total Score=4.9/8, Average Score=0.6182
+2024-09-21 00:18:54,029 v2.py calculate_client_scores [line:141] INFO Round 8, Client 43: Acc Improvement=0.7981, Gradient Quality=0.6562, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7115, Total Score=5.1/8, Average Score=0.6332
+2024-09-21 00:18:54,029 v2.py calculate_client_scores [line:141] INFO Round 8, Client 44: Acc Improvement=0.9874, Gradient Quality=0.2918, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6604, Total Score=4.4/8, Average Score=0.5498
+2024-09-21 00:18:54,030 v2.py calculate_client_scores [line:141] INFO Round 8, Client 45: Acc Improvement=0.6685, Gradient Quality=0.6895, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6601, Total Score=4.8/8, Average Score=0.5953
+2024-09-21 00:18:54,030 v2.py calculate_client_scores [line:141] INFO Round 8, Client 46: Acc Improvement=0.8853, Gradient Quality=0.3223, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6215, Total Score=5.4/8, Average Score=0.6799
+2024-09-21 00:18:54,037 v2.py calculate_client_scores [line:141] INFO Round 8, Client 47: Acc Improvement=0.9745, Gradient Quality=0.1314, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5898, Total Score=4.7/8, Average Score=0.5934
+2024-09-21 00:18:54,038 v2.py calculate_client_scores [line:141] INFO Round 8, Client 48: Acc Improvement=0.8359, Gradient Quality=0.6004, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7081, Total Score=6.1/8, Average Score=0.7579
+2024-09-21 00:18:54,039 v2.py calculate_client_scores [line:141] INFO Round 8, Client 49: Acc Improvement=0.8485, Gradient Quality=0.3061, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5967, Total Score=5.5/8, Average Score=0.6851
+2024-09-21 00:18:54,041 v2.py aggregate [line:236] INFO Round 8, Client 0: Aggregation Weight=0.0192
+2024-09-21 00:18:54,041 v2.py aggregate [line:236] INFO Round 8, Client 1: Aggregation Weight=0.0219
+2024-09-21 00:18:54,041 v2.py aggregate [line:236] INFO Round 8, Client 2: Aggregation Weight=0.0201
+2024-09-21 00:18:54,041 v2.py aggregate [line:236] INFO Round 8, Client 3: Aggregation Weight=0.0189
+2024-09-21 00:18:54,041 v2.py aggregate [line:236] INFO Round 8, Client 4: Aggregation Weight=0.0206
+2024-09-21 00:18:54,041 v2.py aggregate [line:236] INFO Round 8, Client 5: Aggregation Weight=0.0199
+2024-09-21 00:18:54,041 v2.py aggregate [line:236] INFO Round 8, Client 6: Aggregation Weight=0.0200
+2024-09-21 00:18:54,042 v2.py aggregate [line:236] INFO Round 8, Client 7: Aggregation Weight=0.0205
+2024-09-21 00:18:54,042 v2.py aggregate [line:236] INFO Round 8, Client 8: Aggregation Weight=0.0179
+2024-09-21 00:18:54,042 v2.py aggregate [line:236] INFO Round 8, Client 9: Aggregation Weight=0.0228
+2024-09-21 00:18:54,042 v2.py aggregate [line:236] INFO Round 8, Client 10: Aggregation Weight=0.0185
+2024-09-21 00:18:54,047 v2.py aggregate [line:236] INFO Round 8, Client 11: Aggregation Weight=0.0200
+2024-09-21 00:18:54,047 v2.py aggregate [line:236] INFO Round 8, Client 12: Aggregation Weight=0.0202
+2024-09-21 00:18:54,047 v2.py aggregate [line:236] INFO Round 8, Client 13: Aggregation Weight=0.0188
+2024-09-21 00:18:54,047 v2.py aggregate [line:236] INFO Round 8, Client 14: Aggregation Weight=0.0199
+2024-09-21 00:18:54,048 v2.py aggregate [line:236] INFO Round 8, Client 15: Aggregation Weight=0.0188
+2024-09-21 00:18:54,048 v2.py aggregate [line:236] INFO Round 8, Client 16: Aggregation Weight=0.0211
+2024-09-21 00:18:54,048 v2.py aggregate [line:236] INFO Round 8, Client 17: Aggregation Weight=0.0203
+2024-09-21 00:18:54,048 v2.py aggregate [line:236] INFO Round 8, Client 18: Aggregation Weight=0.0272
+2024-09-21 00:18:54,048 v2.py aggregate [line:236] INFO Round 8, Client 19: Aggregation Weight=0.0189
+2024-09-21 00:18:54,048 v2.py aggregate [line:236] INFO Round 8, Client 20: Aggregation Weight=0.0227
+2024-09-21 00:18:54,048 v2.py aggregate [line:236] INFO Round 8, Client 21: Aggregation Weight=0.0219
+2024-09-21 00:18:54,048 v2.py aggregate [line:236] INFO Round 8, Client 22: Aggregation Weight=0.0178
+2024-09-21 00:18:54,048 v2.py aggregate [line:236] INFO Round 8, Client 23: Aggregation Weight=0.0172
+2024-09-21 00:18:54,048 v2.py aggregate [line:236] INFO Round 8, Client 24: Aggregation Weight=0.0255
+2024-09-21 00:18:54,049 v2.py aggregate [line:236] INFO Round 8, Client 25: Aggregation Weight=0.0190
+2024-09-21 00:18:54,049 v2.py aggregate [line:236] INFO Round 8, Client 26: Aggregation Weight=0.0190
+2024-09-21 00:18:54,049 v2.py aggregate [line:236] INFO Round 8, Client 27: Aggregation Weight=0.0146
+2024-09-21 00:18:54,049 v2.py aggregate [line:236] INFO Round 8, Client 28: Aggregation Weight=0.0242
+2024-09-21 00:18:54,049 v2.py aggregate [line:236] INFO Round 8, Client 29: Aggregation Weight=0.0191
+2024-09-21 00:18:54,049 v2.py aggregate [line:236] INFO Round 8, Client 30: Aggregation Weight=0.0246
+2024-09-21 00:18:54,049 v2.py aggregate [line:236] INFO Round 8, Client 31: Aggregation Weight=0.0181
+2024-09-21 00:18:54,049 v2.py aggregate [line:236] INFO Round 8, Client 32: Aggregation Weight=0.0185
+2024-09-21 00:18:54,049 v2.py aggregate [line:236] INFO Round 8, Client 33: Aggregation Weight=0.0193
+2024-09-21 00:18:54,049 v2.py aggregate [line:236] INFO Round 8, Client 34: Aggregation Weight=0.0198
+2024-09-21 00:18:54,049 v2.py aggregate [line:236] INFO Round 8, Client 35: Aggregation Weight=0.0244
+2024-09-21 00:18:54,050 v2.py aggregate [line:236] INFO Round 8, Client 36: Aggregation Weight=0.0224
+2024-09-21 00:18:54,050 v2.py aggregate [line:236] INFO Round 8, Client 37: Aggregation Weight=0.0023
+2024-09-21 00:18:54,050 v2.py aggregate [line:236] INFO Round 8, Client 38: Aggregation Weight=0.0207
+2024-09-21 00:18:54,050 v2.py aggregate [line:236] INFO Round 8, Client 39: Aggregation Weight=0.0222
+2024-09-21 00:18:54,050 v2.py aggregate [line:236] INFO Round 8, Client 40: Aggregation Weight=0.0187
+2024-09-21 00:18:54,050 v2.py aggregate [line:236] INFO Round 8, Client 41: Aggregation Weight=0.0185
+2024-09-21 00:18:54,050 v2.py aggregate [line:236] INFO Round 8, Client 42: Aggregation Weight=0.0176
+2024-09-21 00:18:54,050 v2.py aggregate [line:236] INFO Round 8, Client 43: Aggregation Weight=0.0230
+2024-09-21 00:18:54,050 v2.py aggregate [line:236] INFO Round 8, Client 44: Aggregation Weight=0.0213
+2024-09-21 00:18:54,050 v2.py aggregate [line:236] INFO Round 8, Client 45: Aggregation Weight=0.0213
+2024-09-21 00:18:54,050 v2.py aggregate [line:236] INFO Round 8, Client 46: Aggregation Weight=0.0201
+2024-09-21 00:18:54,051 v2.py aggregate [line:236] INFO Round 8, Client 47: Aggregation Weight=0.0190
+2024-09-21 00:18:54,051 v2.py aggregate [line:236] INFO Round 8, Client 48: Aggregation Weight=0.0229
+2024-09-21 00:18:54,051 v2.py aggregate [line:236] INFO Round 8, Client 49: Aggregation Weight=0.0193
+2024-09-21 00:18:54,107 fedbase.py run [line:300] INFO --------------Round 8--------------
+2024-09-21 00:18:54,108 simple_logger.py log_once [line:14] INFO Current_time:8
+2024-09-21 00:18:59,498 simple_logger.py log_once [line:28] INFO test_accuracy                 0.2005
+2024-09-21 00:18:59,498 simple_logger.py log_once [line:28] INFO test_loss                     2.0742
+2024-09-21 00:18:59,499 simple_logger.py log_once [line:28] INFO val_accuracy                  0.1980
+2024-09-21 00:18:59,499 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.1975
+2024-09-21 00:18:59,499 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.2997
+2024-09-21 00:18:59,499 simple_logger.py log_once [line:28] INFO val_loss                      2.0716
+2024-09-21 00:18:59,500 simple_logger.py log_once [line:28] INFO mean_val_loss                 2.0721
+2024-09-21 00:18:59,500 simple_logger.py log_once [line:28] INFO std_val_loss                  0.2560
+2024-09-21 00:18:59,511 fedbase.py run [line:305] INFO Eval Time Cost:               5.4032s
+2024-09-21 00:18:59,511 v2.py iterate [line:216] INFO Round 9 started
+2024-09-21 00:18:59,511 v2.py sample [line:61] INFO Round 9: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:21:13,482 v2.py calculate_client_scores [line:141] INFO Round 9, Client 0: Acc Improvement=1.0000, Gradient Quality=0.0154, Time Decay=1.0000, Committee Reward=0.4000, Final Score=0.5762, Total Score=5.9/9, Average Score=0.6550
+2024-09-21 00:21:13,482 v2.py calculate_client_scores [line:141] INFO Round 9, Client 1: Acc Improvement=0.9874, Gradient Quality=0.2069, Time Decay=1.0000, Committee Reward=1.0000, Final Score=0.6765, Total Score=6.7/9, Average Score=0.7489
+2024-09-21 00:21:13,483 v2.py calculate_client_scores [line:141] INFO Round 9, Client 2: Acc Improvement=1.0000, Gradient Quality=0.0300, Time Decay=1.0000, Committee Reward=0.6000, Final Score=0.5920, Total Score=5.5/9, Average Score=0.6138
+2024-09-21 00:21:13,483 v2.py calculate_client_scores [line:141] INFO Round 9, Client 3: Acc Improvement=0.0777, Gradient Quality=0.1708, Time Decay=1.0000, Committee Reward=0.2000, Final Score=0.1672, Total Score=5.3/9, Average Score=0.5914
+2024-09-21 00:21:13,483 v2.py calculate_client_scores [line:141] INFO Round 9, Client 4: Acc Improvement=1.0000, Gradient Quality=0.0755, Time Decay=1.0000, Committee Reward=0.8000, Final Score=0.6202, Total Score=6.6/9, Average Score=0.7370
+2024-09-21 00:21:13,489 v2.py calculate_client_scores [line:141] INFO Round 9, Client 5: Acc Improvement=0.9747, Gradient Quality=0.4150, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7034, Total Score=5.9/9, Average Score=0.6602
+2024-09-21 00:21:13,490 v2.py calculate_client_scores [line:141] INFO Round 9, Client 6: Acc Improvement=0.9495, Gradient Quality=0.2372, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6196, Total Score=6.0/9, Average Score=0.6695
+2024-09-21 00:21:13,491 v2.py calculate_client_scores [line:141] INFO Round 9, Client 7: Acc Improvement=0.5704, Gradient Quality=0.7587, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6387, Total Score=5.0/9, Average Score=0.5517
+2024-09-21 00:21:13,491 v2.py calculate_client_scores [line:141] INFO Round 9, Client 8: Acc Improvement=1.0000, Gradient Quality=0.0000, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5500, Total Score=5.4/9, Average Score=0.5979
+2024-09-21 00:21:13,492 v2.py calculate_client_scores [line:141] INFO Round 9, Client 9: Acc Improvement=0.9621, Gradient Quality=0.3326, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6641, Total Score=5.8/9, Average Score=0.6436
+2024-09-21 00:21:13,493 v2.py calculate_client_scores [line:141] INFO Round 9, Client 10: Acc Improvement=1.0000, Gradient Quality=0.0303, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5621, Total Score=5.6/9, Average Score=0.6194
+2024-09-21 00:21:13,493 v2.py calculate_client_scores [line:141] INFO Round 9, Client 11: Acc Improvement=0.0000, Gradient Quality=0.8003, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.3701, Total Score=5.2/9, Average Score=0.5815
+2024-09-21 00:21:13,494 v2.py calculate_client_scores [line:141] INFO Round 9, Client 12: Acc Improvement=0.7999, Gradient Quality=0.6485, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7093, Total Score=6.5/9, Average Score=0.7179
+2024-09-21 00:21:13,496 v2.py calculate_client_scores [line:141] INFO Round 9, Client 13: Acc Improvement=1.0000, Gradient Quality=0.0053, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5521, Total Score=5.7/9, Average Score=0.6365
+2024-09-21 00:21:13,497 v2.py calculate_client_scores [line:141] INFO Round 9, Client 14: Acc Improvement=0.8737, Gradient Quality=0.1914, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5634, Total Score=5.9/9, Average Score=0.6574
+2024-09-21 00:21:13,497 v2.py calculate_client_scores [line:141] INFO Round 9, Client 15: Acc Improvement=1.0000, Gradient Quality=0.1560, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6124, Total Score=5.6/9, Average Score=0.6270
+2024-09-21 00:21:13,497 v2.py calculate_client_scores [line:141] INFO Round 9, Client 16: Acc Improvement=0.9495, Gradient Quality=0.2318, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6175, Total Score=6.1/9, Average Score=0.6814
+2024-09-21 00:21:13,498 v2.py calculate_client_scores [line:141] INFO Round 9, Client 17: Acc Improvement=0.9625, Gradient Quality=0.2615, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6358, Total Score=6.7/9, Average Score=0.7428
+2024-09-21 00:21:13,498 v2.py calculate_client_scores [line:141] INFO Round 9, Client 18: Acc Improvement=0.1030, Gradient Quality=1.0000, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5015, Total Score=6.5/9, Average Score=0.7216
+2024-09-21 00:21:13,498 v2.py calculate_client_scores [line:141] INFO Round 9, Client 19: Acc Improvement=1.0000, Gradient Quality=0.0264, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5606, Total Score=5.7/9, Average Score=0.6284
+2024-09-21 00:21:13,499 v2.py calculate_client_scores [line:141] INFO Round 9, Client 20: Acc Improvement=0.9621, Gradient Quality=0.0849, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5650, Total Score=5.3/9, Average Score=0.5928
+2024-09-21 00:21:13,505 v2.py calculate_client_scores [line:141] INFO Round 9, Client 21: Acc Improvement=0.9750, Gradient Quality=0.3378, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6726, Total Score=5.5/9, Average Score=0.6060
+2024-09-21 00:21:13,505 v2.py calculate_client_scores [line:141] INFO Round 9, Client 22: Acc Improvement=1.0000, Gradient Quality=0.0045, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5518, Total Score=5.4/9, Average Score=0.5965
+2024-09-21 00:21:13,508 v2.py calculate_client_scores [line:141] INFO Round 9, Client 23: Acc Improvement=0.7123, Gradient Quality=0.7087, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6896, Total Score=4.9/9, Average Score=0.5468
+2024-09-21 00:21:13,509 v2.py calculate_client_scores [line:141] INFO Round 9, Client 24: Acc Improvement=0.0000, Gradient Quality=0.8953, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.4081, Total Score=5.4/9, Average Score=0.6033
+2024-09-21 00:21:13,514 v2.py calculate_client_scores [line:141] INFO Round 9, Client 25: Acc Improvement=1.0000, Gradient Quality=0.0407, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5663, Total Score=5.6/9, Average Score=0.6240
+2024-09-21 00:21:13,515 v2.py calculate_client_scores [line:141] INFO Round 9, Client 26: Acc Improvement=0.9124, Gradient Quality=0.2909, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6226, Total Score=5.7/9, Average Score=0.6376
+2024-09-21 00:21:13,515 v2.py calculate_client_scores [line:141] INFO Round 9, Client 27: Acc Improvement=0.6748, Gradient Quality=0.7259, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6777, Total Score=5.6/9, Average Score=0.6244
+2024-09-21 00:21:13,516 v2.py calculate_client_scores [line:141] INFO Round 9, Client 28: Acc Improvement=0.9124, Gradient Quality=0.7637, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.8117, Total Score=7.1/9, Average Score=0.7905
+2024-09-21 00:21:13,516 v2.py calculate_client_scores [line:141] INFO Round 9, Client 29: Acc Improvement=0.8989, Gradient Quality=0.1567, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5621, Total Score=5.7/9, Average Score=0.6344
+2024-09-21 00:21:13,517 v2.py calculate_client_scores [line:141] INFO Round 9, Client 30: Acc Improvement=0.5372, Gradient Quality=0.6816, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5912, Total Score=6.9/9, Average Score=0.7663
+2024-09-21 00:21:13,517 v2.py calculate_client_scores [line:141] INFO Round 9, Client 31: Acc Improvement=0.9875, Gradient Quality=0.1101, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5878, Total Score=5.4/9, Average Score=0.5977
+2024-09-21 00:21:13,524 v2.py calculate_client_scores [line:141] INFO Round 9, Client 32: Acc Improvement=0.0000, Gradient Quality=0.0228, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.0591, Total Score=5.2/9, Average Score=0.5761
+2024-09-21 00:21:13,525 v2.py calculate_client_scores [line:141] INFO Round 9, Client 33: Acc Improvement=0.6123, Gradient Quality=0.7666, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6628, Total Score=4.9/9, Average Score=0.5419
+2024-09-21 00:21:13,525 v2.py calculate_client_scores [line:141] INFO Round 9, Client 34: Acc Improvement=0.9621, Gradient Quality=0.1458, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5894, Total Score=5.8/9, Average Score=0.6406
+2024-09-21 00:21:13,525 v2.py calculate_client_scores [line:141] INFO Round 9, Client 35: Acc Improvement=0.7498, Gradient Quality=0.6804, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6971, Total Score=6.5/9, Average Score=0.7190
+2024-09-21 00:21:13,526 v2.py calculate_client_scores [line:141] INFO Round 9, Client 36: Acc Improvement=0.9250, Gradient Quality=0.4512, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6930, Total Score=6.6/9, Average Score=0.7288
+2024-09-21 00:21:13,526 v2.py calculate_client_scores [line:141] INFO Round 9, Client 37: Acc Improvement=0.9625, Gradient Quality=0.0613, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5558, Total Score=5.0/9, Average Score=0.5508
+2024-09-21 00:21:13,526 v2.py calculate_client_scores [line:141] INFO Round 9, Client 38: Acc Improvement=0.9747, Gradient Quality=0.1519, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5981, Total Score=6.1/9, Average Score=0.6746
+2024-09-21 00:21:13,527 v2.py calculate_client_scores [line:141] INFO Round 9, Client 39: Acc Improvement=0.6123, Gradient Quality=0.4763, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5467, Total Score=6.7/9, Average Score=0.7413
+2024-09-21 00:21:13,527 v2.py calculate_client_scores [line:141] INFO Round 9, Client 40: Acc Improvement=1.0000, Gradient Quality=0.1184, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5974, Total Score=5.8/9, Average Score=0.6454
+2024-09-21 00:21:13,527 v2.py calculate_client_scores [line:141] INFO Round 9, Client 41: Acc Improvement=1.0000, Gradient Quality=0.0250, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5600, Total Score=5.6/9, Average Score=0.6176
+2024-09-21 00:21:13,528 v2.py calculate_client_scores [line:141] INFO Round 9, Client 42: Acc Improvement=0.9875, Gradient Quality=0.0292, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5554, Total Score=5.5/9, Average Score=0.6113
+2024-09-21 00:21:13,528 v2.py calculate_client_scores [line:141] INFO Round 9, Client 43: Acc Improvement=0.1745, Gradient Quality=0.8669, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.4840, Total Score=5.5/9, Average Score=0.6166
+2024-09-21 00:21:13,528 v2.py calculate_client_scores [line:141] INFO Round 9, Client 44: Acc Improvement=0.9875, Gradient Quality=0.0694, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5715, Total Score=5.0/9, Average Score=0.5522
+2024-09-21 00:21:13,529 v2.py calculate_client_scores [line:141] INFO Round 9, Client 45: Acc Improvement=0.8358, Gradient Quality=0.6522, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7287, Total Score=5.5/9, Average Score=0.6101
+2024-09-21 00:21:13,529 v2.py calculate_client_scores [line:141] INFO Round 9, Client 46: Acc Improvement=0.8358, Gradient Quality=0.2422, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5647, Total Score=6.0/9, Average Score=0.6671
+2024-09-21 00:21:13,535 v2.py calculate_client_scores [line:141] INFO Round 9, Client 47: Acc Improvement=0.9747, Gradient Quality=0.4480, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7166, Total Score=5.5/9, Average Score=0.6071
+2024-09-21 00:21:13,536 v2.py calculate_client_scores [line:141] INFO Round 9, Client 48: Acc Improvement=0.8124, Gradient Quality=0.4426, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6332, Total Score=6.7/9, Average Score=0.7441
+2024-09-21 00:21:13,536 v2.py calculate_client_scores [line:141] INFO Round 9, Client 49: Acc Improvement=0.8999, Gradient Quality=0.4137, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6655, Total Score=6.1/9, Average Score=0.6829
+2024-09-21 00:21:13,538 v2.py aggregate [line:236] INFO Round 9, Client 0: Aggregation Weight=0.0197
+2024-09-21 00:21:13,538 v2.py aggregate [line:236] INFO Round 9, Client 1: Aggregation Weight=0.0231
+2024-09-21 00:21:13,538 v2.py aggregate [line:236] INFO Round 9, Client 2: Aggregation Weight=0.0202
+2024-09-21 00:21:13,538 v2.py aggregate [line:236] INFO Round 9, Client 3: Aggregation Weight=0.0057
+2024-09-21 00:21:13,538 v2.py aggregate [line:236] INFO Round 9, Client 4: Aggregation Weight=0.0212
+2024-09-21 00:21:13,538 v2.py aggregate [line:236] INFO Round 9, Client 5: Aggregation Weight=0.0240
+2024-09-21 00:21:13,538 v2.py aggregate [line:236] INFO Round 9, Client 6: Aggregation Weight=0.0212
+2024-09-21 00:21:13,539 v2.py aggregate [line:236] INFO Round 9, Client 7: Aggregation Weight=0.0218
+2024-09-21 00:21:13,539 v2.py aggregate [line:236] INFO Round 9, Client 8: Aggregation Weight=0.0188
+2024-09-21 00:21:13,539 v2.py aggregate [line:236] INFO Round 9, Client 9: Aggregation Weight=0.0227
+2024-09-21 00:21:13,539 v2.py aggregate [line:236] INFO Round 9, Client 10: Aggregation Weight=0.0192
+2024-09-21 00:21:13,539 v2.py aggregate [line:236] INFO Round 9, Client 11: Aggregation Weight=0.0126
+2024-09-21 00:21:13,540 v2.py aggregate [line:236] INFO Round 9, Client 12: Aggregation Weight=0.0242
+2024-09-21 00:21:13,540 v2.py aggregate [line:236] INFO Round 9, Client 13: Aggregation Weight=0.0189
+2024-09-21 00:21:13,540 v2.py aggregate [line:236] INFO Round 9, Client 14: Aggregation Weight=0.0192
+2024-09-21 00:21:13,540 v2.py aggregate [line:236] INFO Round 9, Client 15: Aggregation Weight=0.0209
+2024-09-21 00:21:13,545 v2.py aggregate [line:236] INFO Round 9, Client 16: Aggregation Weight=0.0211
+2024-09-21 00:21:13,545 v2.py aggregate [line:236] INFO Round 9, Client 17: Aggregation Weight=0.0217
+2024-09-21 00:21:13,545 v2.py aggregate [line:236] INFO Round 9, Client 18: Aggregation Weight=0.0171
+2024-09-21 00:21:13,545 v2.py aggregate [line:236] INFO Round 9, Client 19: Aggregation Weight=0.0191
+2024-09-21 00:21:13,545 v2.py aggregate [line:236] INFO Round 9, Client 20: Aggregation Weight=0.0193
+2024-09-21 00:21:13,545 v2.py aggregate [line:236] INFO Round 9, Client 21: Aggregation Weight=0.0230
+2024-09-21 00:21:13,545 v2.py aggregate [line:236] INFO Round 9, Client 22: Aggregation Weight=0.0188
+2024-09-21 00:21:13,545 v2.py aggregate [line:236] INFO Round 9, Client 23: Aggregation Weight=0.0236
+2024-09-21 00:21:13,545 v2.py aggregate [line:236] INFO Round 9, Client 24: Aggregation Weight=0.0139
+2024-09-21 00:21:13,546 v2.py aggregate [line:236] INFO Round 9, Client 25: Aggregation Weight=0.0193
+2024-09-21 00:21:13,546 v2.py aggregate [line:236] INFO Round 9, Client 26: Aggregation Weight=0.0213
+2024-09-21 00:21:13,546 v2.py aggregate [line:236] INFO Round 9, Client 27: Aggregation Weight=0.0231
+2024-09-21 00:21:13,546 v2.py aggregate [line:236] INFO Round 9, Client 28: Aggregation Weight=0.0277
+2024-09-21 00:21:13,546 v2.py aggregate [line:236] INFO Round 9, Client 29: Aggregation Weight=0.0192
+2024-09-21 00:21:13,546 v2.py aggregate [line:236] INFO Round 9, Client 30: Aggregation Weight=0.0202
+2024-09-21 00:21:13,546 v2.py aggregate [line:236] INFO Round 9, Client 31: Aggregation Weight=0.0201
+2024-09-21 00:21:13,546 v2.py aggregate [line:236] INFO Round 9, Client 32: Aggregation Weight=0.0020
+2024-09-21 00:21:13,546 v2.py aggregate [line:236] INFO Round 9, Client 33: Aggregation Weight=0.0226
+2024-09-21 00:21:13,546 v2.py aggregate [line:236] INFO Round 9, Client 34: Aggregation Weight=0.0201
+2024-09-21 00:21:13,547 v2.py aggregate [line:236] INFO Round 9, Client 35: Aggregation Weight=0.0238
+2024-09-21 00:21:13,547 v2.py aggregate [line:236] INFO Round 9, Client 36: Aggregation Weight=0.0237
+2024-09-21 00:21:13,547 v2.py aggregate [line:236] INFO Round 9, Client 37: Aggregation Weight=0.0190
+2024-09-21 00:21:13,547 v2.py aggregate [line:236] INFO Round 9, Client 38: Aggregation Weight=0.0204
+2024-09-21 00:21:13,547 v2.py aggregate [line:236] INFO Round 9, Client 39: Aggregation Weight=0.0187
+2024-09-21 00:21:13,547 v2.py aggregate [line:236] INFO Round 9, Client 40: Aggregation Weight=0.0204
+2024-09-21 00:21:13,547 v2.py aggregate [line:236] INFO Round 9, Client 41: Aggregation Weight=0.0191
+2024-09-21 00:21:13,547 v2.py aggregate [line:236] INFO Round 9, Client 42: Aggregation Weight=0.0190
+2024-09-21 00:21:13,547 v2.py aggregate [line:236] INFO Round 9, Client 43: Aggregation Weight=0.0165
+2024-09-21 00:21:13,547 v2.py aggregate [line:236] INFO Round 9, Client 44: Aggregation Weight=0.0195
+2024-09-21 00:21:13,548 v2.py aggregate [line:236] INFO Round 9, Client 45: Aggregation Weight=0.0249
+2024-09-21 00:21:13,548 v2.py aggregate [line:236] INFO Round 9, Client 46: Aggregation Weight=0.0193
+2024-09-21 00:21:13,548 v2.py aggregate [line:236] INFO Round 9, Client 47: Aggregation Weight=0.0245
+2024-09-21 00:21:13,548 v2.py aggregate [line:236] INFO Round 9, Client 48: Aggregation Weight=0.0216
+2024-09-21 00:21:13,548 v2.py aggregate [line:236] INFO Round 9, Client 49: Aggregation Weight=0.0227
+2024-09-21 00:21:13,596 fedbase.py run [line:300] INFO --------------Round 9--------------
+2024-09-21 00:21:13,596 simple_logger.py log_once [line:14] INFO Current_time:9
+2024-09-21 00:21:18,063 simple_logger.py log_once [line:28] INFO test_accuracy                 0.2166
+2024-09-21 00:21:18,063 simple_logger.py log_once [line:28] INFO test_loss                     2.0606
+2024-09-21 00:21:18,064 simple_logger.py log_once [line:28] INFO val_accuracy                  0.2194
+2024-09-21 00:21:18,064 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.2189
+2024-09-21 00:21:18,064 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.2868
+2024-09-21 00:21:18,064 simple_logger.py log_once [line:28] INFO val_loss                      2.0557
+2024-09-21 00:21:18,064 simple_logger.py log_once [line:28] INFO mean_val_loss                 2.0561
+2024-09-21 00:21:18,064 simple_logger.py log_once [line:28] INFO std_val_loss                  0.2852
+2024-09-21 00:21:18,077 fedbase.py run [line:305] INFO Eval Time Cost:               4.4805s
+2024-09-21 00:21:18,077 v2.py iterate [line:216] INFO Round 10 started
+2024-09-21 00:21:18,110 v2.py sample [line:47] INFO Round 10: Committee updated - [28, 30, 1, 48, 17]
+2024-09-21 00:21:18,110 v2.py sample [line:61] INFO Round 10: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:23:31,965 v2.py calculate_client_scores [line:141] INFO Round 10, Client 0: Acc Improvement=1.0000, Gradient Quality=0.1079, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5932, Total Score=6.5/10, Average Score=0.6488
+2024-09-21 00:23:31,966 v2.py calculate_client_scores [line:141] INFO Round 10, Client 1: Acc Improvement=0.9742, Gradient Quality=0.1560, Time Decay=1.0000, Committee Reward=0.2000, Final Score=0.6095, Total Score=7.3/10, Average Score=0.7349
+2024-09-21 00:23:31,967 v2.py calculate_client_scores [line:141] INFO Round 10, Client 2: Acc Improvement=1.0000, Gradient Quality=0.0349, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5640, Total Score=6.1/10, Average Score=0.6088
+2024-09-21 00:23:31,968 v2.py calculate_client_scores [line:141] INFO Round 10, Client 3: Acc Improvement=0.6390, Gradient Quality=0.1618, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.4342, Total Score=5.8/10, Average Score=0.5757
+2024-09-21 00:23:31,968 v2.py calculate_client_scores [line:141] INFO Round 10, Client 4: Acc Improvement=1.0000, Gradient Quality=0.0924, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5869, Total Score=7.2/10, Average Score=0.7220
+2024-09-21 00:23:31,969 v2.py calculate_client_scores [line:141] INFO Round 10, Client 5: Acc Improvement=0.9742, Gradient Quality=0.2040, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6187, Total Score=6.6/10, Average Score=0.6561
+2024-09-21 00:23:31,969 v2.py calculate_client_scores [line:141] INFO Round 10, Client 6: Acc Improvement=0.9484, Gradient Quality=0.1363, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5787, Total Score=6.6/10, Average Score=0.6605
+2024-09-21 00:23:31,969 v2.py calculate_client_scores [line:141] INFO Round 10, Client 7: Acc Improvement=0.5874, Gradient Quality=0.6074, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5867, Total Score=5.6/10, Average Score=0.5552
+2024-09-21 00:23:31,970 v2.py calculate_client_scores [line:141] INFO Round 10, Client 8: Acc Improvement=1.0000, Gradient Quality=0.0021, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5508, Total Score=5.9/10, Average Score=0.5932
+2024-09-21 00:23:31,970 v2.py calculate_client_scores [line:141] INFO Round 10, Client 9: Acc Improvement=0.9484, Gradient Quality=0.2829, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6374, Total Score=6.4/10, Average Score=0.6430
+2024-09-21 00:23:31,970 v2.py calculate_client_scores [line:141] INFO Round 10, Client 10: Acc Improvement=1.0000, Gradient Quality=0.0154, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5561, Total Score=6.1/10, Average Score=0.6131
+2024-09-21 00:23:31,979 v2.py calculate_client_scores [line:141] INFO Round 10, Client 11: Acc Improvement=0.9226, Gradient Quality=0.1794, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5831, Total Score=5.8/10, Average Score=0.5817
+2024-09-21 00:23:31,979 v2.py calculate_client_scores [line:141] INFO Round 10, Client 12: Acc Improvement=0.8851, Gradient Quality=0.5487, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7121, Total Score=7.2/10, Average Score=0.7173
+2024-09-21 00:23:31,980 v2.py calculate_client_scores [line:141] INFO Round 10, Client 13: Acc Improvement=1.0000, Gradient Quality=0.1087, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5935, Total Score=6.3/10, Average Score=0.6322
+2024-09-21 00:23:31,980 v2.py calculate_client_scores [line:141] INFO Round 10, Client 14: Acc Improvement=0.8968, Gradient Quality=0.1955, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5766, Total Score=6.5/10, Average Score=0.6494
+2024-09-21 00:23:31,981 v2.py calculate_client_scores [line:141] INFO Round 10, Client 15: Acc Improvement=1.0000, Gradient Quality=0.0857, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5843, Total Score=6.2/10, Average Score=0.6228
+2024-09-21 00:23:31,981 v2.py calculate_client_scores [line:141] INFO Round 10, Client 16: Acc Improvement=0.9484, Gradient Quality=0.1464, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5828, Total Score=6.7/10, Average Score=0.6715
+2024-09-21 00:23:31,982 v2.py calculate_client_scores [line:141] INFO Round 10, Client 17: Acc Improvement=0.9617, Gradient Quality=0.3195, Time Decay=1.0000, Committee Reward=0.6000, Final Score=0.6886, Total Score=7.4/10, Average Score=0.7374
+2024-09-21 00:23:31,983 v2.py calculate_client_scores [line:141] INFO Round 10, Client 18: Acc Improvement=0.0716, Gradient Quality=1.0000, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.4858, Total Score=7.0/10, Average Score=0.6980
+2024-09-21 00:23:31,983 v2.py calculate_client_scores [line:141] INFO Round 10, Client 19: Acc Improvement=1.0000, Gradient Quality=0.0292, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5617, Total Score=6.2/10, Average Score=0.6217
+2024-09-21 00:23:31,984 v2.py calculate_client_scores [line:141] INFO Round 10, Client 20: Acc Improvement=0.9613, Gradient Quality=0.3524, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6716, Total Score=6.0/10, Average Score=0.6007
+2024-09-21 00:23:31,985 v2.py calculate_client_scores [line:141] INFO Round 10, Client 21: Acc Improvement=0.0000, Gradient Quality=0.3742, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.1997, Total Score=5.7/10, Average Score=0.5654
+2024-09-21 00:23:31,985 v2.py calculate_client_scores [line:141] INFO Round 10, Client 22: Acc Improvement=1.0000, Gradient Quality=0.0000, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5500, Total Score=5.9/10, Average Score=0.5918
+2024-09-21 00:23:31,986 v2.py calculate_client_scores [line:141] INFO Round 10, Client 23: Acc Improvement=0.2341, Gradient Quality=0.7600, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.4710, Total Score=5.4/10, Average Score=0.5392
+2024-09-21 00:23:31,992 v2.py calculate_client_scores [line:141] INFO Round 10, Client 24: Acc Improvement=0.8453, Gradient Quality=0.4067, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6353, Total Score=6.1/10, Average Score=0.6065
+2024-09-21 00:23:31,993 v2.py calculate_client_scores [line:141] INFO Round 10, Client 25: Acc Improvement=1.0000, Gradient Quality=0.0311, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5625, Total Score=6.2/10, Average Score=0.6178
+2024-09-21 00:23:31,997 v2.py calculate_client_scores [line:141] INFO Round 10, Client 26: Acc Improvement=0.9106, Gradient Quality=0.3030, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6265, Total Score=6.4/10, Average Score=0.6365
+2024-09-21 00:23:31,997 v2.py calculate_client_scores [line:141] INFO Round 10, Client 27: Acc Improvement=0.2724, Gradient Quality=0.8241, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5158, Total Score=6.1/10, Average Score=0.6135
+2024-09-21 00:23:31,998 v2.py calculate_client_scores [line:141] INFO Round 10, Client 28: Acc Improvement=0.8979, Gradient Quality=0.5423, Time Decay=1.0000, Committee Reward=0.8000, Final Score=0.7558, Total Score=7.9/10, Average Score=0.7870
+2024-09-21 00:23:31,998 v2.py calculate_client_scores [line:141] INFO Round 10, Client 29: Acc Improvement=0.8968, Gradient Quality=0.1813, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5710, Total Score=6.3/10, Average Score=0.6280
+2024-09-21 00:23:31,999 v2.py calculate_client_scores [line:141] INFO Round 10, Client 30: Acc Improvement=0.8979, Gradient Quality=0.6888, Time Decay=1.0000, Committee Reward=1.0000, Final Score=0.8245, Total Score=7.7/10, Average Score=0.7722
+2024-09-21 00:23:32,000 v2.py calculate_client_scores [line:141] INFO Round 10, Client 31: Acc Improvement=0.9872, Gradient Quality=0.1447, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6015, Total Score=6.0/10, Average Score=0.5980
+2024-09-21 00:23:32,000 v2.py calculate_client_scores [line:141] INFO Round 10, Client 32: Acc Improvement=0.9872, Gradient Quality=0.0559, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5660, Total Score=5.8/10, Average Score=0.5751
+2024-09-21 00:23:32,001 v2.py calculate_client_scores [line:141] INFO Round 10, Client 33: Acc Improvement=0.4256, Gradient Quality=0.7411, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5592, Total Score=5.4/10, Average Score=0.5437
+2024-09-21 00:23:32,002 v2.py calculate_client_scores [line:141] INFO Round 10, Client 34: Acc Improvement=0.9613, Gradient Quality=0.1730, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5999, Total Score=6.4/10, Average Score=0.6365
+2024-09-21 00:23:32,007 v2.py calculate_client_scores [line:141] INFO Round 10, Client 35: Acc Improvement=0.8468, Gradient Quality=0.5799, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7054, Total Score=7.2/10, Average Score=0.7176
+2024-09-21 00:23:32,008 v2.py calculate_client_scores [line:141] INFO Round 10, Client 36: Acc Improvement=0.9234, Gradient Quality=0.3766, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6623, Total Score=7.2/10, Average Score=0.7222
+2024-09-21 00:23:32,008 v2.py calculate_client_scores [line:141] INFO Round 10, Client 37: Acc Improvement=0.9617, Gradient Quality=0.0921, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5677, Total Score=5.5/10, Average Score=0.5525
+2024-09-21 00:23:32,009 v2.py calculate_client_scores [line:141] INFO Round 10, Client 38: Acc Improvement=1.0000, Gradient Quality=0.2267, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6407, Total Score=6.7/10, Average Score=0.6712
+2024-09-21 00:23:32,009 v2.py calculate_client_scores [line:141] INFO Round 10, Client 39: Acc Improvement=0.8979, Gradient Quality=0.5256, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7092, Total Score=7.4/10, Average Score=0.7381
+2024-09-21 00:23:32,010 v2.py calculate_client_scores [line:141] INFO Round 10, Client 40: Acc Improvement=1.0000, Gradient Quality=0.0847, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5839, Total Score=6.4/10, Average Score=0.6393
+2024-09-21 00:23:32,011 v2.py calculate_client_scores [line:141] INFO Round 10, Client 41: Acc Improvement=1.0000, Gradient Quality=0.0484, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5693, Total Score=6.1/10, Average Score=0.6128
+2024-09-21 00:23:32,011 v2.py calculate_client_scores [line:141] INFO Round 10, Client 42: Acc Improvement=0.9872, Gradient Quality=0.0226, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5526, Total Score=6.1/10, Average Score=0.6054
+2024-09-21 00:23:32,011 v2.py calculate_client_scores [line:141] INFO Round 10, Client 43: Acc Improvement=0.8085, Gradient Quality=0.6678, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7214, Total Score=6.3/10, Average Score=0.6271
+2024-09-21 00:23:32,017 v2.py calculate_client_scores [line:141] INFO Round 10, Client 44: Acc Improvement=0.9872, Gradient Quality=0.1431, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6009, Total Score=5.6/10, Average Score=0.5571
+2024-09-21 00:23:32,018 v2.py calculate_client_scores [line:141] INFO Round 10, Client 45: Acc Improvement=0.0588, Gradient Quality=0.7748, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.3893, Total Score=5.9/10, Average Score=0.5880
+2024-09-21 00:23:32,018 v2.py calculate_client_scores [line:141] INFO Round 10, Client 46: Acc Improvement=0.9097, Gradient Quality=0.2880, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6201, Total Score=6.6/10, Average Score=0.6624
+2024-09-21 00:23:32,018 v2.py calculate_client_scores [line:141] INFO Round 10, Client 47: Acc Improvement=0.9742, Gradient Quality=0.3499, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6771, Total Score=6.1/10, Average Score=0.6141
+2024-09-21 00:23:32,019 v2.py calculate_client_scores [line:141] INFO Round 10, Client 48: Acc Improvement=0.8979, Gradient Quality=0.4061, Time Decay=1.0000, Committee Reward=0.4000, Final Score=0.6814, Total Score=7.4/10, Average Score=0.7378
+2024-09-21 00:23:32,019 v2.py calculate_client_scores [line:141] INFO Round 10, Client 49: Acc Improvement=0.7958, Gradient Quality=0.3699, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5958, Total Score=6.7/10, Average Score=0.6742
+2024-09-21 00:23:32,021 v2.py aggregate [line:236] INFO Round 10, Client 0: Aggregation Weight=0.0200
+2024-09-21 00:23:32,022 v2.py aggregate [line:236] INFO Round 10, Client 1: Aggregation Weight=0.0205
+2024-09-21 00:23:32,022 v2.py aggregate [line:236] INFO Round 10, Client 2: Aggregation Weight=0.0190
+2024-09-21 00:23:32,022 v2.py aggregate [line:236] INFO Round 10, Client 3: Aggregation Weight=0.0146
+2024-09-21 00:23:32,022 v2.py aggregate [line:236] INFO Round 10, Client 4: Aggregation Weight=0.0198
+2024-09-21 00:23:32,022 v2.py aggregate [line:236] INFO Round 10, Client 5: Aggregation Weight=0.0209
+2024-09-21 00:23:32,022 v2.py aggregate [line:236] INFO Round 10, Client 6: Aggregation Weight=0.0195
+2024-09-21 00:23:32,022 v2.py aggregate [line:236] INFO Round 10, Client 7: Aggregation Weight=0.0198
+2024-09-21 00:23:32,022 v2.py aggregate [line:236] INFO Round 10, Client 8: Aggregation Weight=0.0186
+2024-09-21 00:23:32,022 v2.py aggregate [line:236] INFO Round 10, Client 9: Aggregation Weight=0.0215
+2024-09-21 00:23:32,027 v2.py aggregate [line:236] INFO Round 10, Client 10: Aggregation Weight=0.0187
+2024-09-21 00:23:32,027 v2.py aggregate [line:236] INFO Round 10, Client 11: Aggregation Weight=0.0197
+2024-09-21 00:23:32,027 v2.py aggregate [line:236] INFO Round 10, Client 12: Aggregation Weight=0.0240
+2024-09-21 00:23:32,028 v2.py aggregate [line:236] INFO Round 10, Client 13: Aggregation Weight=0.0200
+2024-09-21 00:23:32,028 v2.py aggregate [line:236] INFO Round 10, Client 14: Aggregation Weight=0.0194
+2024-09-21 00:23:32,028 v2.py aggregate [line:236] INFO Round 10, Client 15: Aggregation Weight=0.0197
+2024-09-21 00:23:32,028 v2.py aggregate [line:236] INFO Round 10, Client 16: Aggregation Weight=0.0196
+2024-09-21 00:23:32,028 v2.py aggregate [line:236] INFO Round 10, Client 17: Aggregation Weight=0.0232
+2024-09-21 00:23:32,028 v2.py aggregate [line:236] INFO Round 10, Client 18: Aggregation Weight=0.0164
+2024-09-21 00:23:32,028 v2.py aggregate [line:236] INFO Round 10, Client 19: Aggregation Weight=0.0189
+2024-09-21 00:23:32,028 v2.py aggregate [line:236] INFO Round 10, Client 20: Aggregation Weight=0.0226
+2024-09-21 00:23:32,028 v2.py aggregate [line:236] INFO Round 10, Client 21: Aggregation Weight=0.0067
+2024-09-21 00:23:32,028 v2.py aggregate [line:236] INFO Round 10, Client 22: Aggregation Weight=0.0185
+2024-09-21 00:23:32,029 v2.py aggregate [line:236] INFO Round 10, Client 23: Aggregation Weight=0.0159
+2024-09-21 00:23:32,029 v2.py aggregate [line:236] INFO Round 10, Client 24: Aggregation Weight=0.0214
+2024-09-21 00:23:32,029 v2.py aggregate [line:236] INFO Round 10, Client 25: Aggregation Weight=0.0190
+2024-09-21 00:23:32,029 v2.py aggregate [line:236] INFO Round 10, Client 26: Aggregation Weight=0.0211
+2024-09-21 00:23:32,029 v2.py aggregate [line:236] INFO Round 10, Client 27: Aggregation Weight=0.0174
+2024-09-21 00:23:32,029 v2.py aggregate [line:236] INFO Round 10, Client 28: Aggregation Weight=0.0255
+2024-09-21 00:23:32,029 v2.py aggregate [line:236] INFO Round 10, Client 29: Aggregation Weight=0.0192
+2024-09-21 00:23:32,029 v2.py aggregate [line:236] INFO Round 10, Client 30: Aggregation Weight=0.0278
+2024-09-21 00:23:32,029 v2.py aggregate [line:236] INFO Round 10, Client 31: Aggregation Weight=0.0203
+2024-09-21 00:23:32,029 v2.py aggregate [line:236] INFO Round 10, Client 32: Aggregation Weight=0.0191
+2024-09-21 00:23:32,030 v2.py aggregate [line:236] INFO Round 10, Client 33: Aggregation Weight=0.0188
+2024-09-21 00:23:32,030 v2.py aggregate [line:236] INFO Round 10, Client 34: Aggregation Weight=0.0202
+2024-09-21 00:23:32,030 v2.py aggregate [line:236] INFO Round 10, Client 35: Aggregation Weight=0.0238
+2024-09-21 00:23:32,030 v2.py aggregate [line:236] INFO Round 10, Client 36: Aggregation Weight=0.0223
+2024-09-21 00:23:32,030 v2.py aggregate [line:236] INFO Round 10, Client 37: Aggregation Weight=0.0191
+2024-09-21 00:23:32,030 v2.py aggregate [line:236] INFO Round 10, Client 38: Aggregation Weight=0.0216
+2024-09-21 00:23:32,030 v2.py aggregate [line:236] INFO Round 10, Client 39: Aggregation Weight=0.0239
+2024-09-21 00:23:32,030 v2.py aggregate [line:236] INFO Round 10, Client 40: Aggregation Weight=0.0197
+2024-09-21 00:23:32,032 v2.py aggregate [line:236] INFO Round 10, Client 41: Aggregation Weight=0.0192
+2024-09-21 00:23:32,032 v2.py aggregate [line:236] INFO Round 10, Client 42: Aggregation Weight=0.0186
+2024-09-21 00:23:32,032 v2.py aggregate [line:236] INFO Round 10, Client 43: Aggregation Weight=0.0243
+2024-09-21 00:23:32,032 v2.py aggregate [line:236] INFO Round 10, Client 44: Aggregation Weight=0.0203
+2024-09-21 00:23:32,033 v2.py aggregate [line:236] INFO Round 10, Client 45: Aggregation Weight=0.0131
+2024-09-21 00:23:32,033 v2.py aggregate [line:236] INFO Round 10, Client 46: Aggregation Weight=0.0209
+2024-09-21 00:23:32,033 v2.py aggregate [line:236] INFO Round 10, Client 47: Aggregation Weight=0.0228
+2024-09-21 00:23:32,033 v2.py aggregate [line:236] INFO Round 10, Client 48: Aggregation Weight=0.0230
+2024-09-21 00:23:32,033 v2.py aggregate [line:236] INFO Round 10, Client 49: Aggregation Weight=0.0201
+2024-09-21 00:23:32,072 fedbase.py run [line:300] INFO --------------Round 10--------------
+2024-09-21 00:23:32,072 simple_logger.py log_once [line:14] INFO Current_time:10
+2024-09-21 00:23:36,716 simple_logger.py log_once [line:28] INFO test_accuracy                 0.2212
+2024-09-21 00:23:36,716 simple_logger.py log_once [line:28] INFO test_loss                     2.0228
+2024-09-21 00:23:36,717 simple_logger.py log_once [line:28] INFO val_accuracy                  0.2296
+2024-09-21 00:23:36,717 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.2291
+2024-09-21 00:23:36,717 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.2959
+2024-09-21 00:23:36,717 simple_logger.py log_once [line:28] INFO val_loss                      2.0198
+2024-09-21 00:23:36,717 simple_logger.py log_once [line:28] INFO mean_val_loss                 2.0203
+2024-09-21 00:23:36,717 simple_logger.py log_once [line:28] INFO std_val_loss                  0.3012
+2024-09-21 00:23:36,750 fedbase.py run [line:305] INFO Eval Time Cost:               4.6780s
+2024-09-21 00:23:36,750 v2.py iterate [line:216] INFO Round 11 started
+2024-09-21 00:23:36,750 v2.py sample [line:61] INFO Round 11: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:25:50,785 v2.py calculate_client_scores [line:141] INFO Round 11, Client 0: Acc Improvement=1.0000, Gradient Quality=0.0325, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5630, Total Score=7.1/11, Average Score=0.6410
+2024-09-21 00:25:50,786 v2.py calculate_client_scores [line:141] INFO Round 11, Client 1: Acc Improvement=0.9863, Gradient Quality=0.3597, Time Decay=1.0000, Committee Reward=0.6000, Final Score=0.7171, Total Score=8.1/11, Average Score=0.7333
+2024-09-21 00:25:50,786 v2.py calculate_client_scores [line:141] INFO Round 11, Client 2: Acc Improvement=1.0000, Gradient Quality=0.0953, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5881, Total Score=6.7/11, Average Score=0.6069
+2024-09-21 00:25:50,787 v2.py calculate_client_scores [line:141] INFO Round 11, Client 3: Acc Improvement=0.9590, Gradient Quality=0.2166, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6162, Total Score=6.4/11, Average Score=0.5794
+2024-09-21 00:25:50,788 v2.py calculate_client_scores [line:141] INFO Round 11, Client 4: Acc Improvement=1.0000, Gradient Quality=0.1794, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6218, Total Score=7.8/11, Average Score=0.7129
+2024-09-21 00:25:50,788 v2.py calculate_client_scores [line:141] INFO Round 11, Client 5: Acc Improvement=0.9727, Gradient Quality=0.1374, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5913, Total Score=7.2/11, Average Score=0.6502
+2024-09-21 00:25:50,789 v2.py calculate_client_scores [line:141] INFO Round 11, Client 6: Acc Improvement=0.9454, Gradient Quality=0.2529, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6239, Total Score=7.2/11, Average Score=0.6571
+2024-09-21 00:25:50,789 v2.py calculate_client_scores [line:141] INFO Round 11, Client 7: Acc Improvement=0.3721, Gradient Quality=0.8087, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5595, Total Score=6.1/11, Average Score=0.5556
+2024-09-21 00:25:50,790 v2.py calculate_client_scores [line:141] INFO Round 11, Client 8: Acc Improvement=1.0000, Gradient Quality=0.0000, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5500, Total Score=6.5/11, Average Score=0.5892
+2024-09-21 00:25:50,790 v2.py calculate_client_scores [line:141] INFO Round 11, Client 9: Acc Improvement=0.9590, Gradient Quality=0.2890, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6451, Total Score=7.1/11, Average Score=0.6432
+2024-09-21 00:25:50,791 v2.py calculate_client_scores [line:141] INFO Round 11, Client 10: Acc Improvement=1.0000, Gradient Quality=0.1675, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6170, Total Score=6.7/11, Average Score=0.6134
+2024-09-21 00:25:50,792 v2.py calculate_client_scores [line:141] INFO Round 11, Client 11: Acc Improvement=0.9181, Gradient Quality=0.3764, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6596, Total Score=6.5/11, Average Score=0.5887
+2024-09-21 00:25:50,793 v2.py calculate_client_scores [line:141] INFO Round 11, Client 12: Acc Improvement=0.7703, Gradient Quality=0.7373, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7301, Total Score=7.9/11, Average Score=0.7185
+2024-09-21 00:25:50,794 v2.py calculate_client_scores [line:141] INFO Round 11, Client 13: Acc Improvement=1.0000, Gradient Quality=0.0411, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5664, Total Score=6.9/11, Average Score=0.6262
+2024-09-21 00:25:50,795 v2.py calculate_client_scores [line:141] INFO Round 11, Client 14: Acc Improvement=0.9044, Gradient Quality=0.2128, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5874, Total Score=7.1/11, Average Score=0.6437
+2024-09-21 00:25:50,796 v2.py calculate_client_scores [line:141] INFO Round 11, Client 15: Acc Improvement=1.0000, Gradient Quality=0.2086, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6334, Total Score=6.9/11, Average Score=0.6237
+2024-09-21 00:25:50,796 v2.py calculate_client_scores [line:141] INFO Round 11, Client 16: Acc Improvement=0.9727, Gradient Quality=0.3065, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6590, Total Score=7.4/11, Average Score=0.6704
+2024-09-21 00:25:50,797 v2.py calculate_client_scores [line:141] INFO Round 11, Client 17: Acc Improvement=0.9595, Gradient Quality=0.3091, Time Decay=1.0000, Committee Reward=0.4000, Final Score=0.6734, Total Score=8.0/11, Average Score=0.7316
+2024-09-21 00:25:50,798 v2.py calculate_client_scores [line:141] INFO Round 11, Client 18: Acc Improvement=0.6724, Gradient Quality=1.0000, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7862, Total Score=7.8/11, Average Score=0.7060
+2024-09-21 00:25:50,798 v2.py calculate_client_scores [line:141] INFO Round 11, Client 19: Acc Improvement=1.0000, Gradient Quality=0.0869, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5848, Total Score=6.8/11, Average Score=0.6183
+2024-09-21 00:25:50,799 v2.py calculate_client_scores [line:141] INFO Round 11, Client 20: Acc Improvement=0.9590, Gradient Quality=0.0460, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5479, Total Score=6.6/11, Average Score=0.5959
+2024-09-21 00:25:50,800 v2.py calculate_client_scores [line:141] INFO Round 11, Client 21: Acc Improvement=0.0000, Gradient Quality=0.5764, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.2806, Total Score=5.9/11, Average Score=0.5395
+2024-09-21 00:25:50,801 v2.py calculate_client_scores [line:141] INFO Round 11, Client 22: Acc Improvement=1.0000, Gradient Quality=0.0383, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5653, Total Score=6.5/11, Average Score=0.5894
+2024-09-21 00:25:50,801 v2.py calculate_client_scores [line:141] INFO Round 11, Client 23: Acc Improvement=0.1892, Gradient Quality=0.5508, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.3649, Total Score=5.8/11, Average Score=0.5234
+2024-09-21 00:25:50,802 v2.py calculate_client_scores [line:141] INFO Round 11, Client 24: Acc Improvement=0.8362, Gradient Quality=0.5282, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6794, Total Score=6.7/11, Average Score=0.6131
+2024-09-21 00:25:50,802 v2.py calculate_client_scores [line:141] INFO Round 11, Client 25: Acc Improvement=1.0000, Gradient Quality=0.0904, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5861, Total Score=6.8/11, Average Score=0.6150
+2024-09-21 00:25:50,803 v2.py calculate_client_scores [line:141] INFO Round 11, Client 26: Acc Improvement=0.9054, Gradient Quality=0.5019, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7035, Total Score=7.1/11, Average Score=0.6426
+2024-09-21 00:25:50,803 v2.py calculate_client_scores [line:141] INFO Round 11, Client 27: Acc Improvement=0.2297, Gradient Quality=0.7748, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.4748, Total Score=6.6/11, Average Score=0.6009
+2024-09-21 00:25:50,804 v2.py calculate_client_scores [line:141] INFO Round 11, Client 28: Acc Improvement=0.9324, Gradient Quality=0.6158, Time Decay=1.0000, Committee Reward=0.8000, Final Score=0.8025, Total Score=8.7/11, Average Score=0.7885
+2024-09-21 00:25:50,805 v2.py calculate_client_scores [line:141] INFO Round 11, Client 29: Acc Improvement=0.8908, Gradient Quality=0.2558, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5977, Total Score=6.9/11, Average Score=0.6253
+2024-09-21 00:25:50,805 v2.py calculate_client_scores [line:141] INFO Round 11, Client 30: Acc Improvement=0.8378, Gradient Quality=0.8243, Time Decay=1.0000, Committee Reward=1.0000, Final Score=0.8486, Total Score=8.6/11, Average Score=0.7791
+2024-09-21 00:25:50,806 v2.py calculate_client_scores [line:141] INFO Round 11, Client 31: Acc Improvement=0.9865, Gradient Quality=0.0429, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5604, Total Score=6.5/11, Average Score=0.5946
+2024-09-21 00:25:50,807 v2.py calculate_client_scores [line:141] INFO Round 11, Client 32: Acc Improvement=0.9865, Gradient Quality=0.1068, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5860, Total Score=6.3/11, Average Score=0.5761
+2024-09-21 00:25:50,807 v2.py calculate_client_scores [line:141] INFO Round 11, Client 33: Acc Improvement=0.3649, Gradient Quality=0.6480, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.4916, Total Score=5.9/11, Average Score=0.5389
+2024-09-21 00:25:50,808 v2.py calculate_client_scores [line:141] INFO Round 11, Client 34: Acc Improvement=0.9590, Gradient Quality=0.1546, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5914, Total Score=7.0/11, Average Score=0.6324
+2024-09-21 00:25:50,808 v2.py calculate_client_scores [line:141] INFO Round 11, Client 35: Acc Improvement=0.7162, Gradient Quality=0.7272, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6990, Total Score=7.9/11, Average Score=0.7159
+2024-09-21 00:25:50,808 v2.py calculate_client_scores [line:141] INFO Round 11, Client 36: Acc Improvement=0.9189, Gradient Quality=0.5559, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7318, Total Score=8.0/11, Average Score=0.7230
+2024-09-21 00:25:50,809 v2.py calculate_client_scores [line:141] INFO Round 11, Client 37: Acc Improvement=0.9595, Gradient Quality=0.1397, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5856, Total Score=6.1/11, Average Score=0.5555
+2024-09-21 00:25:50,809 v2.py calculate_client_scores [line:141] INFO Round 11, Client 38: Acc Improvement=0.9863, Gradient Quality=0.1778, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6143, Total Score=7.3/11, Average Score=0.6660
+2024-09-21 00:25:50,810 v2.py calculate_client_scores [line:141] INFO Round 11, Client 39: Acc Improvement=0.8919, Gradient Quality=0.5870, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7307, Total Score=8.1/11, Average Score=0.7374
+2024-09-21 00:25:50,811 v2.py calculate_client_scores [line:141] INFO Round 11, Client 40: Acc Improvement=1.0000, Gradient Quality=0.1755, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6202, Total Score=7.0/11, Average Score=0.6375
+2024-09-21 00:25:50,812 v2.py calculate_client_scores [line:141] INFO Round 11, Client 41: Acc Improvement=1.0000, Gradient Quality=0.1171, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5968, Total Score=6.7/11, Average Score=0.6114
+2024-09-21 00:25:50,813 v2.py calculate_client_scores [line:141] INFO Round 11, Client 42: Acc Improvement=0.9865, Gradient Quality=0.0468, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5620, Total Score=6.6/11, Average Score=0.6014
+2024-09-21 00:25:50,814 v2.py calculate_client_scores [line:141] INFO Round 11, Client 43: Acc Improvement=0.7973, Gradient Quality=0.8890, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.8042, Total Score=7.1/11, Average Score=0.6432
+2024-09-21 00:25:50,814 v2.py calculate_client_scores [line:141] INFO Round 11, Client 44: Acc Improvement=0.9865, Gradient Quality=0.3508, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6836, Total Score=6.3/11, Average Score=0.5686
+2024-09-21 00:25:50,815 v2.py calculate_client_scores [line:141] INFO Round 11, Client 45: Acc Improvement=0.4130, Gradient Quality=0.7041, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5382, Total Score=6.4/11, Average Score=0.5835
+2024-09-21 00:25:50,816 v2.py calculate_client_scores [line:141] INFO Round 11, Client 46: Acc Improvement=0.8771, Gradient Quality=0.3112, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6130, Total Score=7.2/11, Average Score=0.6579
+2024-09-21 00:25:50,817 v2.py calculate_client_scores [line:141] INFO Round 11, Client 47: Acc Improvement=0.9727, Gradient Quality=0.1007, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5766, Total Score=6.7/11, Average Score=0.6107
+2024-09-21 00:25:50,817 v2.py calculate_client_scores [line:141] INFO Round 11, Client 48: Acc Improvement=0.8378, Gradient Quality=0.5012, Time Decay=1.0000, Committee Reward=0.2000, Final Score=0.6794, Total Score=8.1/11, Average Score=0.7325
+2024-09-21 00:25:50,818 v2.py calculate_client_scores [line:141] INFO Round 11, Client 49: Acc Improvement=0.8784, Gradient Quality=0.4432, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6665, Total Score=7.4/11, Average Score=0.6735
+2024-09-21 00:25:50,819 v2.py aggregate [line:236] INFO Round 11, Client 0: Aggregation Weight=0.0182
+2024-09-21 00:25:50,820 v2.py aggregate [line:236] INFO Round 11, Client 1: Aggregation Weight=0.0232
+2024-09-21 00:25:50,820 v2.py aggregate [line:236] INFO Round 11, Client 2: Aggregation Weight=0.0190
+2024-09-21 00:25:50,820 v2.py aggregate [line:236] INFO Round 11, Client 3: Aggregation Weight=0.0199
+2024-09-21 00:25:50,820 v2.py aggregate [line:236] INFO Round 11, Client 4: Aggregation Weight=0.0201
+2024-09-21 00:25:50,821 v2.py aggregate [line:236] INFO Round 11, Client 5: Aggregation Weight=0.0191
+2024-09-21 00:25:50,821 v2.py aggregate [line:236] INFO Round 11, Client 6: Aggregation Weight=0.0202
+2024-09-21 00:25:50,821 v2.py aggregate [line:236] INFO Round 11, Client 7: Aggregation Weight=0.0181
+2024-09-21 00:25:50,821 v2.py aggregate [line:236] INFO Round 11, Client 8: Aggregation Weight=0.0178
+2024-09-21 00:25:50,821 v2.py aggregate [line:236] INFO Round 11, Client 9: Aggregation Weight=0.0208
+2024-09-21 00:25:50,821 v2.py aggregate [line:236] INFO Round 11, Client 10: Aggregation Weight=0.0199
+2024-09-21 00:25:50,822 v2.py aggregate [line:236] INFO Round 11, Client 11: Aggregation Weight=0.0213
+2024-09-21 00:25:50,822 v2.py aggregate [line:236] INFO Round 11, Client 12: Aggregation Weight=0.0236
+2024-09-21 00:25:50,822 v2.py aggregate [line:236] INFO Round 11, Client 13: Aggregation Weight=0.0183
+2024-09-21 00:25:50,822 v2.py aggregate [line:236] INFO Round 11, Client 14: Aggregation Weight=0.0190
+2024-09-21 00:25:50,822 v2.py aggregate [line:236] INFO Round 11, Client 15: Aggregation Weight=0.0205
+2024-09-21 00:25:50,822 v2.py aggregate [line:236] INFO Round 11, Client 16: Aggregation Weight=0.0213
+2024-09-21 00:25:50,822 v2.py aggregate [line:236] INFO Round 11, Client 17: Aggregation Weight=0.0218
+2024-09-21 00:25:50,823 v2.py aggregate [line:236] INFO Round 11, Client 18: Aggregation Weight=0.0254
+2024-09-21 00:25:50,823 v2.py aggregate [line:236] INFO Round 11, Client 19: Aggregation Weight=0.0189
+2024-09-21 00:25:50,823 v2.py aggregate [line:236] INFO Round 11, Client 20: Aggregation Weight=0.0177
+2024-09-21 00:25:50,823 v2.py aggregate [line:236] INFO Round 11, Client 21: Aggregation Weight=0.0091
+2024-09-21 00:25:50,823 v2.py aggregate [line:236] INFO Round 11, Client 22: Aggregation Weight=0.0183
+2024-09-21 00:25:50,823 v2.py aggregate [line:236] INFO Round 11, Client 23: Aggregation Weight=0.0118
+2024-09-21 00:25:50,823 v2.py aggregate [line:236] INFO Round 11, Client 24: Aggregation Weight=0.0219
+2024-09-21 00:25:50,824 v2.py aggregate [line:236] INFO Round 11, Client 25: Aggregation Weight=0.0189
+2024-09-21 00:25:50,824 v2.py aggregate [line:236] INFO Round 11, Client 26: Aggregation Weight=0.0227
+2024-09-21 00:25:50,824 v2.py aggregate [line:236] INFO Round 11, Client 27: Aggregation Weight=0.0153
+2024-09-21 00:25:50,824 v2.py aggregate [line:236] INFO Round 11, Client 28: Aggregation Weight=0.0259
+2024-09-21 00:25:50,824 v2.py aggregate [line:236] INFO Round 11, Client 29: Aggregation Weight=0.0193
+2024-09-21 00:25:50,824 v2.py aggregate [line:236] INFO Round 11, Client 30: Aggregation Weight=0.0274
+2024-09-21 00:25:50,825 v2.py aggregate [line:236] INFO Round 11, Client 31: Aggregation Weight=0.0181
+2024-09-21 00:25:50,825 v2.py aggregate [line:236] INFO Round 11, Client 32: Aggregation Weight=0.0189
+2024-09-21 00:25:50,825 v2.py aggregate [line:236] INFO Round 11, Client 33: Aggregation Weight=0.0159
+2024-09-21 00:25:50,825 v2.py aggregate [line:236] INFO Round 11, Client 34: Aggregation Weight=0.0191
+2024-09-21 00:25:50,825 v2.py aggregate [line:236] INFO Round 11, Client 35: Aggregation Weight=0.0226
+2024-09-21 00:25:50,825 v2.py aggregate [line:236] INFO Round 11, Client 36: Aggregation Weight=0.0236
+2024-09-21 00:25:50,826 v2.py aggregate [line:236] INFO Round 11, Client 37: Aggregation Weight=0.0189
+2024-09-21 00:25:50,826 v2.py aggregate [line:236] INFO Round 11, Client 38: Aggregation Weight=0.0198
+2024-09-21 00:25:50,826 v2.py aggregate [line:236] INFO Round 11, Client 39: Aggregation Weight=0.0236
+2024-09-21 00:25:50,826 v2.py aggregate [line:236] INFO Round 11, Client 40: Aggregation Weight=0.0200
+2024-09-21 00:25:50,826 v2.py aggregate [line:236] INFO Round 11, Client 41: Aggregation Weight=0.0193
+2024-09-21 00:25:50,827 v2.py aggregate [line:236] INFO Round 11, Client 42: Aggregation Weight=0.0182
+2024-09-21 00:25:50,827 v2.py aggregate [line:236] INFO Round 11, Client 43: Aggregation Weight=0.0260
+2024-09-21 00:25:50,827 v2.py aggregate [line:236] INFO Round 11, Client 44: Aggregation Weight=0.0221
+2024-09-21 00:25:50,827 v2.py aggregate [line:236] INFO Round 11, Client 45: Aggregation Weight=0.0174
+2024-09-21 00:25:50,827 v2.py aggregate [line:236] INFO Round 11, Client 46: Aggregation Weight=0.0198
+2024-09-21 00:25:50,827 v2.py aggregate [line:236] INFO Round 11, Client 47: Aggregation Weight=0.0186
+2024-09-21 00:25:50,827 v2.py aggregate [line:236] INFO Round 11, Client 48: Aggregation Weight=0.0219
+2024-09-21 00:25:50,828 v2.py aggregate [line:236] INFO Round 11, Client 49: Aggregation Weight=0.0215
+2024-09-21 00:25:50,858 fedbase.py run [line:300] INFO --------------Round 11--------------
+2024-09-21 00:25:50,858 simple_logger.py log_once [line:14] INFO Current_time:11
+2024-09-21 00:25:55,735 simple_logger.py log_once [line:28] INFO test_accuracy                 0.2476
+2024-09-21 00:25:55,735 simple_logger.py log_once [line:28] INFO test_loss                     1.9933
+2024-09-21 00:25:55,735 simple_logger.py log_once [line:28] INFO val_accuracy                  0.2581
+2024-09-21 00:25:55,735 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.2576
+2024-09-21 00:25:55,736 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.2717
+2024-09-21 00:25:55,736 simple_logger.py log_once [line:28] INFO val_loss                      1.9900
+2024-09-21 00:25:55,736 simple_logger.py log_once [line:28] INFO mean_val_loss                 1.9904
+2024-09-21 00:25:55,736 simple_logger.py log_once [line:28] INFO std_val_loss                  0.2528
+2024-09-21 00:25:55,751 fedbase.py run [line:305] INFO Eval Time Cost:               4.8929s
+2024-09-21 00:25:55,752 v2.py iterate [line:216] INFO Round 12 started
+2024-09-21 00:25:55,752 v2.py sample [line:61] INFO Round 12: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:28:05,608 v2.py calculate_client_scores [line:141] INFO Round 12, Client 0: Acc Improvement=1.0000, Gradient Quality=0.0831, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5832, Total Score=7.6/12, Average Score=0.6362
+2024-09-21 00:28:05,608 v2.py calculate_client_scores [line:141] INFO Round 12, Client 1: Acc Improvement=0.9866, Gradient Quality=0.2739, Time Decay=1.0000, Committee Reward=0.6000, Final Score=0.6828, Total Score=8.7/12, Average Score=0.7291
+2024-09-21 00:28:05,609 v2.py calculate_client_scores [line:141] INFO Round 12, Client 2: Acc Improvement=1.0000, Gradient Quality=0.0740, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5796, Total Score=7.3/12, Average Score=0.6046
+2024-09-21 00:28:05,610 v2.py calculate_client_scores [line:141] INFO Round 12, Client 3: Acc Improvement=0.9597, Gradient Quality=0.3487, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6693, Total Score=7.0/12, Average Score=0.5869
+2024-09-21 00:28:05,611 v2.py calculate_client_scores [line:141] INFO Round 12, Client 4: Acc Improvement=1.0000, Gradient Quality=0.1732, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6193, Total Score=8.5/12, Average Score=0.7051
+2024-09-21 00:28:05,611 v2.py calculate_client_scores [line:141] INFO Round 12, Client 5: Acc Improvement=0.9866, Gradient Quality=0.1850, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6173, Total Score=7.8/12, Average Score=0.6474
+2024-09-21 00:28:05,617 v2.py calculate_client_scores [line:141] INFO Round 12, Client 6: Acc Improvement=0.9463, Gradient Quality=0.2633, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6285, Total Score=7.9/12, Average Score=0.6547
+2024-09-21 00:28:05,617 v2.py calculate_client_scores [line:141] INFO Round 12, Client 7: Acc Improvement=0.5838, Gradient Quality=0.6313, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5944, Total Score=6.7/12, Average Score=0.5589
+2024-09-21 00:28:05,618 v2.py calculate_client_scores [line:141] INFO Round 12, Client 8: Acc Improvement=1.0000, Gradient Quality=0.0074, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5530, Total Score=7.0/12, Average Score=0.5862
+2024-09-21 00:28:05,618 v2.py calculate_client_scores [line:141] INFO Round 12, Client 9: Acc Improvement=0.1542, Gradient Quality=0.3375, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.2621, Total Score=7.3/12, Average Score=0.6114
+2024-09-21 00:28:05,618 v2.py calculate_client_scores [line:141] INFO Round 12, Client 10: Acc Improvement=1.0000, Gradient Quality=0.1169, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5968, Total Score=7.3/12, Average Score=0.6120
+2024-09-21 00:28:05,619 v2.py calculate_client_scores [line:141] INFO Round 12, Client 11: Acc Improvement=0.9194, Gradient Quality=0.3046, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6316, Total Score=7.1/12, Average Score=0.5923
+2024-09-21 00:28:05,619 v2.py calculate_client_scores [line:141] INFO Round 12, Client 12: Acc Improvement=0.7209, Gradient Quality=0.5125, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6155, Total Score=8.5/12, Average Score=0.7099
+2024-09-21 00:28:05,620 v2.py calculate_client_scores [line:141] INFO Round 12, Client 13: Acc Improvement=1.0000, Gradient Quality=0.0915, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5866, Total Score=7.5/12, Average Score=0.6229
+2024-09-21 00:28:05,620 v2.py calculate_client_scores [line:141] INFO Round 12, Client 14: Acc Improvement=0.8657, Gradient Quality=0.2034, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5642, Total Score=7.6/12, Average Score=0.6371
+2024-09-21 00:28:05,620 v2.py calculate_client_scores [line:141] INFO Round 12, Client 15: Acc Improvement=1.0000, Gradient Quality=0.1403, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6061, Total Score=7.5/12, Average Score=0.6223
+2024-09-21 00:28:05,621 v2.py calculate_client_scores [line:141] INFO Round 12, Client 16: Acc Improvement=0.9731, Gradient Quality=0.2649, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6425, Total Score=8.0/12, Average Score=0.6681
+2024-09-21 00:28:05,622 v2.py calculate_client_scores [line:141] INFO Round 12, Client 17: Acc Improvement=0.9203, Gradient Quality=0.3488, Time Decay=1.0000, Committee Reward=0.4000, Final Score=0.6697, Total Score=8.7/12, Average Score=0.7264
+2024-09-21 00:28:05,622 v2.py calculate_client_scores [line:141] INFO Round 12, Client 18: Acc Improvement=0.6375, Gradient Quality=0.7525, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6697, Total Score=8.4/12, Average Score=0.7030
+2024-09-21 00:28:05,624 v2.py calculate_client_scores [line:141] INFO Round 12, Client 19: Acc Improvement=1.0000, Gradient Quality=0.0788, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5815, Total Score=7.4/12, Average Score=0.6153
+2024-09-21 00:28:05,627 v2.py calculate_client_scores [line:141] INFO Round 12, Client 20: Acc Improvement=0.9597, Gradient Quality=0.1288, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5814, Total Score=7.1/12, Average Score=0.5947
+2024-09-21 00:28:05,632 v2.py calculate_client_scores [line:141] INFO Round 12, Client 21: Acc Improvement=0.0000, Gradient Quality=0.5634, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.2753, Total Score=6.2/12, Average Score=0.5175
+2024-09-21 00:28:05,633 v2.py calculate_client_scores [line:141] INFO Round 12, Client 22: Acc Improvement=1.0000, Gradient Quality=0.0000, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5500, Total Score=7.0/12, Average Score=0.5861
+2024-09-21 00:28:05,633 v2.py calculate_client_scores [line:141] INFO Round 12, Client 23: Acc Improvement=0.2026, Gradient Quality=0.5149, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.3572, Total Score=6.1/12, Average Score=0.5095
+2024-09-21 00:28:05,634 v2.py calculate_client_scores [line:141] INFO Round 12, Client 24: Acc Improvement=0.8389, Gradient Quality=0.6652, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7355, Total Score=7.5/12, Average Score=0.6233
+2024-09-21 00:28:05,634 v2.py calculate_client_scores [line:141] INFO Round 12, Client 25: Acc Improvement=1.0000, Gradient Quality=0.0774, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5809, Total Score=7.3/12, Average Score=0.6121
+2024-09-21 00:28:05,635 v2.py calculate_client_scores [line:141] INFO Round 12, Client 26: Acc Improvement=0.9070, Gradient Quality=0.2719, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6123, Total Score=7.7/12, Average Score=0.6400
+2024-09-21 00:28:05,635 v2.py calculate_client_scores [line:141] INFO Round 12, Client 27: Acc Improvement=0.7608, Gradient Quality=0.5456, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6486, Total Score=7.3/12, Average Score=0.6049
+2024-09-21 00:28:05,635 v2.py calculate_client_scores [line:141] INFO Round 12, Client 28: Acc Improvement=0.9601, Gradient Quality=0.3755, Time Decay=1.0000, Committee Reward=1.0000, Final Score=0.7303, Total Score=9.4/12, Average Score=0.7836
+2024-09-21 00:28:05,636 v2.py calculate_client_scores [line:141] INFO Round 12, Client 29: Acc Improvement=0.8926, Gradient Quality=0.1925, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5733, Total Score=7.5/12, Average Score=0.6209
+2024-09-21 00:28:05,642 v2.py calculate_client_scores [line:141] INFO Round 12, Client 30: Acc Improvement=0.4152, Gradient Quality=0.5235, Time Decay=1.0000, Committee Reward=0.2000, Final Score=0.4770, Total Score=9.0/12, Average Score=0.7539
+2024-09-21 00:28:05,642 v2.py calculate_client_scores [line:141] INFO Round 12, Client 31: Acc Improvement=0.9867, Gradient Quality=0.0855, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5776, Total Score=7.1/12, Average Score=0.5932
+2024-09-21 00:28:05,643 v2.py calculate_client_scores [line:141] INFO Round 12, Client 32: Acc Improvement=0.9867, Gradient Quality=0.1185, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5908, Total Score=6.9/12, Average Score=0.5773
+2024-09-21 00:28:05,643 v2.py calculate_client_scores [line:141] INFO Round 12, Client 33: Acc Improvement=0.4019, Gradient Quality=0.6656, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5172, Total Score=6.4/12, Average Score=0.5371
+2024-09-21 00:28:05,644 v2.py calculate_client_scores [line:141] INFO Round 12, Client 34: Acc Improvement=0.9597, Gradient Quality=0.1998, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6098, Total Score=7.6/12, Average Score=0.6305
+2024-09-21 00:28:05,644 v2.py calculate_client_scores [line:141] INFO Round 12, Client 35: Acc Improvement=0.7741, Gradient Quality=0.4797, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6289, Total Score=8.5/12, Average Score=0.7087
+2024-09-21 00:28:05,646 v2.py calculate_client_scores [line:141] INFO Round 12, Client 36: Acc Improvement=0.7209, Gradient Quality=0.4619, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5952, Total Score=8.5/12, Average Score=0.7124
+2024-09-21 00:28:05,646 v2.py calculate_client_scores [line:141] INFO Round 12, Client 37: Acc Improvement=0.9601, Gradient Quality=0.1547, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5920, Total Score=6.7/12, Average Score=0.5585
+2024-09-21 00:28:05,652 v2.py calculate_client_scores [line:141] INFO Round 12, Client 38: Acc Improvement=1.0000, Gradient Quality=0.2071, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6329, Total Score=8.0/12, Average Score=0.6632
+2024-09-21 00:28:05,653 v2.py calculate_client_scores [line:141] INFO Round 12, Client 39: Acc Improvement=0.4019, Gradient Quality=0.4606, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.4352, Total Score=8.5/12, Average Score=0.7122
+2024-09-21 00:28:05,653 v2.py calculate_client_scores [line:141] INFO Round 12, Client 40: Acc Improvement=1.0000, Gradient Quality=0.2062, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6325, Total Score=7.6/12, Average Score=0.6371
+2024-09-21 00:28:05,654 v2.py calculate_client_scores [line:141] INFO Round 12, Client 41: Acc Improvement=1.0000, Gradient Quality=0.1195, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5978, Total Score=7.3/12, Average Score=0.6102
+2024-09-21 00:28:05,655 v2.py calculate_client_scores [line:141] INFO Round 12, Client 42: Acc Improvement=0.9867, Gradient Quality=0.0672, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5702, Total Score=7.2/12, Average Score=0.5988
+2024-09-21 00:28:05,657 v2.py calculate_client_scores [line:141] INFO Round 12, Client 43: Acc Improvement=0.8006, Gradient Quality=1.0000, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.8503, Total Score=7.9/12, Average Score=0.6604
+2024-09-21 00:28:05,662 v2.py calculate_client_scores [line:141] INFO Round 12, Client 44: Acc Improvement=0.9867, Gradient Quality=0.1904, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6195, Total Score=6.9/12, Average Score=0.5728
+2024-09-21 00:28:05,663 v2.py calculate_client_scores [line:141] INFO Round 12, Client 45: Acc Improvement=0.6509, Gradient Quality=0.6933, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6528, Total Score=7.1/12, Average Score=0.5893
+2024-09-21 00:28:05,664 v2.py calculate_client_scores [line:141] INFO Round 12, Client 46: Acc Improvement=0.8926, Gradient Quality=0.2930, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6135, Total Score=7.9/12, Average Score=0.6542
+2024-09-21 00:28:05,664 v2.py calculate_client_scores [line:141] INFO Round 12, Client 47: Acc Improvement=0.9731, Gradient Quality=0.0828, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5697, Total Score=7.3/12, Average Score=0.6073
+2024-09-21 00:28:05,665 v2.py calculate_client_scores [line:141] INFO Round 12, Client 48: Acc Improvement=0.8937, Gradient Quality=0.3957, Time Decay=1.0000, Committee Reward=0.8000, Final Score=0.6951, Total Score=8.8/12, Average Score=0.7294
+2024-09-21 00:28:05,666 v2.py calculate_client_scores [line:141] INFO Round 12, Client 49: Acc Improvement=0.8937, Gradient Quality=0.3568, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6396, Total Score=8.0/12, Average Score=0.6707
+2024-09-21 00:28:05,672 v2.py aggregate [line:236] INFO Round 12, Client 0: Aggregation Weight=0.0196
+2024-09-21 00:28:05,672 v2.py aggregate [line:236] INFO Round 12, Client 1: Aggregation Weight=0.0230
+2024-09-21 00:28:05,672 v2.py aggregate [line:236] INFO Round 12, Client 2: Aggregation Weight=0.0195
+2024-09-21 00:28:05,672 v2.py aggregate [line:236] INFO Round 12, Client 3: Aggregation Weight=0.0225
+2024-09-21 00:28:05,672 v2.py aggregate [line:236] INFO Round 12, Client 4: Aggregation Weight=0.0209
+2024-09-21 00:28:05,673 v2.py aggregate [line:236] INFO Round 12, Client 5: Aggregation Weight=0.0208
+2024-09-21 00:28:05,673 v2.py aggregate [line:236] INFO Round 12, Client 6: Aggregation Weight=0.0212
+2024-09-21 00:28:05,673 v2.py aggregate [line:236] INFO Round 12, Client 7: Aggregation Weight=0.0200
+2024-09-21 00:28:05,673 v2.py aggregate [line:236] INFO Round 12, Client 8: Aggregation Weight=0.0186
+2024-09-21 00:28:05,673 v2.py aggregate [line:236] INFO Round 12, Client 9: Aggregation Weight=0.0088
+2024-09-21 00:28:05,673 v2.py aggregate [line:236] INFO Round 12, Client 10: Aggregation Weight=0.0201
+2024-09-21 00:28:05,673 v2.py aggregate [line:236] INFO Round 12, Client 11: Aggregation Weight=0.0213
+2024-09-21 00:28:05,673 v2.py aggregate [line:236] INFO Round 12, Client 12: Aggregation Weight=0.0207
+2024-09-21 00:28:05,673 v2.py aggregate [line:236] INFO Round 12, Client 13: Aggregation Weight=0.0198
+2024-09-21 00:28:05,673 v2.py aggregate [line:236] INFO Round 12, Client 14: Aggregation Weight=0.0190
+2024-09-21 00:28:05,673 v2.py aggregate [line:236] INFO Round 12, Client 15: Aggregation Weight=0.0204
+2024-09-21 00:28:05,674 v2.py aggregate [line:236] INFO Round 12, Client 16: Aggregation Weight=0.0216
+2024-09-21 00:28:05,674 v2.py aggregate [line:236] INFO Round 12, Client 17: Aggregation Weight=0.0226
+2024-09-21 00:28:05,674 v2.py aggregate [line:236] INFO Round 12, Client 18: Aggregation Weight=0.0226
+2024-09-21 00:28:05,674 v2.py aggregate [line:236] INFO Round 12, Client 19: Aggregation Weight=0.0196
+2024-09-21 00:28:05,674 v2.py aggregate [line:236] INFO Round 12, Client 20: Aggregation Weight=0.0196
+2024-09-21 00:28:05,674 v2.py aggregate [line:236] INFO Round 12, Client 21: Aggregation Weight=0.0093
+2024-09-21 00:28:05,674 v2.py aggregate [line:236] INFO Round 12, Client 22: Aggregation Weight=0.0185
+2024-09-21 00:28:05,674 v2.py aggregate [line:236] INFO Round 12, Client 23: Aggregation Weight=0.0120
+2024-09-21 00:28:05,674 v2.py aggregate [line:236] INFO Round 12, Client 24: Aggregation Weight=0.0248
+2024-09-21 00:28:05,674 v2.py aggregate [line:236] INFO Round 12, Client 25: Aggregation Weight=0.0196
+2024-09-21 00:28:05,674 v2.py aggregate [line:236] INFO Round 12, Client 26: Aggregation Weight=0.0206
+2024-09-21 00:28:05,675 v2.py aggregate [line:236] INFO Round 12, Client 27: Aggregation Weight=0.0218
+2024-09-21 00:28:05,675 v2.py aggregate [line:236] INFO Round 12, Client 28: Aggregation Weight=0.0246
+2024-09-21 00:28:05,675 v2.py aggregate [line:236] INFO Round 12, Client 29: Aggregation Weight=0.0193
+2024-09-21 00:28:05,675 v2.py aggregate [line:236] INFO Round 12, Client 30: Aggregation Weight=0.0161
+2024-09-21 00:28:05,675 v2.py aggregate [line:236] INFO Round 12, Client 31: Aggregation Weight=0.0194
+2024-09-21 00:28:05,675 v2.py aggregate [line:236] INFO Round 12, Client 32: Aggregation Weight=0.0199
+2024-09-21 00:28:05,675 v2.py aggregate [line:236] INFO Round 12, Client 33: Aggregation Weight=0.0174
+2024-09-21 00:28:05,675 v2.py aggregate [line:236] INFO Round 12, Client 34: Aggregation Weight=0.0205
+2024-09-21 00:28:05,675 v2.py aggregate [line:236] INFO Round 12, Client 35: Aggregation Weight=0.0212
+2024-09-21 00:28:05,675 v2.py aggregate [line:236] INFO Round 12, Client 36: Aggregation Weight=0.0200
+2024-09-21 00:28:05,675 v2.py aggregate [line:236] INFO Round 12, Client 37: Aggregation Weight=0.0199
+2024-09-21 00:28:05,676 v2.py aggregate [line:236] INFO Round 12, Client 38: Aggregation Weight=0.0213
+2024-09-21 00:28:05,676 v2.py aggregate [line:236] INFO Round 12, Client 39: Aggregation Weight=0.0147
+2024-09-21 00:28:05,676 v2.py aggregate [line:236] INFO Round 12, Client 40: Aggregation Weight=0.0213
+2024-09-21 00:28:05,676 v2.py aggregate [line:236] INFO Round 12, Client 41: Aggregation Weight=0.0201
+2024-09-21 00:28:05,676 v2.py aggregate [line:236] INFO Round 12, Client 42: Aggregation Weight=0.0192
+2024-09-21 00:28:05,676 v2.py aggregate [line:236] INFO Round 12, Client 43: Aggregation Weight=0.0286
+2024-09-21 00:28:05,676 v2.py aggregate [line:236] INFO Round 12, Client 44: Aggregation Weight=0.0209
+2024-09-21 00:28:05,676 v2.py aggregate [line:236] INFO Round 12, Client 45: Aggregation Weight=0.0220
+2024-09-21 00:28:05,676 v2.py aggregate [line:236] INFO Round 12, Client 46: Aggregation Weight=0.0207
+2024-09-21 00:28:05,676 v2.py aggregate [line:236] INFO Round 12, Client 47: Aggregation Weight=0.0192
+2024-09-21 00:28:05,676 v2.py aggregate [line:236] INFO Round 12, Client 48: Aggregation Weight=0.0234
+2024-09-21 00:28:05,677 v2.py aggregate [line:236] INFO Round 12, Client 49: Aggregation Weight=0.0215
+2024-09-21 00:28:05,721 fedbase.py run [line:300] INFO --------------Round 12--------------
+2024-09-21 00:28:05,721 simple_logger.py log_once [line:14] INFO Current_time:12
+2024-09-21 00:28:10,787 simple_logger.py log_once [line:28] INFO test_accuracy                 0.2680
+2024-09-21 00:28:10,787 simple_logger.py log_once [line:28] INFO test_loss                     1.9838
+2024-09-21 00:28:10,787 simple_logger.py log_once [line:28] INFO val_accuracy                  0.2717
+2024-09-21 00:28:10,787 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.2713
+2024-09-21 00:28:10,787 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.2433
+2024-09-21 00:28:10,787 simple_logger.py log_once [line:28] INFO val_loss                      1.9804
+2024-09-21 00:28:10,787 simple_logger.py log_once [line:28] INFO mean_val_loss                 1.9808
+2024-09-21 00:28:10,787 simple_logger.py log_once [line:28] INFO std_val_loss                  0.2300
+2024-09-21 00:28:10,804 fedbase.py run [line:305] INFO Eval Time Cost:               5.0828s
+2024-09-21 00:28:10,804 v2.py iterate [line:216] INFO Round 13 started
+2024-09-21 00:28:10,805 v2.py sample [line:61] INFO Round 13: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:30:29,831 v2.py calculate_client_scores [line:141] INFO Round 13, Client 0: Acc Improvement=1.0000, Gradient Quality=0.0358, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5643, Total Score=8.2/13, Average Score=0.6307
+2024-09-21 00:30:29,832 v2.py calculate_client_scores [line:141] INFO Round 13, Client 1: Acc Improvement=0.9724, Gradient Quality=0.2958, Time Decay=1.0000, Committee Reward=0.2000, Final Score=0.6645, Total Score=9.4/13, Average Score=0.7241
+2024-09-21 00:30:29,832 v2.py calculate_client_scores [line:141] INFO Round 13, Client 2: Acc Improvement=1.0000, Gradient Quality=0.3762, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7005, Total Score=8.0/13, Average Score=0.6120
+2024-09-21 00:30:29,833 v2.py calculate_client_scores [line:141] INFO Round 13, Client 3: Acc Improvement=0.9586, Gradient Quality=0.1708, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5976, Total Score=7.6/13, Average Score=0.5877
+2024-09-21 00:30:29,834 v2.py calculate_client_scores [line:141] INFO Round 13, Client 4: Acc Improvement=1.0000, Gradient Quality=0.1566, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6126, Total Score=9.1/13, Average Score=0.6980
+2024-09-21 00:30:29,835 v2.py calculate_client_scores [line:141] INFO Round 13, Client 5: Acc Improvement=0.9724, Gradient Quality=0.2398, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6321, Total Score=8.4/13, Average Score=0.6463
+2024-09-21 00:30:29,835 v2.py calculate_client_scores [line:141] INFO Round 13, Client 6: Acc Improvement=0.9448, Gradient Quality=0.3375, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6574, Total Score=8.5/13, Average Score=0.6550
+2024-09-21 00:30:29,836 v2.py calculate_client_scores [line:141] INFO Round 13, Client 7: Acc Improvement=0.4480, Gradient Quality=0.7674, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5810, Total Score=7.3/13, Average Score=0.5606
+2024-09-21 00:30:29,846 v2.py calculate_client_scores [line:141] INFO Round 13, Client 8: Acc Improvement=1.0000, Gradient Quality=0.0000, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5500, Total Score=7.6/13, Average Score=0.5834
+2024-09-21 00:30:29,847 v2.py calculate_client_scores [line:141] INFO Round 13, Client 9: Acc Improvement=0.8896, Gradient Quality=0.3025, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6158, Total Score=8.0/13, Average Score=0.6117
+2024-09-21 00:30:29,847 v2.py calculate_client_scores [line:141] INFO Round 13, Client 10: Acc Improvement=1.0000, Gradient Quality=0.0903, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5861, Total Score=7.9/13, Average Score=0.6100
+2024-09-21 00:30:29,848 v2.py calculate_client_scores [line:141] INFO Round 13, Client 11: Acc Improvement=0.9172, Gradient Quality=0.8272, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.8395, Total Score=7.9/13, Average Score=0.6113
+2024-09-21 00:30:29,848 v2.py calculate_client_scores [line:141] INFO Round 13, Client 12: Acc Improvement=0.8634, Gradient Quality=0.6134, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7271, Total Score=9.2/13, Average Score=0.7112
+2024-09-21 00:30:29,849 v2.py calculate_client_scores [line:141] INFO Round 13, Client 13: Acc Improvement=1.0000, Gradient Quality=0.0451, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5680, Total Score=8.0/13, Average Score=0.6187
+2024-09-21 00:30:29,850 v2.py calculate_client_scores [line:141] INFO Round 13, Client 14: Acc Improvement=0.9034, Gradient Quality=0.1637, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5672, Total Score=8.2/13, Average Score=0.6317
+2024-09-21 00:30:29,859 v2.py calculate_client_scores [line:141] INFO Round 13, Client 15: Acc Improvement=1.0000, Gradient Quality=0.2722, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6589, Total Score=8.1/13, Average Score=0.6251
+2024-09-21 00:30:29,861 v2.py calculate_client_scores [line:141] INFO Round 13, Client 16: Acc Improvement=0.9724, Gradient Quality=0.3122, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6611, Total Score=8.7/13, Average Score=0.6675
+2024-09-21 00:30:29,861 v2.py calculate_client_scores [line:141] INFO Round 13, Client 17: Acc Improvement=0.9590, Gradient Quality=0.4319, Time Decay=1.0000, Committee Reward=0.6000, Final Score=0.7323, Total Score=9.4/13, Average Score=0.7269
+2024-09-21 00:30:29,862 v2.py calculate_client_scores [line:141] INFO Round 13, Client 18: Acc Improvement=0.8206, Gradient Quality=1.0000, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.8603, Total Score=9.3/13, Average Score=0.7151
+2024-09-21 00:30:29,862 v2.py calculate_client_scores [line:141] INFO Round 13, Client 19: Acc Improvement=1.0000, Gradient Quality=0.1073, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5929, Total Score=8.0/13, Average Score=0.6136
+2024-09-21 00:30:29,862 v2.py calculate_client_scores [line:141] INFO Round 13, Client 20: Acc Improvement=0.9586, Gradient Quality=0.3026, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6503, Total Score=7.8/13, Average Score=0.5990
+2024-09-21 00:30:29,863 v2.py calculate_client_scores [line:141] INFO Round 13, Client 21: Acc Improvement=0.9590, Gradient Quality=0.3930, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6867, Total Score=6.9/13, Average Score=0.5305
+2024-09-21 00:30:29,863 v2.py calculate_client_scores [line:141] INFO Round 13, Client 22: Acc Improvement=1.0000, Gradient Quality=0.0165, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5566, Total Score=7.6/13, Average Score=0.5839
+2024-09-21 00:30:29,864 v2.py calculate_client_scores [line:141] INFO Round 13, Client 23: Acc Improvement=0.4536, Gradient Quality=0.7605, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5810, Total Score=6.7/13, Average Score=0.5150
+2024-09-21 00:30:29,864 v2.py calculate_client_scores [line:141] INFO Round 13, Client 24: Acc Improvement=0.8344, Gradient Quality=0.8884, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.8226, Total Score=8.3/13, Average Score=0.6387
+2024-09-21 00:30:29,866 v2.py calculate_client_scores [line:141] INFO Round 13, Client 25: Acc Improvement=1.0000, Gradient Quality=0.1079, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5931, Total Score=7.9/13, Average Score=0.6107
+2024-09-21 00:30:29,867 v2.py calculate_client_scores [line:141] INFO Round 13, Client 26: Acc Improvement=0.9044, Gradient Quality=0.3733, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6515, Total Score=8.3/13, Average Score=0.6409
+2024-09-21 00:30:29,867 v2.py calculate_client_scores [line:141] INFO Round 13, Client 27: Acc Improvement=0.3306, Gradient Quality=0.8390, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5509, Total Score=7.8/13, Average Score=0.6007
+2024-09-21 00:30:29,869 v2.py calculate_client_scores [line:141] INFO Round 13, Client 28: Acc Improvement=0.9590, Gradient Quality=0.5312, Time Decay=1.0000, Committee Reward=1.0000, Final Score=0.7920, Total Score=10.2/13, Average Score=0.7843
+2024-09-21 00:30:29,869 v2.py calculate_client_scores [line:141] INFO Round 13, Client 29: Acc Improvement=0.8896, Gradient Quality=0.1907, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5711, Total Score=8.0/13, Average Score=0.6171
+2024-09-21 00:30:29,870 v2.py calculate_client_scores [line:141] INFO Round 13, Client 30: Acc Improvement=0.8497, Gradient Quality=0.6803, Time Decay=1.0000, Committee Reward=0.8000, Final Score=0.7870, Total Score=9.8/13, Average Score=0.7565
+2024-09-21 00:30:29,870 v2.py calculate_client_scores [line:141] INFO Round 13, Client 31: Acc Improvement=0.9863, Gradient Quality=0.8193, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.8709, Total Score=8.0/13, Average Score=0.6146
+2024-09-21 00:30:29,871 v2.py calculate_client_scores [line:141] INFO Round 13, Client 32: Acc Improvement=0.9863, Gradient Quality=0.1213, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5917, Total Score=7.5/13, Average Score=0.5784
+2024-09-21 00:30:29,871 v2.py calculate_client_scores [line:141] INFO Round 13, Client 33: Acc Improvement=0.3852, Gradient Quality=0.9520, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6234, Total Score=7.1/13, Average Score=0.5438
+2024-09-21 00:30:29,872 v2.py calculate_client_scores [line:141] INFO Round 13, Client 34: Acc Improvement=0.9586, Gradient Quality=0.1674, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5963, Total Score=8.2/13, Average Score=0.6279
+2024-09-21 00:30:29,872 v2.py calculate_client_scores [line:141] INFO Round 13, Client 35: Acc Improvement=0.7814, Gradient Quality=0.8610, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.7851, Total Score=9.3/13, Average Score=0.7146
+2024-09-21 00:30:29,872 v2.py calculate_client_scores [line:141] INFO Round 13, Client 36: Acc Improvement=0.9180, Gradient Quality=0.3943, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6667, Total Score=9.2/13, Average Score=0.7089
+2024-09-21 00:30:29,873 v2.py calculate_client_scores [line:141] INFO Round 13, Client 37: Acc Improvement=0.0000, Gradient Quality=0.1820, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.1228, Total Score=6.8/13, Average Score=0.5250
+2024-09-21 00:30:29,873 v2.py calculate_client_scores [line:141] INFO Round 13, Client 38: Acc Improvement=0.9862, Gradient Quality=0.1821, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6159, Total Score=8.6/13, Average Score=0.6596
+2024-09-21 00:30:29,874 v2.py calculate_client_scores [line:141] INFO Round 13, Client 39: Acc Improvement=0.9180, Gradient Quality=0.4615, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6936, Total Score=9.2/13, Average Score=0.7108
+2024-09-21 00:30:29,888 v2.py calculate_client_scores [line:141] INFO Round 13, Client 40: Acc Improvement=1.0000, Gradient Quality=0.1282, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6013, Total Score=8.2/13, Average Score=0.6343
+2024-09-21 00:30:29,889 v2.py calculate_client_scores [line:141] INFO Round 13, Client 41: Acc Improvement=1.0000, Gradient Quality=0.0745, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5798, Total Score=7.9/13, Average Score=0.6079
+2024-09-21 00:30:29,889 v2.py calculate_client_scores [line:141] INFO Round 13, Client 42: Acc Improvement=0.9863, Gradient Quality=0.0539, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5647, Total Score=7.8/13, Average Score=0.5962
+2024-09-21 00:30:29,889 v2.py calculate_client_scores [line:141] INFO Round 13, Client 43: Acc Improvement=0.5628, Gradient Quality=0.8062, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6539, Total Score=8.6/13, Average Score=0.6599
+2024-09-21 00:30:29,897 v2.py calculate_client_scores [line:141] INFO Round 13, Client 44: Acc Improvement=0.9863, Gradient Quality=0.3040, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6648, Total Score=7.5/13, Average Score=0.5799
+2024-09-21 00:30:29,898 v2.py calculate_client_scores [line:141] INFO Round 13, Client 45: Acc Improvement=0.8206, Gradient Quality=0.8807, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.8126, Total Score=7.9/13, Average Score=0.6064
+2024-09-21 00:30:29,898 v2.py calculate_client_scores [line:141] INFO Round 13, Client 46: Acc Improvement=0.8758, Gradient Quality=0.3720, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6367, Total Score=8.5/13, Average Score=0.6529
+2024-09-21 00:30:29,899 v2.py calculate_client_scores [line:141] INFO Round 13, Client 47: Acc Improvement=0.9724, Gradient Quality=0.1435, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.5936, Total Score=7.9/13, Average Score=0.6062
+2024-09-21 00:30:29,900 v2.py calculate_client_scores [line:141] INFO Round 13, Client 48: Acc Improvement=0.9317, Gradient Quality=0.4351, Time Decay=1.0000, Committee Reward=0.4000, Final Score=0.7099, Total Score=9.5/13, Average Score=0.7279
+2024-09-21 00:30:29,901 v2.py calculate_client_scores [line:141] INFO Round 13, Client 49: Acc Improvement=0.9044, Gradient Quality=0.4117, Time Decay=1.0000, Committee Reward=0.0000, Final Score=0.6669, Total Score=8.7/13, Average Score=0.6704
+2024-09-21 00:30:29,903 v2.py aggregate [line:236] INFO Round 13, Client 0: Aggregation Weight=0.0175
+2024-09-21 00:30:29,904 v2.py aggregate [line:236] INFO Round 13, Client 1: Aggregation Weight=0.0206
+2024-09-21 00:30:29,904 v2.py aggregate [line:236] INFO Round 13, Client 2: Aggregation Weight=0.0217
+2024-09-21 00:30:29,904 v2.py aggregate [line:236] INFO Round 13, Client 3: Aggregation Weight=0.0185
+2024-09-21 00:30:29,904 v2.py aggregate [line:236] INFO Round 13, Client 4: Aggregation Weight=0.0190
+2024-09-21 00:30:29,904 v2.py aggregate [line:236] INFO Round 13, Client 5: Aggregation Weight=0.0196
+2024-09-21 00:30:29,904 v2.py aggregate [line:236] INFO Round 13, Client 6: Aggregation Weight=0.0204
+2024-09-21 00:30:29,904 v2.py aggregate [line:236] INFO Round 13, Client 7: Aggregation Weight=0.0180
+2024-09-21 00:30:29,904 v2.py aggregate [line:236] INFO Round 13, Client 8: Aggregation Weight=0.0170
+2024-09-21 00:30:29,904 v2.py aggregate [line:236] INFO Round 13, Client 9: Aggregation Weight=0.0191
+2024-09-21 00:30:29,904 v2.py aggregate [line:236] INFO Round 13, Client 10: Aggregation Weight=0.0182
+2024-09-21 00:30:29,905 v2.py aggregate [line:236] INFO Round 13, Client 11: Aggregation Weight=0.0260
+2024-09-21 00:30:29,905 v2.py aggregate [line:236] INFO Round 13, Client 12: Aggregation Weight=0.0225
+2024-09-21 00:30:29,905 v2.py aggregate [line:236] INFO Round 13, Client 13: Aggregation Weight=0.0176
+2024-09-21 00:30:29,905 v2.py aggregate [line:236] INFO Round 13, Client 14: Aggregation Weight=0.0176
+2024-09-21 00:30:29,905 v2.py aggregate [line:236] INFO Round 13, Client 15: Aggregation Weight=0.0204
+2024-09-21 00:30:29,905 v2.py aggregate [line:236] INFO Round 13, Client 16: Aggregation Weight=0.0205
+2024-09-21 00:30:29,905 v2.py aggregate [line:236] INFO Round 13, Client 17: Aggregation Weight=0.0227
+2024-09-21 00:30:29,905 v2.py aggregate [line:236] INFO Round 13, Client 18: Aggregation Weight=0.0267
+2024-09-21 00:30:29,905 v2.py aggregate [line:236] INFO Round 13, Client 19: Aggregation Weight=0.0184
+2024-09-21 00:30:29,905 v2.py aggregate [line:236] INFO Round 13, Client 20: Aggregation Weight=0.0202
+2024-09-21 00:30:29,905 v2.py aggregate [line:236] INFO Round 13, Client 21: Aggregation Weight=0.0213
+2024-09-21 00:30:29,906 v2.py aggregate [line:236] INFO Round 13, Client 22: Aggregation Weight=0.0173
+2024-09-21 00:30:29,906 v2.py aggregate [line:236] INFO Round 13, Client 23: Aggregation Weight=0.0180
+2024-09-21 00:30:29,906 v2.py aggregate [line:236] INFO Round 13, Client 24: Aggregation Weight=0.0255
+2024-09-21 00:30:29,906 v2.py aggregate [line:236] INFO Round 13, Client 25: Aggregation Weight=0.0184
+2024-09-21 00:30:29,906 v2.py aggregate [line:236] INFO Round 13, Client 26: Aggregation Weight=0.0202
+2024-09-21 00:30:29,906 v2.py aggregate [line:236] INFO Round 13, Client 27: Aggregation Weight=0.0171
+2024-09-21 00:30:29,906 v2.py aggregate [line:236] INFO Round 13, Client 28: Aggregation Weight=0.0245
+2024-09-21 00:30:29,906 v2.py aggregate [line:236] INFO Round 13, Client 29: Aggregation Weight=0.0177
+2024-09-21 00:30:29,906 v2.py aggregate [line:236] INFO Round 13, Client 30: Aggregation Weight=0.0244
+2024-09-21 00:30:29,910 v2.py aggregate [line:236] INFO Round 13, Client 31: Aggregation Weight=0.0270
+2024-09-21 00:30:29,912 v2.py aggregate [line:236] INFO Round 13, Client 32: Aggregation Weight=0.0183
+2024-09-21 00:30:29,912 v2.py aggregate [line:236] INFO Round 13, Client 33: Aggregation Weight=0.0193
+2024-09-21 00:30:29,912 v2.py aggregate [line:236] INFO Round 13, Client 34: Aggregation Weight=0.0185
+2024-09-21 00:30:29,912 v2.py aggregate [line:236] INFO Round 13, Client 35: Aggregation Weight=0.0243
+2024-09-21 00:30:29,912 v2.py aggregate [line:236] INFO Round 13, Client 36: Aggregation Weight=0.0207
+2024-09-21 00:30:29,912 v2.py aggregate [line:236] INFO Round 13, Client 37: Aggregation Weight=0.0038
+2024-09-21 00:30:29,913 v2.py aggregate [line:236] INFO Round 13, Client 38: Aggregation Weight=0.0191
+2024-09-21 00:30:29,913 v2.py aggregate [line:236] INFO Round 13, Client 39: Aggregation Weight=0.0215
+2024-09-21 00:30:29,913 v2.py aggregate [line:236] INFO Round 13, Client 40: Aggregation Weight=0.0186
+2024-09-21 00:30:29,913 v2.py aggregate [line:236] INFO Round 13, Client 41: Aggregation Weight=0.0180
+2024-09-21 00:30:29,913 v2.py aggregate [line:236] INFO Round 13, Client 42: Aggregation Weight=0.0175
+2024-09-21 00:30:29,915 v2.py aggregate [line:236] INFO Round 13, Client 43: Aggregation Weight=0.0203
+2024-09-21 00:30:29,915 v2.py aggregate [line:236] INFO Round 13, Client 44: Aggregation Weight=0.0206
+2024-09-21 00:30:29,915 v2.py aggregate [line:236] INFO Round 13, Client 45: Aggregation Weight=0.0252
+2024-09-21 00:30:29,915 v2.py aggregate [line:236] INFO Round 13, Client 46: Aggregation Weight=0.0197
+2024-09-21 00:30:29,915 v2.py aggregate [line:236] INFO Round 13, Client 47: Aggregation Weight=0.0184
+2024-09-21 00:30:29,915 v2.py aggregate [line:236] INFO Round 13, Client 48: Aggregation Weight=0.0220
+2024-09-21 00:30:29,915 v2.py aggregate [line:236] INFO Round 13, Client 49: Aggregation Weight=0.0207
+2024-09-21 00:30:29,947 fedbase.py run [line:300] INFO --------------Round 13--------------
+2024-09-21 00:30:29,948 simple_logger.py log_once [line:14] INFO Current_time:13
+2024-09-21 00:30:34,576 simple_logger.py log_once [line:28] INFO test_accuracy                 0.2498
+2024-09-21 00:30:34,577 simple_logger.py log_once [line:28] INFO test_loss                     1.9784
+2024-09-21 00:30:34,577 simple_logger.py log_once [line:28] INFO val_accuracy                  0.2568
+2024-09-21 00:30:34,577 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.2563
+2024-09-21 00:30:34,577 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.2871
+2024-09-21 00:30:34,577 simple_logger.py log_once [line:28] INFO val_loss                      1.9746
+2024-09-21 00:30:34,577 simple_logger.py log_once [line:28] INFO mean_val_loss                 1.9751
+2024-09-21 00:30:34,578 simple_logger.py log_once [line:28] INFO std_val_loss                  0.2905
+2024-09-21 00:30:34,597 fedbase.py run [line:305] INFO Eval Time Cost:               4.6486s
+2024-09-21 00:30:34,597 v2.py iterate [line:216] INFO Round 14 started
+2024-09-21 00:30:34,597 v2.py sample [line:61] INFO Round 14: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]

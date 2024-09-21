@@ -10,7 +10,7 @@ import torch.multiprocessing
 import flgo.benchmark.cifar10_classification.model.resnet18_gn as resnet18
 
 # 设置基本路径
-BASE_PATH = 'tasks/9.20'
+BASE_PATH = 'tasks/9.21'
 NUM_CLIENTS = 50
 
 # 确保基本路径存在
@@ -62,6 +62,19 @@ def get_algorithm_option(algorithm_name):
             10,  # selected_round: 更新委员会的轮次间隔
             95,  # tau_percentile: 用于计算tau的百分位数
         ]
+    elif algorithm_name == 'V1':
+        base_option['algo_para'] = [
+            NUM_CLIENTS,  # d: 每轮预设选取的客户端数量
+            1,  # alpha: 用于计算委员会节点数 K 的参数
+            1,  # K_min: 最小委员会节点数，确保至少有一个客户端在委员会中
+            0.3,  # w1: 初始本地准确率权重
+            0.7,  # w2: 初始全局准确率权重
+            0.1,  # gamma: 用于得分计算中的时间衰减因子
+            0.9,  # momentum: 动量因子，用于时间衰减
+            20,  # selected_round: 每隔多少轮更新一次委员会
+            0.005,  # adjust_rate: 自适应权重调整速率
+            10,  # patience: 耐心轮数，用于判断全局准确率的变化
+        ]
     elif algorithm_name == 'fedprox':
         base_option['algo_para'] = [
             0.1,  # mu: fedprox的mu参数
@@ -87,7 +100,7 @@ def get_algorithm_simulator(algorithm_name):
 runner_dict = []
 partitions = list(configurations.keys())
 algorithm_list = [
-    'V1', 
+    # 'V1', 
     'V2',
     'fedavg', 
     'fedprox'

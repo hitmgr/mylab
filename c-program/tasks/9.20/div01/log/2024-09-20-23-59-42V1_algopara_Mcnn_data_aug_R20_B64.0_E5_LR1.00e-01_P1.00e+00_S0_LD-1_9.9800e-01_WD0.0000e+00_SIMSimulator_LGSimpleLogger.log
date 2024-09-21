@@ -844,3 +844,706 @@
 2024-09-21 00:15:49,265 v1.py sample [line:59] INFO Round 8: Committee clients selected - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 2024-09-21 00:15:49,265 v1.py sample [line:61] INFO Round 8: Normal clients selected - [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
 2024-09-21 00:15:49,265 v1.py sample [line:63] INFO Round 8: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:17:58,403 v1.py iterate [line:121] INFO Round 8, Client 0: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=227.9682, Normalized Score=0.0248
+2024-09-21 00:17:58,477 v1.py iterate [line:121] INFO Round 8, Client 1: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=402.2100, Normalized Score=0.0030
+2024-09-21 00:17:58,541 v1.py iterate [line:121] INFO Round 8, Client 2: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=149.6413, Normalized Score=0.0510
+2024-09-21 00:17:58,636 v1.py iterate [line:121] INFO Round 8, Client 3: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=180.3286, Normalized Score=0.0380
+2024-09-21 00:17:58,695 v1.py iterate [line:121] INFO Round 8, Client 4: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=144.1662, Normalized Score=0.0539
+2024-09-21 00:17:58,746 v1.py iterate [line:121] INFO Round 8, Client 5: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=168.2163, Normalized Score=0.0426
+2024-09-21 00:17:58,834 v1.py iterate [line:121] INFO Round 8, Client 6: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=206.9627, Normalized Score=0.0298
+2024-09-21 00:17:58,915 v1.py iterate [line:121] INFO Round 8, Client 7: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=200.6792, Normalized Score=0.0316
+2024-09-21 00:17:58,985 v1.py iterate [line:121] INFO Round 8, Client 8: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=10.9801, Normalized Score=0.9377
+2024-09-21 00:17:59,053 v1.py iterate [line:121] INFO Round 8, Client 9: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=167.0567, Normalized Score=0.0430
+2024-09-21 00:17:59,090 v1.py iterate [line:121] INFO Round 8, Client 10: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=200.4175, Normalized Score=0.0317
+2024-09-21 00:17:59,141 v1.py iterate [line:121] INFO Round 8, Client 11: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=173.0025, Normalized Score=0.0407
+2024-09-21 00:17:59,204 v1.py iterate [line:121] INFO Round 8, Client 12: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=122.2016, Normalized Score=0.0680
+2024-09-21 00:17:59,268 v1.py iterate [line:121] INFO Round 8, Client 13: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=156.3570, Normalized Score=0.0477
+2024-09-21 00:17:59,318 v1.py iterate [line:121] INFO Round 8, Client 14: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=187.2462, Normalized Score=0.0357
+2024-09-21 00:17:59,385 v1.py iterate [line:121] INFO Round 8, Client 15: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=164.4232, Normalized Score=0.0441
+2024-09-21 00:17:59,464 v1.py iterate [line:121] INFO Round 8, Client 16: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=204.0091, Normalized Score=0.0306
+2024-09-21 00:17:59,503 v1.py iterate [line:121] INFO Round 8, Client 17: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=448.9929, Normalized Score=0.0000
+2024-09-21 00:17:59,554 v1.py iterate [line:121] INFO Round 8, Client 18: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=10.6802, Normalized Score=0.9624
+2024-09-21 00:17:59,624 v1.py iterate [line:121] INFO Round 8, Client 19: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=158.3300, Normalized Score=0.0468
+2024-09-21 00:17:59,688 v1.py iterate [line:121] INFO Round 8, Client 20: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=200.9377, Normalized Score=0.0315
+2024-09-21 00:17:59,771 v1.py iterate [line:121] INFO Round 8, Client 21: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=169.8475, Normalized Score=0.0419
+2024-09-21 00:17:59,846 v1.py iterate [line:121] INFO Round 8, Client 22: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=183.5090, Normalized Score=0.0369
+2024-09-21 00:17:59,901 v1.py iterate [line:121] INFO Round 8, Client 23: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=157.6137, Normalized Score=0.0471
+2024-09-21 00:17:59,961 v1.py iterate [line:121] INFO Round 8, Client 24: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=145.4658, Normalized Score=0.0531
+2024-09-21 00:18:00,034 v1.py iterate [line:121] INFO Round 8, Client 25: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=145.6861, Normalized Score=0.0530
+2024-09-21 00:18:00,080 v1.py iterate [line:121] INFO Round 8, Client 26: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=162.6749, Normalized Score=0.0449
+2024-09-21 00:18:00,134 v1.py iterate [line:121] INFO Round 8, Client 27: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=366.6949, Normalized Score=0.0057
+2024-09-21 00:18:00,218 v1.py iterate [line:121] INFO Round 8, Client 28: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.4688, Normalized Score=0.8999
+2024-09-21 00:18:00,278 v1.py iterate [line:121] INFO Round 8, Client 29: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=143.6136, Normalized Score=0.0542
+2024-09-21 00:18:00,365 v1.py iterate [line:121] INFO Round 8, Client 30: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=149.9900, Normalized Score=0.0508
+2024-09-21 00:18:00,414 v1.py iterate [line:121] INFO Round 8, Client 31: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=191.1407, Normalized Score=0.0344
+2024-09-21 00:18:00,452 v1.py iterate [line:121] INFO Round 8, Client 32: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=400.9858, Normalized Score=0.0031
+2024-09-21 00:18:00,511 v1.py iterate [line:121] INFO Round 8, Client 33: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=205.1052, Normalized Score=0.0303
+2024-09-21 00:18:00,587 v1.py iterate [line:121] INFO Round 8, Client 34: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=166.9127, Normalized Score=0.0431
+2024-09-21 00:18:00,650 v1.py iterate [line:121] INFO Round 8, Client 35: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=141.3577, Normalized Score=0.0554
+2024-09-21 00:18:00,727 v1.py iterate [line:121] INFO Round 8, Client 36: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=142.5810, Normalized Score=0.0547
+2024-09-21 00:18:00,784 v1.py iterate [line:121] INFO Round 8, Client 37: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.1150, Normalized Score=0.9269
+2024-09-21 00:18:00,820 v1.py iterate [line:121] INFO Round 8, Client 38: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=215.1702, Normalized Score=0.0277
+2024-09-21 00:18:00,862 v1.py iterate [line:121] INFO Round 8, Client 39: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=144.0931, Normalized Score=0.0539
+2024-09-21 00:18:00,910 v1.py iterate [line:121] INFO Round 8, Client 40: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=178.4411, Normalized Score=0.0387
+2024-09-21 00:18:00,948 v1.py iterate [line:121] INFO Round 8, Client 41: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=405.6015, Normalized Score=0.0027
+2024-09-21 00:18:01,005 v1.py iterate [line:121] INFO Round 8, Client 42: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=167.3354, Normalized Score=0.0429
+2024-09-21 00:18:01,082 v1.py iterate [line:121] INFO Round 8, Client 43: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=136.5818, Normalized Score=0.0582
+2024-09-21 00:18:01,144 v1.py iterate [line:121] INFO Round 8, Client 44: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=10.2520, Normalized Score=1.0000
+2024-09-21 00:18:01,180 v1.py iterate [line:121] INFO Round 8, Client 45: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=161.6259, Normalized Score=0.0453
+2024-09-21 00:18:01,227 v1.py iterate [line:121] INFO Round 8, Client 46: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=142.5543, Normalized Score=0.0547
+2024-09-21 00:18:01,296 v1.py iterate [line:121] INFO Round 8, Client 47: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=143.9011, Normalized Score=0.0540
+2024-09-21 00:18:01,380 v1.py iterate [line:121] INFO Round 8, Client 48: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=141.8758, Normalized Score=0.0551
+2024-09-21 00:18:01,448 v1.py iterate [line:121] INFO Round 8, Client 49: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=258.2502, Normalized Score=0.0189
+2024-09-21 00:18:01,448 v1.py aggregate [line:140] INFO Round 8, Client 0: Aggregation Weight=0.0038
+2024-09-21 00:18:01,448 v1.py aggregate [line:140] INFO Round 8, Client 1: Aggregation Weight=0.0005
+2024-09-21 00:18:01,448 v1.py aggregate [line:140] INFO Round 8, Client 2: Aggregation Weight=0.0079
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 3: Aggregation Weight=0.0059
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 4: Aggregation Weight=0.0083
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 5: Aggregation Weight=0.0066
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 6: Aggregation Weight=0.0046
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 7: Aggregation Weight=0.0049
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 8: Aggregation Weight=0.1447
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 9: Aggregation Weight=0.0066
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 10: Aggregation Weight=0.0049
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 11: Aggregation Weight=0.0063
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 12: Aggregation Weight=0.0105
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 13: Aggregation Weight=0.0074
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 14: Aggregation Weight=0.0055
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 15: Aggregation Weight=0.0068
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 16: Aggregation Weight=0.0047
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 17: Aggregation Weight=0.0000
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 18: Aggregation Weight=0.1485
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 19: Aggregation Weight=0.0072
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 20: Aggregation Weight=0.0049
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 21: Aggregation Weight=0.0065
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 22: Aggregation Weight=0.0057
+2024-09-21 00:18:01,449 v1.py aggregate [line:140] INFO Round 8, Client 23: Aggregation Weight=0.0073
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 24: Aggregation Weight=0.0082
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 25: Aggregation Weight=0.0082
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 26: Aggregation Weight=0.0069
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 27: Aggregation Weight=0.0009
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 28: Aggregation Weight=0.1388
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 29: Aggregation Weight=0.0084
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 30: Aggregation Weight=0.0078
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 31: Aggregation Weight=0.0053
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 32: Aggregation Weight=0.0005
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 33: Aggregation Weight=0.0047
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 34: Aggregation Weight=0.0066
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 35: Aggregation Weight=0.0085
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 36: Aggregation Weight=0.0084
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 37: Aggregation Weight=0.1430
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 38: Aggregation Weight=0.0043
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 39: Aggregation Weight=0.0083
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 40: Aggregation Weight=0.0060
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 41: Aggregation Weight=0.0004
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 42: Aggregation Weight=0.0066
+2024-09-21 00:18:01,450 v1.py aggregate [line:140] INFO Round 8, Client 43: Aggregation Weight=0.0090
+2024-09-21 00:18:01,451 v1.py aggregate [line:140] INFO Round 8, Client 44: Aggregation Weight=0.1543
+2024-09-21 00:18:01,451 v1.py aggregate [line:140] INFO Round 8, Client 45: Aggregation Weight=0.0070
+2024-09-21 00:18:01,451 v1.py aggregate [line:140] INFO Round 8, Client 46: Aggregation Weight=0.0084
+2024-09-21 00:18:01,451 v1.py aggregate [line:140] INFO Round 8, Client 47: Aggregation Weight=0.0083
+2024-09-21 00:18:01,451 v1.py aggregate [line:140] INFO Round 8, Client 48: Aggregation Weight=0.0085
+2024-09-21 00:18:01,451 v1.py aggregate [line:140] INFO Round 8, Client 49: Aggregation Weight=0.0029
+2024-09-21 00:18:01,451 v1.py aggregate [line:143] INFO Round 8: Total Aggregation Weight=1.0000
+2024-09-21 00:18:01,514 fedbase.py run [line:300] INFO --------------Round 8--------------
+2024-09-21 00:18:01,514 simple_logger.py log_once [line:14] INFO Current_time:8
+2024-09-21 00:18:06,926 simple_logger.py log_once [line:28] INFO test_accuracy                 0.1000
+2024-09-21 00:18:06,927 simple_logger.py log_once [line:28] INFO test_loss                     64.5557
+2024-09-21 00:18:06,927 simple_logger.py log_once [line:28] INFO val_accuracy                  0.1000
+2024-09-21 00:18:06,927 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.1000
+2024-09-21 00:18:06,928 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.3000
+2024-09-21 00:18:06,928 simple_logger.py log_once [line:28] INFO val_loss                      63.9124
+2024-09-21 00:18:06,928 simple_logger.py log_once [line:28] INFO mean_val_loss                 63.9124
+2024-09-21 00:18:06,928 simple_logger.py log_once [line:28] INFO std_val_loss                  110.6260
+2024-09-21 00:18:06,940 fedbase.py run [line:305] INFO Eval Time Cost:               5.4257s
+2024-09-21 00:18:06,945 v1.py iterate [line:69] INFO Round 9 started
+2024-09-21 00:18:06,945 v1.py iterate [line:73] INFO Round 9: Current weights - w1: 0.5000, w2: 0.5000
+2024-09-21 00:18:06,946 v1.py sample [line:59] INFO Round 9: Committee clients selected - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+2024-09-21 00:18:06,946 v1.py sample [line:61] INFO Round 9: Normal clients selected - [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:18:06,946 v1.py sample [line:63] INFO Round 9: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:20:20,635 v1.py iterate [line:121] INFO Round 9, Client 0: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=201.5803, Normalized Score=0.1052
+2024-09-21 00:20:20,712 v1.py iterate [line:121] INFO Round 9, Client 1: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=348.3466, Normalized Score=0.0610
+2024-09-21 00:20:20,783 v1.py iterate [line:121] INFO Round 9, Client 2: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=149.1273, Normalized Score=0.1420
+2024-09-21 00:20:20,868 v1.py iterate [line:121] INFO Round 9, Client 3: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=21.0605, Normalized Score=0.9667
+2024-09-21 00:20:20,930 v1.py iterate [line:121] INFO Round 9, Client 4: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=183.7092, Normalized Score=0.1154
+2024-09-21 00:20:20,971 v1.py iterate [line:121] INFO Round 9, Client 5: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=154.4925, Normalized Score=0.1371
+2024-09-21 00:20:21,006 v1.py iterate [line:121] INFO Round 9, Client 6: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=138.4128, Normalized Score=0.1529
+2024-09-21 00:20:21,048 v1.py iterate [line:121] INFO Round 9, Client 7: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=472.5300, Normalized Score=0.0450
+2024-09-21 00:20:21,084 v1.py iterate [line:121] INFO Round 9, Client 8: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=80755.1094, Normalized Score=0.0002
+2024-09-21 00:20:21,120 v1.py iterate [line:121] INFO Round 9, Client 9: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=154.0007, Normalized Score=0.1375
+2024-09-21 00:20:21,159 v1.py iterate [line:121] INFO Round 9, Client 10: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=183.9308, Normalized Score=0.1153
+2024-09-21 00:20:21,192 v1.py iterate [line:121] INFO Round 9, Client 11: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=182.0113, Normalized Score=0.1165
+2024-09-21 00:20:21,227 v1.py iterate [line:121] INFO Round 9, Client 12: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=134.3496, Normalized Score=0.1575
+2024-09-21 00:20:21,262 v1.py iterate [line:121] INFO Round 9, Client 13: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=20.3263, Normalized Score=1.0000
+2024-09-21 00:20:21,304 v1.py iterate [line:121] INFO Round 9, Client 14: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=479.5336, Normalized Score=0.0443
+2024-09-21 00:20:21,340 v1.py iterate [line:121] INFO Round 9, Client 15: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=149.6631, Normalized Score=0.1415
+2024-09-21 00:20:21,376 v1.py iterate [line:121] INFO Round 9, Client 16: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=131.2192, Normalized Score=0.1612
+2024-09-21 00:20:21,411 v1.py iterate [line:121] INFO Round 9, Client 17: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=324.8774, Normalized Score=0.0654
+2024-09-21 00:20:21,447 v1.py iterate [line:121] INFO Round 9, Client 18: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=3161.6338, Normalized Score=0.0067
+2024-09-21 00:20:21,482 v1.py iterate [line:121] INFO Round 9, Client 19: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=148.3702, Normalized Score=0.1427
+2024-09-21 00:20:21,519 v1.py iterate [line:121] INFO Round 9, Client 20: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=150.1430, Normalized Score=0.1411
+2024-09-21 00:20:21,557 v1.py iterate [line:121] INFO Round 9, Client 21: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=144.4758, Normalized Score=0.1465
+2024-09-21 00:20:21,592 v1.py iterate [line:121] INFO Round 9, Client 22: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=177.4284, Normalized Score=0.1195
+2024-09-21 00:20:21,626 v1.py iterate [line:121] INFO Round 9, Client 23: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=167.6691, Normalized Score=0.1264
+2024-09-21 00:20:21,665 v1.py iterate [line:121] INFO Round 9, Client 24: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=21.2682, Normalized Score=0.9577
+2024-09-21 00:20:21,702 v1.py iterate [line:121] INFO Round 9, Client 25: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=145.1724, Normalized Score=0.1458
+2024-09-21 00:20:21,739 v1.py iterate [line:121] INFO Round 9, Client 26: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=482.4469, Normalized Score=0.0441
+2024-09-21 00:20:21,775 v1.py iterate [line:121] INFO Round 9, Client 27: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=324.7070, Normalized Score=0.0654
+2024-09-21 00:20:21,810 v1.py iterate [line:121] INFO Round 9, Client 28: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=267176.5625, Normalized Score=0.0000
+2024-09-21 00:20:21,844 v1.py iterate [line:121] INFO Round 9, Client 29: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=139.7182, Normalized Score=0.1515
+2024-09-21 00:20:21,881 v1.py iterate [line:121] INFO Round 9, Client 30: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=142.1599, Normalized Score=0.1489
+2024-09-21 00:20:21,918 v1.py iterate [line:121] INFO Round 9, Client 31: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=450.3866, Normalized Score=0.0472
+2024-09-21 00:20:21,988 v1.py iterate [line:121] INFO Round 9, Client 32: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=331.1676, Normalized Score=0.0641
+2024-09-21 00:20:22,047 v1.py iterate [line:121] INFO Round 9, Client 33: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=217.3719, Normalized Score=0.0976
+2024-09-21 00:20:22,081 v1.py iterate [line:121] INFO Round 9, Client 34: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=147.6659, Normalized Score=0.1434
+2024-09-21 00:20:22,146 v1.py iterate [line:121] INFO Round 9, Client 35: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=156.3361, Normalized Score=0.1355
+2024-09-21 00:20:22,199 v1.py iterate [line:121] INFO Round 9, Client 36: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=194.9663, Normalized Score=0.1088
+2024-09-21 00:20:22,232 v1.py iterate [line:121] INFO Round 9, Client 37: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=48575.4375, Normalized Score=0.0004
+2024-09-21 00:20:22,269 v1.py iterate [line:121] INFO Round 9, Client 38: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=154.2240, Normalized Score=0.1373
+2024-09-21 00:20:22,309 v1.py iterate [line:121] INFO Round 9, Client 39: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=20.5031, Normalized Score=0.9918
+2024-09-21 00:20:22,344 v1.py iterate [line:121] INFO Round 9, Client 40: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=199.3651, Normalized Score=0.1064
+2024-09-21 00:20:22,383 v1.py iterate [line:121] INFO Round 9, Client 41: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=330.5212, Normalized Score=0.0643
+2024-09-21 00:20:22,419 v1.py iterate [line:121] INFO Round 9, Client 42: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=470.9294, Normalized Score=0.0451
+2024-09-21 00:20:22,453 v1.py iterate [line:121] INFO Round 9, Client 43: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=21.2530, Normalized Score=0.9584
+2024-09-21 00:20:22,491 v1.py iterate [line:121] INFO Round 9, Client 44: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=372411.1250, Normalized Score=0.0000
+2024-09-21 00:20:22,528 v1.py iterate [line:121] INFO Round 9, Client 45: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=149.9019, Normalized Score=0.1413
+2024-09-21 00:20:22,562 v1.py iterate [line:121] INFO Round 9, Client 46: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=132.2196, Normalized Score=0.1600
+2024-09-21 00:20:22,599 v1.py iterate [line:121] INFO Round 9, Client 47: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=167.2967, Normalized Score=0.1267
+2024-09-21 00:20:22,633 v1.py iterate [line:121] INFO Round 9, Client 48: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=170.5346, Normalized Score=0.1243
+2024-09-21 00:20:22,669 v1.py iterate [line:121] INFO Round 9, Client 49: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=141.2904, Normalized Score=0.1498
+2024-09-21 00:20:22,669 v1.py aggregate [line:140] INFO Round 9, Client 0: Aggregation Weight=0.0111
+2024-09-21 00:20:22,669 v1.py aggregate [line:140] INFO Round 9, Client 1: Aggregation Weight=0.0064
+2024-09-21 00:20:22,669 v1.py aggregate [line:140] INFO Round 9, Client 2: Aggregation Weight=0.0150
+2024-09-21 00:20:22,669 v1.py aggregate [line:140] INFO Round 9, Client 3: Aggregation Weight=0.1022
+2024-09-21 00:20:22,669 v1.py aggregate [line:140] INFO Round 9, Client 4: Aggregation Weight=0.0122
+2024-09-21 00:20:22,669 v1.py aggregate [line:140] INFO Round 9, Client 5: Aggregation Weight=0.0145
+2024-09-21 00:20:22,670 v1.py aggregate [line:140] INFO Round 9, Client 6: Aggregation Weight=0.0162
+2024-09-21 00:20:22,670 v1.py aggregate [line:140] INFO Round 9, Client 7: Aggregation Weight=0.0048
+2024-09-21 00:20:22,670 v1.py aggregate [line:140] INFO Round 9, Client 8: Aggregation Weight=0.0000
+2024-09-21 00:20:22,670 v1.py aggregate [line:140] INFO Round 9, Client 9: Aggregation Weight=0.0145
+2024-09-21 00:20:22,670 v1.py aggregate [line:140] INFO Round 9, Client 10: Aggregation Weight=0.0122
+2024-09-21 00:20:22,670 v1.py aggregate [line:140] INFO Round 9, Client 11: Aggregation Weight=0.0123
+2024-09-21 00:20:22,670 v1.py aggregate [line:140] INFO Round 9, Client 12: Aggregation Weight=0.0166
+2024-09-21 00:20:22,670 v1.py aggregate [line:140] INFO Round 9, Client 13: Aggregation Weight=0.1057
+2024-09-21 00:20:22,670 v1.py aggregate [line:140] INFO Round 9, Client 14: Aggregation Weight=0.0047
+2024-09-21 00:20:22,671 v1.py aggregate [line:140] INFO Round 9, Client 15: Aggregation Weight=0.0150
+2024-09-21 00:20:22,671 v1.py aggregate [line:140] INFO Round 9, Client 16: Aggregation Weight=0.0170
+2024-09-21 00:20:22,671 v1.py aggregate [line:140] INFO Round 9, Client 17: Aggregation Weight=0.0069
+2024-09-21 00:20:22,671 v1.py aggregate [line:140] INFO Round 9, Client 18: Aggregation Weight=0.0007
+2024-09-21 00:20:22,671 v1.py aggregate [line:140] INFO Round 9, Client 19: Aggregation Weight=0.0151
+2024-09-21 00:20:22,671 v1.py aggregate [line:140] INFO Round 9, Client 20: Aggregation Weight=0.0149
+2024-09-21 00:20:22,671 v1.py aggregate [line:140] INFO Round 9, Client 21: Aggregation Weight=0.0155
+2024-09-21 00:20:22,671 v1.py aggregate [line:140] INFO Round 9, Client 22: Aggregation Weight=0.0126
+2024-09-21 00:20:22,671 v1.py aggregate [line:140] INFO Round 9, Client 23: Aggregation Weight=0.0134
+2024-09-21 00:20:22,672 v1.py aggregate [line:140] INFO Round 9, Client 24: Aggregation Weight=0.1012
+2024-09-21 00:20:22,672 v1.py aggregate [line:140] INFO Round 9, Client 25: Aggregation Weight=0.0154
+2024-09-21 00:20:22,672 v1.py aggregate [line:140] INFO Round 9, Client 26: Aggregation Weight=0.0047
+2024-09-21 00:20:22,672 v1.py aggregate [line:140] INFO Round 9, Client 27: Aggregation Weight=0.0069
+2024-09-21 00:20:22,672 v1.py aggregate [line:140] INFO Round 9, Client 28: Aggregation Weight=0.0000
+2024-09-21 00:20:22,672 v1.py aggregate [line:140] INFO Round 9, Client 29: Aggregation Weight=0.0160
+2024-09-21 00:20:22,672 v1.py aggregate [line:140] INFO Round 9, Client 30: Aggregation Weight=0.0157
+2024-09-21 00:20:22,672 v1.py aggregate [line:140] INFO Round 9, Client 31: Aggregation Weight=0.0050
+2024-09-21 00:20:22,672 v1.py aggregate [line:140] INFO Round 9, Client 32: Aggregation Weight=0.0068
+2024-09-21 00:20:22,672 v1.py aggregate [line:140] INFO Round 9, Client 33: Aggregation Weight=0.0103
+2024-09-21 00:20:22,673 v1.py aggregate [line:140] INFO Round 9, Client 34: Aggregation Weight=0.0152
+2024-09-21 00:20:22,673 v1.py aggregate [line:140] INFO Round 9, Client 35: Aggregation Weight=0.0143
+2024-09-21 00:20:22,673 v1.py aggregate [line:140] INFO Round 9, Client 36: Aggregation Weight=0.0115
+2024-09-21 00:20:22,673 v1.py aggregate [line:140] INFO Round 9, Client 37: Aggregation Weight=0.0000
+2024-09-21 00:20:22,673 v1.py aggregate [line:140] INFO Round 9, Client 38: Aggregation Weight=0.0145
+2024-09-21 00:20:22,673 v1.py aggregate [line:140] INFO Round 9, Client 39: Aggregation Weight=0.1048
+2024-09-21 00:20:22,673 v1.py aggregate [line:140] INFO Round 9, Client 40: Aggregation Weight=0.0112
+2024-09-21 00:20:22,673 v1.py aggregate [line:140] INFO Round 9, Client 41: Aggregation Weight=0.0068
+2024-09-21 00:20:22,674 v1.py aggregate [line:140] INFO Round 9, Client 42: Aggregation Weight=0.0048
+2024-09-21 00:20:22,674 v1.py aggregate [line:140] INFO Round 9, Client 43: Aggregation Weight=0.1013
+2024-09-21 00:20:22,674 v1.py aggregate [line:140] INFO Round 9, Client 44: Aggregation Weight=0.0000
+2024-09-21 00:20:22,674 v1.py aggregate [line:140] INFO Round 9, Client 45: Aggregation Weight=0.0149
+2024-09-21 00:20:22,674 v1.py aggregate [line:140] INFO Round 9, Client 46: Aggregation Weight=0.0169
+2024-09-21 00:20:22,674 v1.py aggregate [line:140] INFO Round 9, Client 47: Aggregation Weight=0.0134
+2024-09-21 00:20:22,675 v1.py aggregate [line:140] INFO Round 9, Client 48: Aggregation Weight=0.0131
+2024-09-21 00:20:22,675 v1.py aggregate [line:140] INFO Round 9, Client 49: Aggregation Weight=0.0158
+2024-09-21 00:20:22,675 v1.py aggregate [line:143] INFO Round 9: Total Aggregation Weight=1.0000
+2024-09-21 00:20:22,707 fedbase.py run [line:300] INFO --------------Round 9--------------
+2024-09-21 00:20:22,707 simple_logger.py log_once [line:14] INFO Current_time:9
+2024-09-21 00:20:27,780 simple_logger.py log_once [line:28] INFO test_accuracy                 0.1000
+2024-09-21 00:20:27,781 simple_logger.py log_once [line:28] INFO test_loss                     57790.0817
+2024-09-21 00:20:27,781 simple_logger.py log_once [line:28] INFO val_accuracy                  0.1000
+2024-09-21 00:20:27,781 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.1000
+2024-09-21 00:20:27,781 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.3000
+2024-09-21 00:20:27,781 simple_logger.py log_once [line:28] INFO val_loss                      57899.3280
+2024-09-21 00:20:27,794 simple_logger.py log_once [line:28] INFO mean_val_loss                 57899.3280
+2024-09-21 00:20:27,794 simple_logger.py log_once [line:28] INFO std_val_loss                  82864.4255
+2024-09-21 00:20:27,817 fedbase.py run [line:305] INFO Eval Time Cost:               5.1100s
+2024-09-21 00:20:27,818 v1.py iterate [line:69] INFO Round 10 started
+2024-09-21 00:20:27,818 v1.py iterate [line:73] INFO Round 10: Current weights - w1: 0.5000, w2: 0.5000
+2024-09-21 00:20:27,818 v1.py sample [line:45] INFO Round 10: Committee updated - [13, 39, 3, 43, 24, 16, 46, 12, 6, 29, 49, 30, 21, 25, 34]
+2024-09-21 00:20:27,818 v1.py sample [line:59] INFO Round 10: Committee clients selected - [13, 39, 3, 43, 24, 16, 46, 12, 6, 29, 49, 30, 21, 25, 34]
+2024-09-21 00:20:27,818 v1.py sample [line:61] INFO Round 10: Normal clients selected - [0, 1, 2, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20, 22, 23, 26, 27, 28, 31, 32, 33, 35, 36, 37, 38, 40, 41, 42, 44, 45, 47, 48]
+2024-09-21 00:20:27,818 v1.py sample [line:63] INFO Round 10: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:22:43,824 v1.py iterate [line:121] INFO Round 10, Client 0: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=21752.0488, Normalized Score=0.0000
+2024-09-21 00:22:43,861 v1.py iterate [line:121] INFO Round 10, Client 1: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=117893.0781, Normalized Score=0.0000
+2024-09-21 00:22:43,899 v1.py iterate [line:121] INFO Round 10, Client 2: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=204227.0781, Normalized Score=0.0000
+2024-09-21 00:22:43,934 v1.py iterate [line:121] INFO Round 10, Client 3: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=18346852.0000, Normalized Score=0.0000
+2024-09-21 00:22:43,985 v1.py iterate [line:121] INFO Round 10, Client 4: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=19238.4258, Normalized Score=0.0001
+2024-09-21 00:22:44,021 v1.py iterate [line:121] INFO Round 10, Client 5: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=190147.5938, Normalized Score=0.0000
+2024-09-21 00:22:44,055 v1.py iterate [line:121] INFO Round 10, Client 6: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=0.0000, Normalized Score=1.0000
+2024-09-21 00:22:44,091 v1.py iterate [line:121] INFO Round 10, Client 7: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=209279.3594, Normalized Score=0.0000
+2024-09-21 00:22:44,128 v1.py iterate [line:121] INFO Round 10, Client 8: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=309889.0312, Normalized Score=0.0000
+2024-09-21 00:22:44,166 v1.py iterate [line:121] INFO Round 10, Client 9: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=14740.2070, Normalized Score=0.0001
+2024-09-21 00:22:44,199 v1.py iterate [line:121] INFO Round 10, Client 10: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=18613.1074, Normalized Score=0.0001
+2024-09-21 00:22:44,234 v1.py iterate [line:121] INFO Round 10, Client 11: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=19448.6895, Normalized Score=0.0001
+2024-09-21 00:22:44,268 v1.py iterate [line:121] INFO Round 10, Client 12: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=212031.8594, Normalized Score=0.0000
+2024-09-21 00:22:44,307 v1.py iterate [line:121] INFO Round 10, Client 13: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=1316486.6250, Normalized Score=0.0000
+2024-09-21 00:22:44,344 v1.py iterate [line:121] INFO Round 10, Client 14: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=234905.5000, Normalized Score=0.0000
+2024-09-21 00:22:44,382 v1.py iterate [line:121] INFO Round 10, Client 15: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=193567.6406, Normalized Score=0.0000
+2024-09-21 00:22:44,420 v1.py iterate [line:121] INFO Round 10, Client 16: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=0.0000, Normalized Score=1.0000
+2024-09-21 00:22:44,455 v1.py iterate [line:121] INFO Round 10, Client 17: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=113937.9375, Normalized Score=0.0000
+2024-09-21 00:22:44,492 v1.py iterate [line:121] INFO Round 10, Client 18: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=331592.1562, Normalized Score=0.0000
+2024-09-21 00:22:44,529 v1.py iterate [line:121] INFO Round 10, Client 19: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=14833.5693, Normalized Score=0.0001
+2024-09-21 00:22:44,565 v1.py iterate [line:121] INFO Round 10, Client 20: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=0.0000, Normalized Score=1.0000
+2024-09-21 00:22:44,601 v1.py iterate [line:121] INFO Round 10, Client 21: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=199265.2344, Normalized Score=0.0000
+2024-09-21 00:22:44,640 v1.py iterate [line:121] INFO Round 10, Client 22: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=18263.4648, Normalized Score=0.0001
+2024-09-21 00:22:44,676 v1.py iterate [line:121] INFO Round 10, Client 23: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=19231.8496, Normalized Score=0.0001
+2024-09-21 00:22:44,711 v1.py iterate [line:121] INFO Round 10, Client 24: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=2920954.7500, Normalized Score=0.0000
+2024-09-21 00:22:44,749 v1.py iterate [line:121] INFO Round 10, Client 25: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=15045.8506, Normalized Score=0.0001
+2024-09-21 00:22:44,791 v1.py iterate [line:121] INFO Round 10, Client 26: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=216647.5625, Normalized Score=0.0000
+2024-09-21 00:22:44,828 v1.py iterate [line:121] INFO Round 10, Client 27: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=120970.6094, Normalized Score=0.0000
+2024-09-21 00:22:44,865 v1.py iterate [line:121] INFO Round 10, Client 28: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=299531.4688, Normalized Score=0.0000
+2024-09-21 00:22:44,904 v1.py iterate [line:121] INFO Round 10, Client 29: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=214089.0781, Normalized Score=0.0000
+2024-09-21 00:22:44,939 v1.py iterate [line:121] INFO Round 10, Client 30: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=200019.2344, Normalized Score=0.0000
+2024-09-21 00:22:44,977 v1.py iterate [line:121] INFO Round 10, Client 31: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=220494.8281, Normalized Score=0.0000
+2024-09-21 00:22:45,013 v1.py iterate [line:121] INFO Round 10, Client 32: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=123594.4531, Normalized Score=0.0000
+2024-09-21 00:22:45,048 v1.py iterate [line:121] INFO Round 10, Client 33: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=22563.5859, Normalized Score=0.0000
+2024-09-21 00:22:45,084 v1.py iterate [line:121] INFO Round 10, Client 34: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=191137.8906, Normalized Score=0.0000
+2024-09-21 00:22:45,121 v1.py iterate [line:121] INFO Round 10, Client 35: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=14723.2354, Normalized Score=0.0001
+2024-09-21 00:22:45,159 v1.py iterate [line:121] INFO Round 10, Client 36: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=17858.3691, Normalized Score=0.0001
+2024-09-21 00:22:45,200 v1.py iterate [line:121] INFO Round 10, Client 37: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=333218.1250, Normalized Score=0.0000
+2024-09-21 00:22:45,237 v1.py iterate [line:121] INFO Round 10, Client 38: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=0.0000, Normalized Score=1.0000
+2024-09-21 00:22:45,275 v1.py iterate [line:121] INFO Round 10, Client 39: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=1095383.8750, Normalized Score=0.0000
+2024-09-21 00:22:45,314 v1.py iterate [line:121] INFO Round 10, Client 40: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=21703.3750, Normalized Score=0.0000
+2024-09-21 00:22:45,350 v1.py iterate [line:121] INFO Round 10, Client 41: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=120322.7266, Normalized Score=0.0000
+2024-09-21 00:22:45,384 v1.py iterate [line:121] INFO Round 10, Client 42: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=233700.2812, Normalized Score=0.0000
+2024-09-21 00:22:45,421 v1.py iterate [line:121] INFO Round 10, Client 43: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=1029483.3750, Normalized Score=0.0000
+2024-09-21 00:22:45,456 v1.py iterate [line:121] INFO Round 10, Client 44: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=381636.3125, Normalized Score=0.0000
+2024-09-21 00:22:45,493 v1.py iterate [line:121] INFO Round 10, Client 45: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=185617.2188, Normalized Score=0.0000
+2024-09-21 00:22:45,529 v1.py iterate [line:121] INFO Round 10, Client 46: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=208431.8438, Normalized Score=0.0000
+2024-09-21 00:22:45,566 v1.py iterate [line:121] INFO Round 10, Client 47: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=14798.6895, Normalized Score=0.0001
+2024-09-21 00:22:45,602 v1.py iterate [line:121] INFO Round 10, Client 48: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=17758.2559, Normalized Score=0.0001
+2024-09-21 00:22:45,640 v1.py iterate [line:121] INFO Round 10, Client 49: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=0.0000, Normalized Score=1.0000
+2024-09-21 00:22:45,659 v1.py aggregate [line:140] INFO Round 10, Client 0: Aggregation Weight=0.0000
+2024-09-21 00:22:45,659 v1.py aggregate [line:140] INFO Round 10, Client 1: Aggregation Weight=0.0000
+2024-09-21 00:22:45,659 v1.py aggregate [line:140] INFO Round 10, Client 2: Aggregation Weight=0.0000
+2024-09-21 00:22:45,659 v1.py aggregate [line:140] INFO Round 10, Client 3: Aggregation Weight=0.0000
+2024-09-21 00:22:45,659 v1.py aggregate [line:140] INFO Round 10, Client 4: Aggregation Weight=0.0000
+2024-09-21 00:22:45,659 v1.py aggregate [line:140] INFO Round 10, Client 5: Aggregation Weight=0.0000
+2024-09-21 00:22:45,659 v1.py aggregate [line:140] INFO Round 10, Client 6: Aggregation Weight=0.2000
+2024-09-21 00:22:45,660 v1.py aggregate [line:140] INFO Round 10, Client 7: Aggregation Weight=0.0000
+2024-09-21 00:22:45,660 v1.py aggregate [line:140] INFO Round 10, Client 8: Aggregation Weight=0.0000
+2024-09-21 00:22:45,660 v1.py aggregate [line:140] INFO Round 10, Client 9: Aggregation Weight=0.0000
+2024-09-21 00:22:45,660 v1.py aggregate [line:140] INFO Round 10, Client 10: Aggregation Weight=0.0000
+2024-09-21 00:22:45,660 v1.py aggregate [line:140] INFO Round 10, Client 11: Aggregation Weight=0.0000
+2024-09-21 00:22:45,660 v1.py aggregate [line:140] INFO Round 10, Client 12: Aggregation Weight=0.0000
+2024-09-21 00:22:45,660 v1.py aggregate [line:140] INFO Round 10, Client 13: Aggregation Weight=0.0000
+2024-09-21 00:22:45,660 v1.py aggregate [line:140] INFO Round 10, Client 14: Aggregation Weight=0.0000
+2024-09-21 00:22:45,660 v1.py aggregate [line:140] INFO Round 10, Client 15: Aggregation Weight=0.0000
+2024-09-21 00:22:45,660 v1.py aggregate [line:140] INFO Round 10, Client 16: Aggregation Weight=0.2000
+2024-09-21 00:22:45,661 v1.py aggregate [line:140] INFO Round 10, Client 17: Aggregation Weight=0.0000
+2024-09-21 00:22:45,661 v1.py aggregate [line:140] INFO Round 10, Client 18: Aggregation Weight=0.0000
+2024-09-21 00:22:45,661 v1.py aggregate [line:140] INFO Round 10, Client 19: Aggregation Weight=0.0000
+2024-09-21 00:22:45,661 v1.py aggregate [line:140] INFO Round 10, Client 20: Aggregation Weight=0.2000
+2024-09-21 00:22:45,661 v1.py aggregate [line:140] INFO Round 10, Client 21: Aggregation Weight=0.0000
+2024-09-21 00:22:45,661 v1.py aggregate [line:140] INFO Round 10, Client 22: Aggregation Weight=0.0000
+2024-09-21 00:22:45,661 v1.py aggregate [line:140] INFO Round 10, Client 23: Aggregation Weight=0.0000
+2024-09-21 00:22:45,661 v1.py aggregate [line:140] INFO Round 10, Client 24: Aggregation Weight=0.0000
+2024-09-21 00:22:45,661 v1.py aggregate [line:140] INFO Round 10, Client 25: Aggregation Weight=0.0000
+2024-09-21 00:22:45,662 v1.py aggregate [line:140] INFO Round 10, Client 26: Aggregation Weight=0.0000
+2024-09-21 00:22:45,662 v1.py aggregate [line:140] INFO Round 10, Client 27: Aggregation Weight=0.0000
+2024-09-21 00:22:45,662 v1.py aggregate [line:140] INFO Round 10, Client 28: Aggregation Weight=0.0000
+2024-09-21 00:22:45,662 v1.py aggregate [line:140] INFO Round 10, Client 29: Aggregation Weight=0.0000
+2024-09-21 00:22:45,662 v1.py aggregate [line:140] INFO Round 10, Client 30: Aggregation Weight=0.0000
+2024-09-21 00:22:45,662 v1.py aggregate [line:140] INFO Round 10, Client 31: Aggregation Weight=0.0000
+2024-09-21 00:22:45,662 v1.py aggregate [line:140] INFO Round 10, Client 32: Aggregation Weight=0.0000
+2024-09-21 00:22:45,662 v1.py aggregate [line:140] INFO Round 10, Client 33: Aggregation Weight=0.0000
+2024-09-21 00:22:45,662 v1.py aggregate [line:140] INFO Round 10, Client 34: Aggregation Weight=0.0000
+2024-09-21 00:22:45,663 v1.py aggregate [line:140] INFO Round 10, Client 35: Aggregation Weight=0.0000
+2024-09-21 00:22:45,663 v1.py aggregate [line:140] INFO Round 10, Client 36: Aggregation Weight=0.0000
+2024-09-21 00:22:45,663 v1.py aggregate [line:140] INFO Round 10, Client 37: Aggregation Weight=0.0000
+2024-09-21 00:22:45,663 v1.py aggregate [line:140] INFO Round 10, Client 38: Aggregation Weight=0.2000
+2024-09-21 00:22:45,663 v1.py aggregate [line:140] INFO Round 10, Client 39: Aggregation Weight=0.0000
+2024-09-21 00:22:45,663 v1.py aggregate [line:140] INFO Round 10, Client 40: Aggregation Weight=0.0000
+2024-09-21 00:22:45,663 v1.py aggregate [line:140] INFO Round 10, Client 41: Aggregation Weight=0.0000
+2024-09-21 00:22:45,663 v1.py aggregate [line:140] INFO Round 10, Client 42: Aggregation Weight=0.0000
+2024-09-21 00:22:45,663 v1.py aggregate [line:140] INFO Round 10, Client 43: Aggregation Weight=0.0000
+2024-09-21 00:22:45,664 v1.py aggregate [line:140] INFO Round 10, Client 44: Aggregation Weight=0.0000
+2024-09-21 00:22:45,664 v1.py aggregate [line:140] INFO Round 10, Client 45: Aggregation Weight=0.0000
+2024-09-21 00:22:45,664 v1.py aggregate [line:140] INFO Round 10, Client 46: Aggregation Weight=0.0000
+2024-09-21 00:22:45,665 v1.py aggregate [line:140] INFO Round 10, Client 47: Aggregation Weight=0.0000
+2024-09-21 00:22:45,665 v1.py aggregate [line:140] INFO Round 10, Client 48: Aggregation Weight=0.0000
+2024-09-21 00:22:45,665 v1.py aggregate [line:140] INFO Round 10, Client 49: Aggregation Weight=0.2000
+2024-09-21 00:22:45,665 v1.py aggregate [line:143] INFO Round 10: Total Aggregation Weight=1.0000
+2024-09-21 00:22:45,721 fedbase.py run [line:300] INFO --------------Round 10--------------
+2024-09-21 00:22:45,721 simple_logger.py log_once [line:14] INFO Current_time:10
+2024-09-21 00:22:51,460 simple_logger.py log_once [line:28] INFO test_accuracy                 0.1027
+2024-09-21 00:22:51,460 simple_logger.py log_once [line:28] INFO test_loss                     4.3159
+2024-09-21 00:22:51,461 simple_logger.py log_once [line:28] INFO val_accuracy                  0.1020
+2024-09-21 00:22:51,461 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.1020
+2024-09-21 00:22:51,461 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.2968
+2024-09-21 00:22:51,461 simple_logger.py log_once [line:28] INFO val_loss                      4.3084
+2024-09-21 00:22:51,461 simple_logger.py log_once [line:28] INFO mean_val_loss                 4.3084
+2024-09-21 00:22:51,461 simple_logger.py log_once [line:28] INFO std_val_loss                  4.6597
+2024-09-21 00:22:51,477 fedbase.py run [line:305] INFO Eval Time Cost:               5.7559s
+2024-09-21 00:22:51,477 v1.py iterate [line:69] INFO Round 11 started
+2024-09-21 00:22:51,477 v1.py iterate [line:73] INFO Round 11: Current weights - w1: 0.5000, w2: 0.5000
+2024-09-21 00:22:51,478 v1.py sample [line:59] INFO Round 11: Committee clients selected - [13, 39, 3, 43, 24, 16, 46, 12, 6, 29, 49, 30, 21, 25, 34]
+2024-09-21 00:22:51,478 v1.py sample [line:61] INFO Round 11: Normal clients selected - [0, 1, 2, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20, 22, 23, 26, 27, 28, 31, 32, 33, 35, 36, 37, 38, 40, 41, 42, 44, 45, 47, 48]
+2024-09-21 00:22:51,478 v1.py sample [line:63] INFO Round 11: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:25:04,770 v1.py iterate [line:121] INFO Round 11, Client 0: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=2368.0479, Normalized Score=0.0000
+2024-09-21 00:25:04,806 v1.py iterate [line:121] INFO Round 11, Client 1: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=28.2405, Normalized Score=0.4054
+2024-09-21 00:25:04,841 v1.py iterate [line:121] INFO Round 11, Client 2: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=46.1422, Normalized Score=0.2495
+2024-09-21 00:25:04,885 v1.py iterate [line:121] INFO Round 11, Client 3: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=696.4402, Normalized Score=0.0121
+2024-09-21 00:25:04,952 v1.py iterate [line:121] INFO Round 11, Client 4: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=459.8424, Normalized Score=0.0210
+2024-09-21 00:25:05,017 v1.py iterate [line:121] INFO Round 11, Client 5: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=85.9488, Normalized Score=0.1330
+2024-09-21 00:25:05,052 v1.py iterate [line:121] INFO Round 11, Client 6: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=13.2481, Normalized Score=0.8373
+2024-09-21 00:25:05,090 v1.py iterate [line:121] INFO Round 11, Client 7: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=51.6451, Normalized Score=0.2229
+2024-09-21 00:25:05,161 v1.py iterate [line:121] INFO Round 11, Client 8: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=130.6348, Normalized Score=0.0861
+2024-09-21 00:25:05,239 v1.py iterate [line:121] INFO Round 11, Client 9: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=10.9422, Normalized Score=1.0000
+2024-09-21 00:25:05,304 v1.py iterate [line:121] INFO Round 11, Client 10: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=1039.3369, Normalized Score=0.0065
+2024-09-21 00:25:05,352 v1.py iterate [line:121] INFO Round 11, Client 11: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=189.2871, Normalized Score=0.0580
+2024-09-21 00:25:05,388 v1.py iterate [line:121] INFO Round 11, Client 12: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=107.8846, Normalized Score=0.1052
+2024-09-21 00:25:05,423 v1.py iterate [line:121] INFO Round 11, Client 13: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=524.3417, Normalized Score=0.0178
+2024-09-21 00:25:05,457 v1.py iterate [line:121] INFO Round 11, Client 14: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=54.7094, Normalized Score=0.2104
+2024-09-21 00:25:05,495 v1.py iterate [line:121] INFO Round 11, Client 15: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=83.0461, Normalized Score=0.1377
+2024-09-21 00:25:05,564 v1.py iterate [line:121] INFO Round 11, Client 16: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=13.9496, Normalized Score=0.7978
+2024-09-21 00:25:05,640 v1.py iterate [line:121] INFO Round 11, Client 17: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=108.4017, Normalized Score=0.1046
+2024-09-21 00:25:05,700 v1.py iterate [line:121] INFO Round 11, Client 18: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=344.2740, Normalized Score=0.0297
+2024-09-21 00:25:05,776 v1.py iterate [line:121] INFO Round 11, Client 19: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=14.5916, Normalized Score=0.7648
+2024-09-21 00:25:05,856 v1.py iterate [line:121] INFO Round 11, Client 20: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=14.0425, Normalized Score=0.7929
+2024-09-21 00:25:05,935 v1.py iterate [line:121] INFO Round 11, Client 21: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=82.1852, Normalized Score=0.1392
+2024-09-21 00:25:05,994 v1.py iterate [line:121] INFO Round 11, Client 22: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=1572.9298, Normalized Score=0.0026
+2024-09-21 00:25:06,075 v1.py iterate [line:121] INFO Round 11, Client 23: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=564.7002, Normalized Score=0.0162
+2024-09-21 00:25:06,137 v1.py iterate [line:121] INFO Round 11, Client 24: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=1004.2490, Normalized Score=0.0069
+2024-09-21 00:25:06,203 v1.py iterate [line:121] INFO Round 11, Client 25: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=14.2252, Normalized Score=0.7833
+2024-09-21 00:25:06,277 v1.py iterate [line:121] INFO Round 11, Client 26: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=73.8932, Normalized Score=0.1552
+2024-09-21 00:25:06,349 v1.py iterate [line:121] INFO Round 11, Client 27: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=44.3008, Normalized Score=0.2599
+2024-09-21 00:25:06,415 v1.py iterate [line:121] INFO Round 11, Client 28: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=1777.5883, Normalized Score=0.0017
+2024-09-21 00:25:06,491 v1.py iterate [line:121] INFO Round 11, Client 29: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=47.9181, Normalized Score=0.2403
+2024-09-21 00:25:06,552 v1.py iterate [line:121] INFO Round 11, Client 30: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=100.5827, Normalized Score=0.1131
+2024-09-21 00:25:06,619 v1.py iterate [line:121] INFO Round 11, Client 31: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=50.0304, Normalized Score=0.2301
+2024-09-21 00:25:06,691 v1.py iterate [line:121] INFO Round 11, Client 32: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=25.6222, Normalized Score=0.4458
+2024-09-21 00:25:06,755 v1.py iterate [line:121] INFO Round 11, Client 33: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=1297.7034, Normalized Score=0.0042
+2024-09-21 00:25:06,820 v1.py iterate [line:121] INFO Round 11, Client 34: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=42.5669, Normalized Score=0.2704
+2024-09-21 00:25:06,857 v1.py iterate [line:121] INFO Round 11, Client 35: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=15.8553, Normalized Score=0.7070
+2024-09-21 00:25:06,892 v1.py iterate [line:121] INFO Round 11, Client 36: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=644.1721, Normalized Score=0.0135
+2024-09-21 00:25:06,943 v1.py iterate [line:121] INFO Round 11, Client 37: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=102.5201, Normalized Score=0.1109
+2024-09-21 00:25:06,988 v1.py iterate [line:121] INFO Round 11, Client 38: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=11.7408, Normalized Score=0.9370
+2024-09-21 00:25:07,025 v1.py iterate [line:121] INFO Round 11, Client 39: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=667.0176, Normalized Score=0.0129
+2024-09-21 00:25:07,062 v1.py iterate [line:121] INFO Round 11, Client 40: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=792.7682, Normalized Score=0.0101
+2024-09-21 00:25:07,097 v1.py iterate [line:121] INFO Round 11, Client 41: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=44.3244, Normalized Score=0.2598
+2024-09-21 00:25:07,137 v1.py iterate [line:121] INFO Round 11, Client 42: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=43.0458, Normalized Score=0.2674
+2024-09-21 00:25:07,175 v1.py iterate [line:121] INFO Round 11, Client 43: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=575.3188, Normalized Score=0.0158
+2024-09-21 00:25:07,211 v1.py iterate [line:121] INFO Round 11, Client 44: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=105.7095, Normalized Score=0.1074
+2024-09-21 00:25:07,249 v1.py iterate [line:121] INFO Round 11, Client 45: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=56.4672, Normalized Score=0.2038
+2024-09-21 00:25:07,285 v1.py iterate [line:121] INFO Round 11, Client 46: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=43.8689, Normalized Score=0.2624
+2024-09-21 00:25:07,322 v1.py iterate [line:121] INFO Round 11, Client 47: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=12.4393, Normalized Score=0.8880
+2024-09-21 00:25:07,358 v1.py iterate [line:121] INFO Round 11, Client 48: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=642.8324, Normalized Score=0.0136
+2024-09-21 00:25:07,415 v1.py iterate [line:121] INFO Round 11, Client 49: Local Acc=1.0000, Global Acc=0.1027, Grad Norm=20.1311, Normalized Score=0.5629
+2024-09-21 00:25:07,415 v1.py aggregate [line:140] INFO Round 11, Client 0: Aggregation Weight=0.0000
+2024-09-21 00:25:07,415 v1.py aggregate [line:140] INFO Round 11, Client 1: Aggregation Weight=0.0311
+2024-09-21 00:25:07,415 v1.py aggregate [line:140] INFO Round 11, Client 2: Aggregation Weight=0.0191
+2024-09-21 00:25:07,415 v1.py aggregate [line:140] INFO Round 11, Client 3: Aggregation Weight=0.0009
+2024-09-21 00:25:07,415 v1.py aggregate [line:140] INFO Round 11, Client 4: Aggregation Weight=0.0016
+2024-09-21 00:25:07,416 v1.py aggregate [line:140] INFO Round 11, Client 5: Aggregation Weight=0.0102
+2024-09-21 00:25:07,416 v1.py aggregate [line:140] INFO Round 11, Client 6: Aggregation Weight=0.0642
+2024-09-21 00:25:07,416 v1.py aggregate [line:140] INFO Round 11, Client 7: Aggregation Weight=0.0171
+2024-09-21 00:25:07,416 v1.py aggregate [line:140] INFO Round 11, Client 8: Aggregation Weight=0.0066
+2024-09-21 00:25:07,416 v1.py aggregate [line:140] INFO Round 11, Client 9: Aggregation Weight=0.0767
+2024-09-21 00:25:07,416 v1.py aggregate [line:140] INFO Round 11, Client 10: Aggregation Weight=0.0005
+2024-09-21 00:25:07,416 v1.py aggregate [line:140] INFO Round 11, Client 11: Aggregation Weight=0.0045
+2024-09-21 00:25:07,416 v1.py aggregate [line:140] INFO Round 11, Client 12: Aggregation Weight=0.0081
+2024-09-21 00:25:07,416 v1.py aggregate [line:140] INFO Round 11, Client 13: Aggregation Weight=0.0014
+2024-09-21 00:25:07,417 v1.py aggregate [line:140] INFO Round 11, Client 14: Aggregation Weight=0.0161
+2024-09-21 00:25:07,417 v1.py aggregate [line:140] INFO Round 11, Client 15: Aggregation Weight=0.0106
+2024-09-21 00:25:07,417 v1.py aggregate [line:140] INFO Round 11, Client 16: Aggregation Weight=0.0612
+2024-09-21 00:25:07,417 v1.py aggregate [line:140] INFO Round 11, Client 17: Aggregation Weight=0.0080
+2024-09-21 00:25:07,417 v1.py aggregate [line:140] INFO Round 11, Client 18: Aggregation Weight=0.0023
+2024-09-21 00:25:07,417 v1.py aggregate [line:140] INFO Round 11, Client 19: Aggregation Weight=0.0587
+2024-09-21 00:25:07,417 v1.py aggregate [line:140] INFO Round 11, Client 20: Aggregation Weight=0.0608
+2024-09-21 00:25:07,417 v1.py aggregate [line:140] INFO Round 11, Client 21: Aggregation Weight=0.0107
+2024-09-21 00:25:07,417 v1.py aggregate [line:140] INFO Round 11, Client 22: Aggregation Weight=0.0002
+2024-09-21 00:25:07,417 v1.py aggregate [line:140] INFO Round 11, Client 23: Aggregation Weight=0.0012
+2024-09-21 00:25:07,418 v1.py aggregate [line:140] INFO Round 11, Client 24: Aggregation Weight=0.0005
+2024-09-21 00:25:07,418 v1.py aggregate [line:140] INFO Round 11, Client 25: Aggregation Weight=0.0601
+2024-09-21 00:25:07,418 v1.py aggregate [line:140] INFO Round 11, Client 26: Aggregation Weight=0.0119
+2024-09-21 00:25:07,418 v1.py aggregate [line:140] INFO Round 11, Client 27: Aggregation Weight=0.0199
+2024-09-21 00:25:07,418 v1.py aggregate [line:140] INFO Round 11, Client 28: Aggregation Weight=0.0001
+2024-09-21 00:25:07,418 v1.py aggregate [line:140] INFO Round 11, Client 29: Aggregation Weight=0.0184
+2024-09-21 00:25:07,418 v1.py aggregate [line:140] INFO Round 11, Client 30: Aggregation Weight=0.0087
+2024-09-21 00:25:07,418 v1.py aggregate [line:140] INFO Round 11, Client 31: Aggregation Weight=0.0177
+2024-09-21 00:25:07,418 v1.py aggregate [line:140] INFO Round 11, Client 32: Aggregation Weight=0.0342
+2024-09-21 00:25:07,418 v1.py aggregate [line:140] INFO Round 11, Client 33: Aggregation Weight=0.0003
+2024-09-21 00:25:07,419 v1.py aggregate [line:140] INFO Round 11, Client 34: Aggregation Weight=0.0207
+2024-09-21 00:25:07,419 v1.py aggregate [line:140] INFO Round 11, Client 35: Aggregation Weight=0.0542
+2024-09-21 00:25:07,419 v1.py aggregate [line:140] INFO Round 11, Client 36: Aggregation Weight=0.0010
+2024-09-21 00:25:07,419 v1.py aggregate [line:140] INFO Round 11, Client 37: Aggregation Weight=0.0085
+2024-09-21 00:25:07,419 v1.py aggregate [line:140] INFO Round 11, Client 38: Aggregation Weight=0.0719
+2024-09-21 00:25:07,419 v1.py aggregate [line:140] INFO Round 11, Client 39: Aggregation Weight=0.0010
+2024-09-21 00:25:07,419 v1.py aggregate [line:140] INFO Round 11, Client 40: Aggregation Weight=0.0008
+2024-09-21 00:25:07,419 v1.py aggregate [line:140] INFO Round 11, Client 41: Aggregation Weight=0.0199
+2024-09-21 00:25:07,419 v1.py aggregate [line:140] INFO Round 11, Client 42: Aggregation Weight=0.0205
+2024-09-21 00:25:07,420 v1.py aggregate [line:140] INFO Round 11, Client 43: Aggregation Weight=0.0012
+2024-09-21 00:25:07,420 v1.py aggregate [line:140] INFO Round 11, Client 44: Aggregation Weight=0.0082
+2024-09-21 00:25:07,420 v1.py aggregate [line:140] INFO Round 11, Client 45: Aggregation Weight=0.0156
+2024-09-21 00:25:07,420 v1.py aggregate [line:140] INFO Round 11, Client 46: Aggregation Weight=0.0201
+2024-09-21 00:25:07,420 v1.py aggregate [line:140] INFO Round 11, Client 47: Aggregation Weight=0.0681
+2024-09-21 00:25:07,420 v1.py aggregate [line:140] INFO Round 11, Client 48: Aggregation Weight=0.0010
+2024-09-21 00:25:07,420 v1.py aggregate [line:140] INFO Round 11, Client 49: Aggregation Weight=0.0432
+2024-09-21 00:25:07,421 v1.py aggregate [line:143] INFO Round 11: Total Aggregation Weight=1.0000
+2024-09-21 00:25:07,453 fedbase.py run [line:300] INFO --------------Round 11--------------
+2024-09-21 00:25:07,454 simple_logger.py log_once [line:14] INFO Current_time:11
+2024-09-21 00:25:11,573 simple_logger.py log_once [line:28] INFO test_accuracy                 0.1000
+2024-09-21 00:25:11,573 simple_logger.py log_once [line:28] INFO test_loss                     7.9701
+2024-09-21 00:25:11,573 simple_logger.py log_once [line:28] INFO val_accuracy                  0.1000
+2024-09-21 00:25:11,573 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.1000
+2024-09-21 00:25:11,573 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.3000
+2024-09-21 00:25:11,574 simple_logger.py log_once [line:28] INFO val_loss                      7.9701
+2024-09-21 00:25:11,574 simple_logger.py log_once [line:28] INFO mean_val_loss                 7.9701
+2024-09-21 00:25:11,574 simple_logger.py log_once [line:28] INFO std_val_loss                  4.2385
+2024-09-21 00:25:11,590 fedbase.py run [line:305] INFO Eval Time Cost:               4.1364s
+2024-09-21 00:25:11,590 v1.py iterate [line:69] INFO Round 12 started
+2024-09-21 00:25:11,591 v1.py iterate [line:73] INFO Round 12: Current weights - w1: 0.5000, w2: 0.5000
+2024-09-21 00:25:11,591 v1.py sample [line:59] INFO Round 12: Committee clients selected - [13, 39, 3, 43, 24, 16, 46, 12, 6, 29, 49, 30, 21, 25, 34]
+2024-09-21 00:25:11,591 v1.py sample [line:61] INFO Round 12: Normal clients selected - [0, 1, 2, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20, 22, 23, 26, 27, 28, 31, 32, 33, 35, 36, 37, 38, 40, 41, 42, 44, 45, 47, 48]
+2024-09-21 00:25:11,591 v1.py sample [line:63] INFO Round 12: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:27:27,306 v1.py iterate [line:121] INFO Round 12, Client 0: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=15.0819, Normalized Score=0.0443
+2024-09-21 00:27:27,342 v1.py iterate [line:121] INFO Round 12, Client 1: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=13.8572, Normalized Score=0.0536
+2024-09-21 00:27:27,379 v1.py iterate [line:121] INFO Round 12, Client 2: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.0021, Normalized Score=0.0827
+2024-09-21 00:27:27,419 v1.py iterate [line:121] INFO Round 12, Client 3: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=19.4906, Normalized Score=0.0200
+2024-09-21 00:27:27,458 v1.py iterate [line:121] INFO Round 12, Client 4: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.0859, Normalized Score=0.0702
+2024-09-21 00:27:27,494 v1.py iterate [line:121] INFO Round 12, Client 5: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.6720, Normalized Score=0.0747
+2024-09-21 00:27:27,536 v1.py iterate [line:121] INFO Round 12, Client 6: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=0.7011, Normalized Score=1.0000
+2024-09-21 00:27:27,575 v1.py iterate [line:121] INFO Round 12, Client 7: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.3075, Normalized Score=0.0790
+2024-09-21 00:27:27,611 v1.py iterate [line:121] INFO Round 12, Client 8: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=25.4407, Normalized Score=0.0000
+2024-09-21 00:27:27,646 v1.py iterate [line:121] INFO Round 12, Client 9: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=16.1926, Normalized Score=0.0370
+2024-09-21 00:27:27,713 v1.py iterate [line:121] INFO Round 12, Client 10: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=15.0819, Normalized Score=0.0443
+2024-09-21 00:27:27,791 v1.py iterate [line:121] INFO Round 12, Client 11: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.0859, Normalized Score=0.0702
+2024-09-21 00:27:27,868 v1.py iterate [line:121] INFO Round 12, Client 12: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.0021, Normalized Score=0.0827
+2024-09-21 00:27:27,913 v1.py iterate [line:121] INFO Round 12, Client 13: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=19.4906, Normalized Score=0.0200
+2024-09-21 00:27:27,952 v1.py iterate [line:121] INFO Round 12, Client 14: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.3075, Normalized Score=0.0790
+2024-09-21 00:27:28,012 v1.py iterate [line:121] INFO Round 12, Client 15: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.6720, Normalized Score=0.0747
+2024-09-21 00:27:28,076 v1.py iterate [line:121] INFO Round 12, Client 16: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=0.7011, Normalized Score=1.0000
+2024-09-21 00:27:28,166 v1.py iterate [line:121] INFO Round 12, Client 17: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=13.8572, Normalized Score=0.0536
+2024-09-21 00:27:28,243 v1.py iterate [line:121] INFO Round 12, Client 18: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=25.4407, Normalized Score=0.0000
+2024-09-21 00:27:28,300 v1.py iterate [line:121] INFO Round 12, Client 19: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=16.1926, Normalized Score=0.0370
+2024-09-21 00:27:28,390 v1.py iterate [line:121] INFO Round 12, Client 20: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=0.7011, Normalized Score=1.0000
+2024-09-21 00:27:28,471 v1.py iterate [line:121] INFO Round 12, Client 21: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.6720, Normalized Score=0.0747
+2024-09-21 00:27:28,543 v1.py iterate [line:121] INFO Round 12, Client 22: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=15.0819, Normalized Score=0.0443
+2024-09-21 00:27:28,606 v1.py iterate [line:121] INFO Round 12, Client 23: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.0859, Normalized Score=0.0702
+2024-09-21 00:27:28,653 v1.py iterate [line:121] INFO Round 12, Client 24: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=19.4906, Normalized Score=0.0200
+2024-09-21 00:27:28,688 v1.py iterate [line:121] INFO Round 12, Client 25: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=16.1926, Normalized Score=0.0370
+2024-09-21 00:27:28,726 v1.py iterate [line:121] INFO Round 12, Client 26: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.3075, Normalized Score=0.0790
+2024-09-21 00:27:28,779 v1.py iterate [line:121] INFO Round 12, Client 27: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=13.8572, Normalized Score=0.0536
+2024-09-21 00:27:28,831 v1.py iterate [line:121] INFO Round 12, Client 28: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=25.4407, Normalized Score=0.0000
+2024-09-21 00:27:28,867 v1.py iterate [line:121] INFO Round 12, Client 29: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.0021, Normalized Score=0.0827
+2024-09-21 00:27:28,906 v1.py iterate [line:121] INFO Round 12, Client 30: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.6720, Normalized Score=0.0747
+2024-09-21 00:27:28,941 v1.py iterate [line:121] INFO Round 12, Client 31: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.3075, Normalized Score=0.0790
+2024-09-21 00:27:28,977 v1.py iterate [line:121] INFO Round 12, Client 32: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=13.8572, Normalized Score=0.0536
+2024-09-21 00:27:29,016 v1.py iterate [line:121] INFO Round 12, Client 33: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=15.0819, Normalized Score=0.0443
+2024-09-21 00:27:29,093 v1.py iterate [line:121] INFO Round 12, Client 34: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.0021, Normalized Score=0.0827
+2024-09-21 00:27:29,156 v1.py iterate [line:121] INFO Round 12, Client 35: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=16.1926, Normalized Score=0.0370
+2024-09-21 00:27:29,222 v1.py iterate [line:121] INFO Round 12, Client 36: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.0859, Normalized Score=0.0702
+2024-09-21 00:27:29,257 v1.py iterate [line:121] INFO Round 12, Client 37: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=25.4407, Normalized Score=0.0000
+2024-09-21 00:27:29,292 v1.py iterate [line:121] INFO Round 12, Client 38: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=0.7011, Normalized Score=1.0000
+2024-09-21 00:27:29,329 v1.py iterate [line:121] INFO Round 12, Client 39: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=19.4906, Normalized Score=0.0200
+2024-09-21 00:27:29,364 v1.py iterate [line:121] INFO Round 12, Client 40: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=15.0819, Normalized Score=0.0443
+2024-09-21 00:27:29,435 v1.py iterate [line:121] INFO Round 12, Client 41: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=13.8572, Normalized Score=0.0536
+2024-09-21 00:27:29,505 v1.py iterate [line:121] INFO Round 12, Client 42: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.3075, Normalized Score=0.0790
+2024-09-21 00:27:29,551 v1.py iterate [line:121] INFO Round 12, Client 43: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=19.4906, Normalized Score=0.0200
+2024-09-21 00:27:29,587 v1.py iterate [line:121] INFO Round 12, Client 44: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=25.4407, Normalized Score=0.0000
+2024-09-21 00:27:29,626 v1.py iterate [line:121] INFO Round 12, Client 45: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.6720, Normalized Score=0.0747
+2024-09-21 00:27:29,663 v1.py iterate [line:121] INFO Round 12, Client 46: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=11.0021, Normalized Score=0.0827
+2024-09-21 00:27:29,716 v1.py iterate [line:121] INFO Round 12, Client 47: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=16.1926, Normalized Score=0.0370
+2024-09-21 00:27:29,786 v1.py iterate [line:121] INFO Round 12, Client 48: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.0859, Normalized Score=0.0702
+2024-09-21 00:27:29,867 v1.py iterate [line:121] INFO Round 12, Client 49: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=0.7011, Normalized Score=1.0000
+2024-09-21 00:27:29,871 v1.py aggregate [line:140] INFO Round 12, Client 0: Aggregation Weight=0.0061
+2024-09-21 00:27:29,871 v1.py aggregate [line:140] INFO Round 12, Client 1: Aggregation Weight=0.0073
+2024-09-21 00:27:29,871 v1.py aggregate [line:140] INFO Round 12, Client 2: Aggregation Weight=0.0113
+2024-09-21 00:27:29,871 v1.py aggregate [line:140] INFO Round 12, Client 3: Aggregation Weight=0.0027
+2024-09-21 00:27:29,871 v1.py aggregate [line:140] INFO Round 12, Client 4: Aggregation Weight=0.0096
+2024-09-21 00:27:29,871 v1.py aggregate [line:140] INFO Round 12, Client 5: Aggregation Weight=0.0102
+2024-09-21 00:27:29,871 v1.py aggregate [line:140] INFO Round 12, Client 6: Aggregation Weight=0.1369
+2024-09-21 00:27:29,871 v1.py aggregate [line:140] INFO Round 12, Client 7: Aggregation Weight=0.0108
+2024-09-21 00:27:29,871 v1.py aggregate [line:140] INFO Round 12, Client 8: Aggregation Weight=0.0000
+2024-09-21 00:27:29,871 v1.py aggregate [line:140] INFO Round 12, Client 9: Aggregation Weight=0.0051
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 10: Aggregation Weight=0.0061
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 11: Aggregation Weight=0.0096
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 12: Aggregation Weight=0.0113
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 13: Aggregation Weight=0.0027
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 14: Aggregation Weight=0.0108
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 15: Aggregation Weight=0.0102
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 16: Aggregation Weight=0.1369
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 17: Aggregation Weight=0.0073
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 18: Aggregation Weight=0.0000
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 19: Aggregation Weight=0.0051
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 20: Aggregation Weight=0.1369
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 21: Aggregation Weight=0.0102
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 22: Aggregation Weight=0.0061
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 23: Aggregation Weight=0.0096
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 24: Aggregation Weight=0.0027
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 25: Aggregation Weight=0.0051
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 26: Aggregation Weight=0.0108
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 27: Aggregation Weight=0.0073
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 28: Aggregation Weight=0.0000
+2024-09-21 00:27:29,872 v1.py aggregate [line:140] INFO Round 12, Client 29: Aggregation Weight=0.0113
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 30: Aggregation Weight=0.0102
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 31: Aggregation Weight=0.0108
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 32: Aggregation Weight=0.0073
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 33: Aggregation Weight=0.0061
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 34: Aggregation Weight=0.0113
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 35: Aggregation Weight=0.0051
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 36: Aggregation Weight=0.0096
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 37: Aggregation Weight=0.0000
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 38: Aggregation Weight=0.1369
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 39: Aggregation Weight=0.0027
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 40: Aggregation Weight=0.0061
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 41: Aggregation Weight=0.0073
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 42: Aggregation Weight=0.0108
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 43: Aggregation Weight=0.0027
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 44: Aggregation Weight=0.0000
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 45: Aggregation Weight=0.0102
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 46: Aggregation Weight=0.0113
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 47: Aggregation Weight=0.0051
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 48: Aggregation Weight=0.0096
+2024-09-21 00:27:29,873 v1.py aggregate [line:140] INFO Round 12, Client 49: Aggregation Weight=0.1369
+2024-09-21 00:27:29,873 v1.py aggregate [line:143] INFO Round 12: Total Aggregation Weight=1.0000
+2024-09-21 00:27:29,932 fedbase.py run [line:300] INFO --------------Round 12--------------
+2024-09-21 00:27:29,940 simple_logger.py log_once [line:14] INFO Current_time:12
+2024-09-21 00:27:34,472 simple_logger.py log_once [line:28] INFO test_accuracy                 0.1000
+2024-09-21 00:27:34,472 simple_logger.py log_once [line:28] INFO test_loss                     3.4776
+2024-09-21 00:27:34,473 simple_logger.py log_once [line:28] INFO val_accuracy                  0.1000
+2024-09-21 00:27:34,473 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.1000
+2024-09-21 00:27:34,473 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.3000
+2024-09-21 00:27:34,473 simple_logger.py log_once [line:28] INFO val_loss                      3.4776
+2024-09-21 00:27:34,473 simple_logger.py log_once [line:28] INFO mean_val_loss                 3.4776
+2024-09-21 00:27:34,473 simple_logger.py log_once [line:28] INFO std_val_loss                  2.1632
+2024-09-21 00:27:34,490 fedbase.py run [line:305] INFO Eval Time Cost:               4.5504s
+2024-09-21 00:27:34,490 v1.py iterate [line:69] INFO Round 13 started
+2024-09-21 00:27:34,490 v1.py iterate [line:73] INFO Round 13: Current weights - w1: 0.5000, w2: 0.5000
+2024-09-21 00:27:34,491 v1.py sample [line:59] INFO Round 13: Committee clients selected - [13, 39, 3, 43, 24, 16, 46, 12, 6, 29, 49, 30, 21, 25, 34]
+2024-09-21 00:27:34,491 v1.py sample [line:61] INFO Round 13: Normal clients selected - [0, 1, 2, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20, 22, 23, 26, 27, 28, 31, 32, 33, 35, 36, 37, 38, 40, 41, 42, 44, 45, 47, 48]
+2024-09-21 00:27:34,491 v1.py sample [line:63] INFO Round 13: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2024-09-21 00:29:47,187 v1.py iterate [line:121] INFO Round 13, Client 0: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=9.2925, Normalized Score=0.3303
+2024-09-21 00:29:47,237 v1.py iterate [line:121] INFO Round 13, Client 1: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=5.8136, Normalized Score=0.9204
+2024-09-21 00:29:47,272 v1.py iterate [line:121] INFO Round 13, Client 2: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=5.5164, Normalized Score=1.0000
+2024-09-21 00:29:47,318 v1.py iterate [line:121] INFO Round 13, Client 3: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.6542, Normalized Score=0.0457
+2024-09-21 00:29:47,351 v1.py iterate [line:121] INFO Round 13, Client 4: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.6848, Normalized Score=0.7225
+2024-09-21 00:29:47,387 v1.py iterate [line:121] INFO Round 13, Client 5: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.4574, Normalized Score=0.7697
+2024-09-21 00:29:47,436 v1.py iterate [line:121] INFO Round 13, Client 6: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.9395, Normalized Score=0.0279
+2024-09-21 00:29:47,507 v1.py iterate [line:121] INFO Round 13, Client 7: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.6163, Normalized Score=0.7364
+2024-09-21 00:29:47,583 v1.py iterate [line:121] INFO Round 13, Client 8: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=13.4105, Normalized Score=0.0000
+2024-09-21 00:29:47,652 v1.py iterate [line:121] INFO Round 13, Client 9: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=10.4153, Normalized Score=0.2166
+2024-09-21 00:29:47,729 v1.py iterate [line:121] INFO Round 13, Client 10: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=9.2925, Normalized Score=0.3303
+2024-09-21 00:29:47,801 v1.py iterate [line:121] INFO Round 13, Client 11: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.6848, Normalized Score=0.7225
+2024-09-21 00:29:47,852 v1.py iterate [line:121] INFO Round 13, Client 12: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=5.5164, Normalized Score=1.0000
+2024-09-21 00:29:47,886 v1.py iterate [line:121] INFO Round 13, Client 13: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.6542, Normalized Score=0.0457
+2024-09-21 00:29:47,923 v1.py iterate [line:121] INFO Round 13, Client 14: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.6163, Normalized Score=0.7364
+2024-09-21 00:29:47,961 v1.py iterate [line:121] INFO Round 13, Client 15: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.4574, Normalized Score=0.7697
+2024-09-21 00:29:47,995 v1.py iterate [line:121] INFO Round 13, Client 16: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.9395, Normalized Score=0.0279
+2024-09-21 00:29:48,031 v1.py iterate [line:121] INFO Round 13, Client 17: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=5.8136, Normalized Score=0.9204
+2024-09-21 00:29:48,098 v1.py iterate [line:121] INFO Round 13, Client 18: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=13.4105, Normalized Score=0.0000
+2024-09-21 00:29:48,167 v1.py iterate [line:121] INFO Round 13, Client 19: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=10.4153, Normalized Score=0.2166
+2024-09-21 00:29:48,234 v1.py iterate [line:121] INFO Round 13, Client 20: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.9395, Normalized Score=0.0279
+2024-09-21 00:29:48,310 v1.py iterate [line:121] INFO Round 13, Client 21: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.4574, Normalized Score=0.7697
+2024-09-21 00:29:48,348 v1.py iterate [line:121] INFO Round 13, Client 22: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=9.2925, Normalized Score=0.3303
+2024-09-21 00:29:48,384 v1.py iterate [line:121] INFO Round 13, Client 23: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.6848, Normalized Score=0.7225
+2024-09-21 00:29:48,420 v1.py iterate [line:121] INFO Round 13, Client 24: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.6542, Normalized Score=0.0457
+2024-09-21 00:29:48,458 v1.py iterate [line:121] INFO Round 13, Client 25: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=10.4153, Normalized Score=0.2166
+2024-09-21 00:29:48,502 v1.py iterate [line:121] INFO Round 13, Client 26: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.6163, Normalized Score=0.7364
+2024-09-21 00:29:48,536 v1.py iterate [line:121] INFO Round 13, Client 27: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=5.8136, Normalized Score=0.9204
+2024-09-21 00:29:48,577 v1.py iterate [line:121] INFO Round 13, Client 28: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=13.4105, Normalized Score=0.0000
+2024-09-21 00:29:48,612 v1.py iterate [line:121] INFO Round 13, Client 29: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=5.5164, Normalized Score=1.0000
+2024-09-21 00:29:48,651 v1.py iterate [line:121] INFO Round 13, Client 30: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.4574, Normalized Score=0.7697
+2024-09-21 00:29:48,689 v1.py iterate [line:121] INFO Round 13, Client 31: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.6163, Normalized Score=0.7364
+2024-09-21 00:29:48,728 v1.py iterate [line:121] INFO Round 13, Client 32: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=5.8136, Normalized Score=0.9204
+2024-09-21 00:29:48,767 v1.py iterate [line:121] INFO Round 13, Client 33: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=9.2925, Normalized Score=0.3303
+2024-09-21 00:29:48,800 v1.py iterate [line:121] INFO Round 13, Client 34: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=5.5164, Normalized Score=1.0000
+2024-09-21 00:29:48,836 v1.py iterate [line:121] INFO Round 13, Client 35: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=10.4153, Normalized Score=0.2166
+2024-09-21 00:29:48,871 v1.py iterate [line:121] INFO Round 13, Client 36: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.6848, Normalized Score=0.7225
+2024-09-21 00:29:48,908 v1.py iterate [line:121] INFO Round 13, Client 37: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=13.4105, Normalized Score=0.0000
+2024-09-21 00:29:48,944 v1.py iterate [line:121] INFO Round 13, Client 38: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.9395, Normalized Score=0.0279
+2024-09-21 00:29:48,981 v1.py iterate [line:121] INFO Round 13, Client 39: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.6542, Normalized Score=0.0457
+2024-09-21 00:29:49,048 v1.py iterate [line:121] INFO Round 13, Client 40: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=9.2925, Normalized Score=0.3303
+2024-09-21 00:29:49,097 v1.py iterate [line:121] INFO Round 13, Client 41: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=5.8136, Normalized Score=0.9204
+2024-09-21 00:29:49,135 v1.py iterate [line:121] INFO Round 13, Client 42: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.6163, Normalized Score=0.7364
+2024-09-21 00:29:49,172 v1.py iterate [line:121] INFO Round 13, Client 43: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.6542, Normalized Score=0.0457
+2024-09-21 00:29:49,228 v1.py iterate [line:121] INFO Round 13, Client 44: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=13.4105, Normalized Score=0.0000
+2024-09-21 00:29:49,302 v1.py iterate [line:121] INFO Round 13, Client 45: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.4574, Normalized Score=0.7697
+2024-09-21 00:29:49,347 v1.py iterate [line:121] INFO Round 13, Client 46: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=5.5164, Normalized Score=1.0000
+2024-09-21 00:29:49,383 v1.py iterate [line:121] INFO Round 13, Client 47: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=10.4153, Normalized Score=0.2166
+2024-09-21 00:29:49,424 v1.py iterate [line:121] INFO Round 13, Client 48: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=6.6848, Normalized Score=0.7225
+2024-09-21 00:29:49,490 v1.py iterate [line:121] INFO Round 13, Client 49: Local Acc=1.0000, Global Acc=0.1000, Grad Norm=12.9395, Normalized Score=0.0279
+2024-09-21 00:29:49,491 v1.py aggregate [line:140] INFO Round 13, Client 0: Aggregation Weight=0.0138
+2024-09-21 00:29:49,491 v1.py aggregate [line:140] INFO Round 13, Client 1: Aggregation Weight=0.0386
+2024-09-21 00:29:49,493 v1.py aggregate [line:140] INFO Round 13, Client 2: Aggregation Weight=0.0419
+2024-09-21 00:29:49,493 v1.py aggregate [line:140] INFO Round 13, Client 3: Aggregation Weight=0.0019
+2024-09-21 00:29:49,494 v1.py aggregate [line:140] INFO Round 13, Client 4: Aggregation Weight=0.0303
+2024-09-21 00:29:49,494 v1.py aggregate [line:140] INFO Round 13, Client 5: Aggregation Weight=0.0323
+2024-09-21 00:29:49,494 v1.py aggregate [line:140] INFO Round 13, Client 6: Aggregation Weight=0.0012
+2024-09-21 00:29:49,494 v1.py aggregate [line:140] INFO Round 13, Client 7: Aggregation Weight=0.0309
+2024-09-21 00:29:49,494 v1.py aggregate [line:140] INFO Round 13, Client 8: Aggregation Weight=0.0000
+2024-09-21 00:29:49,494 v1.py aggregate [line:140] INFO Round 13, Client 9: Aggregation Weight=0.0091
+2024-09-21 00:29:49,494 v1.py aggregate [line:140] INFO Round 13, Client 10: Aggregation Weight=0.0138
+2024-09-21 00:29:49,494 v1.py aggregate [line:140] INFO Round 13, Client 11: Aggregation Weight=0.0303
+2024-09-21 00:29:49,494 v1.py aggregate [line:140] INFO Round 13, Client 12: Aggregation Weight=0.0419
+2024-09-21 00:29:49,495 v1.py aggregate [line:140] INFO Round 13, Client 13: Aggregation Weight=0.0019
+2024-09-21 00:29:49,495 v1.py aggregate [line:140] INFO Round 13, Client 14: Aggregation Weight=0.0309
+2024-09-21 00:29:49,495 v1.py aggregate [line:140] INFO Round 13, Client 15: Aggregation Weight=0.0323
+2024-09-21 00:29:49,495 v1.py aggregate [line:140] INFO Round 13, Client 16: Aggregation Weight=0.0012
+2024-09-21 00:29:49,495 v1.py aggregate [line:140] INFO Round 13, Client 17: Aggregation Weight=0.0386
+2024-09-21 00:29:49,495 v1.py aggregate [line:140] INFO Round 13, Client 18: Aggregation Weight=0.0000
+2024-09-21 00:29:49,495 v1.py aggregate [line:140] INFO Round 13, Client 19: Aggregation Weight=0.0091
+2024-09-21 00:29:49,495 v1.py aggregate [line:140] INFO Round 13, Client 20: Aggregation Weight=0.0012
+2024-09-21 00:29:49,496 v1.py aggregate [line:140] INFO Round 13, Client 21: Aggregation Weight=0.0323
+2024-09-21 00:29:49,496 v1.py aggregate [line:140] INFO Round 13, Client 22: Aggregation Weight=0.0138
+2024-09-21 00:29:49,496 v1.py aggregate [line:140] INFO Round 13, Client 23: Aggregation Weight=0.0303
+2024-09-21 00:29:49,496 v1.py aggregate [line:140] INFO Round 13, Client 24: Aggregation Weight=0.0019
+2024-09-21 00:29:49,496 v1.py aggregate [line:140] INFO Round 13, Client 25: Aggregation Weight=0.0091
+2024-09-21 00:29:49,496 v1.py aggregate [line:140] INFO Round 13, Client 26: Aggregation Weight=0.0309
+2024-09-21 00:29:49,496 v1.py aggregate [line:140] INFO Round 13, Client 27: Aggregation Weight=0.0386
+2024-09-21 00:29:49,496 v1.py aggregate [line:140] INFO Round 13, Client 28: Aggregation Weight=0.0000
+2024-09-21 00:29:49,497 v1.py aggregate [line:140] INFO Round 13, Client 29: Aggregation Weight=0.0419
+2024-09-21 00:29:49,497 v1.py aggregate [line:140] INFO Round 13, Client 30: Aggregation Weight=0.0323
+2024-09-21 00:29:49,497 v1.py aggregate [line:140] INFO Round 13, Client 31: Aggregation Weight=0.0309
+2024-09-21 00:29:49,497 v1.py aggregate [line:140] INFO Round 13, Client 32: Aggregation Weight=0.0386
+2024-09-21 00:29:49,497 v1.py aggregate [line:140] INFO Round 13, Client 33: Aggregation Weight=0.0138
+2024-09-21 00:29:49,497 v1.py aggregate [line:140] INFO Round 13, Client 34: Aggregation Weight=0.0419
+2024-09-21 00:29:49,497 v1.py aggregate [line:140] INFO Round 13, Client 35: Aggregation Weight=0.0091
+2024-09-21 00:29:49,497 v1.py aggregate [line:140] INFO Round 13, Client 36: Aggregation Weight=0.0303
+2024-09-21 00:29:49,498 v1.py aggregate [line:140] INFO Round 13, Client 37: Aggregation Weight=0.0000
+2024-09-21 00:29:49,498 v1.py aggregate [line:140] INFO Round 13, Client 38: Aggregation Weight=0.0012
+2024-09-21 00:29:49,498 v1.py aggregate [line:140] INFO Round 13, Client 39: Aggregation Weight=0.0019
+2024-09-21 00:29:49,499 v1.py aggregate [line:140] INFO Round 13, Client 40: Aggregation Weight=0.0138
+2024-09-21 00:29:49,499 v1.py aggregate [line:140] INFO Round 13, Client 41: Aggregation Weight=0.0386
+2024-09-21 00:29:49,499 v1.py aggregate [line:140] INFO Round 13, Client 42: Aggregation Weight=0.0309
+2024-09-21 00:29:49,499 v1.py aggregate [line:140] INFO Round 13, Client 43: Aggregation Weight=0.0019
+2024-09-21 00:29:49,499 v1.py aggregate [line:140] INFO Round 13, Client 44: Aggregation Weight=0.0000
+2024-09-21 00:29:49,499 v1.py aggregate [line:140] INFO Round 13, Client 45: Aggregation Weight=0.0323
+2024-09-21 00:29:49,499 v1.py aggregate [line:140] INFO Round 13, Client 46: Aggregation Weight=0.0419
+2024-09-21 00:29:49,502 v1.py aggregate [line:140] INFO Round 13, Client 47: Aggregation Weight=0.0091
+2024-09-21 00:29:49,502 v1.py aggregate [line:140] INFO Round 13, Client 48: Aggregation Weight=0.0303
+2024-09-21 00:29:49,502 v1.py aggregate [line:140] INFO Round 13, Client 49: Aggregation Weight=0.0012
+2024-09-21 00:29:49,502 v1.py aggregate [line:143] INFO Round 13: Total Aggregation Weight=1.0000
+2024-09-21 00:29:49,566 fedbase.py run [line:300] INFO --------------Round 13--------------
+2024-09-21 00:29:49,567 simple_logger.py log_once [line:14] INFO Current_time:13
+2024-09-21 00:29:55,443 simple_logger.py log_once [line:28] INFO test_accuracy                 0.1000
+2024-09-21 00:29:55,444 simple_logger.py log_once [line:28] INFO test_loss                     4.9645
+2024-09-21 00:29:55,444 simple_logger.py log_once [line:28] INFO val_accuracy                  0.1000
+2024-09-21 00:29:55,444 simple_logger.py log_once [line:28] INFO mean_val_accuracy             0.1000
+2024-09-21 00:29:55,444 simple_logger.py log_once [line:28] INFO std_val_accuracy              0.3000
+2024-09-21 00:29:55,444 simple_logger.py log_once [line:28] INFO val_loss                      4.9645
+2024-09-21 00:29:55,444 simple_logger.py log_once [line:28] INFO mean_val_loss                 4.9645
+2024-09-21 00:29:55,444 simple_logger.py log_once [line:28] INFO std_val_loss                  3.7720
+2024-09-21 00:29:55,465 fedbase.py run [line:305] INFO Eval Time Cost:               5.8988s
+2024-09-21 00:29:55,466 v1.py iterate [line:69] INFO Round 14 started
+2024-09-21 00:29:55,466 v1.py iterate [line:73] INFO Round 14: Current weights - w1: 0.5000, w2: 0.5000
+2024-09-21 00:29:55,466 v1.py sample [line:59] INFO Round 14: Committee clients selected - [13, 39, 3, 43, 24, 16, 46, 12, 6, 29, 49, 30, 21, 25, 34]
+2024-09-21 00:29:55,466 v1.py sample [line:61] INFO Round 14: Normal clients selected - [0, 1, 2, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20, 22, 23, 26, 27, 28, 31, 32, 33, 35, 36, 37, 38, 40, 41, 42, 44, 45, 47, 48]
+2024-09-21 00:29:55,466 v1.py sample [line:63] INFO Round 14: All selected clients - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
