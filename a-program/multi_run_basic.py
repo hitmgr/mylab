@@ -18,10 +18,10 @@ configurations = {
     "iid": {'benchmark':{'name':'flgo.benchmark.cifar10_classification'}, 'partitioner':{'name':'IIDPartitioner', 'para':{'num_clients': NUM_CLIENTS}}},
     # "div01": {'benchmark':{'name':'flgo.benchmark.cifar10_classification'}, 'partitioner':{'name':'DiversityPartitioner', 'para':{'num_clients': NUM_CLIENTS, 'diversity':0.1}}},
     # "div05": {'benchmark':{'name':'flgo.benchmark.cifar10_classification'}, 'partitioner':{'name':'DiversityPartitioner', 'para':{'num_clients': NUM_CLIENTS, 'diversity':0.5}}},
-    "div09": {'benchmark':{'name':'flgo.benchmark.cifar10_classification'}, 'partitioner':{'name':'DiversityPartitioner', 'para':{'num_clients': NUM_CLIENTS, 'diversity':0.9}}},
+    # "div09": {'benchmark':{'name':'flgo.benchmark.cifar10_classification'}, 'partitioner':{'name':'DiversityPartitioner', 'para':{'num_clients': NUM_CLIENTS, 'diversity':0.9}}},
     # "dir01": {'benchmark':{'name':'flgo.benchmark.cifar10_classification'}, 'partitioner':{'name':'DirichletPartitioner', 'para':{'num_clients': NUM_CLIENTS, 'alpha':0.1}}},
     # "dir10": {'benchmark':{'name':'flgo.benchmark.cifar10_classification'}, 'partitioner':{'name':'DirichletPartitioner', 'para':{'num_clients': NUM_CLIENTS, 'alpha':1.0}}},
-    "dir50": {'benchmark':{'name':'flgo.benchmark.cifar10_classification'}, 'partitioner':{'name':'DirichletPartitioner', 'para':{'num_clients': NUM_CLIENTS, 'alpha':5.0}}}
+    # "dir50": {'benchmark':{'name':'flgo.benchmark.cifar10_classification'}, 'partitioner':{'name':'DirichletPartitioner', 'para':{'num_clients': NUM_CLIENTS, 'alpha':5.0}}}
 }
 
 # configurations = {
@@ -50,7 +50,10 @@ for partition in partitions:
     task = os.path.join(task_prefix, partition)
     
     # algorithm_list = ['MyAlgorithm', 'fedavg', 'fedprox']
-    algorithm_list = ['MyAlgorithm','fedavg' ]
+    algorithm_list = [
+        'MyAlgorithm',
+        # 'fedavg' 
+        ]
 
     for algorithm_name in algorithm_list:
         algorithm = globals()[algorithm_name]  # 将字符串转换为函数或类对象
