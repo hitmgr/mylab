@@ -85,7 +85,8 @@ class Server(fedbase.BasicServer):
             local_acc = self.clients[cid].test(model)['accuracy']
             
             # 计算客户端模型对全局模型的相对准确率提升
-            A_i = max(0, (local_acc - current_global_acc) / (1 - current_global_acc))
+            # A_i = max(0, (local_acc - current_global_acc) / (1 - current_global_acc))
+            A_i = 0.5 * local_acc +0.5 * current_global_acc
 
             # 解释：
             # 1. 这个公式的设计目的是为了更好地体现高准确率区间的提升价值。

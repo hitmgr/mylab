@@ -16,12 +16,12 @@ class ActivityHeterogeneitySimulator_Committee(flgo.simulator.base.BasicSimulato
         self.committee = self.server.committee
 
         # 低频率活跃性异构
-        pa = [0.1 for _ in self.clients]
-        pua = [0.1 for _ in self.clients]
+        # pa = [0.1 for _ in self.clients]
+        # pua = [0.1 for _ in self.clients]
 
         # 高频率活跃性异构（注释掉）
-        # pa = [0.9 for _ in self.clients]
-        # pua = [0.9 for _ in self.clients]
+        pa = [0.9 for _ in self.clients]
+        pua = [0.9 for _ in self.clients]
 
         # 确保委员会成员始终可用
         for cid in self.all_clients:

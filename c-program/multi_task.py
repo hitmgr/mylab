@@ -7,10 +7,10 @@ from algorithms.v1 import V1
 from algorithms.simulator import ActivityHeterogeneitySimulator_basic,ActivityHeterogeneitySimulator_Committee
 import flgo.experiment.device_scheduler as ds
 import torch.multiprocessing
-import flgo.benchmark.cifar10_classification.model.resnet18_gn as resnet18
+# import flgo.benchmark.cifar10_classification.model.resnet18_gn as resnet18
 
 # 设置基本路径
-BASE_PATH = 'tasks/9.21'
+BASE_PATH = 'tasks/9.22(0.9)'
 NUM_CLIENTS = 50
 
 # 确保基本路径存在
@@ -19,7 +19,7 @@ if not os.path.exists(BASE_PATH):
 
 # 定义不同的数据划分配置
 configurations = {
-    "iid": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'IIDPartitioner', 'para': {'num_clients': NUM_CLIENTS}}},
+    # "iid": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'IIDPartitioner', 'para': {'num_clients': NUM_CLIENTS}}},
     "div01": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DiversityPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'diversity': 0.1}}},
     "div05": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DiversityPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'diversity': 0.5}}},
     "div09": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DiversityPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'diversity': 0.9}}},
@@ -39,13 +39,13 @@ print("Tasks generated successfully under", BASE_PATH)
 def get_algorithm_option(algorithm_name):
     base_option = {
         'log_file': True,
-        'num_rounds': 20,
+        'num_rounds': 100,
         'proportion': 1.0,
-        'learning_rate': 0.1,  # 0.01-0.001
-        # 'num_epochs': 1,
-        'batch_size':64,
+        'learning_rate': 0.01,  # 0.01-0.001
+        'num_epochs': 1,
+        # 'batch_size':64,
         # 'eval_interval': 1,
-        # 'save_checkpoint': 123,
+        'save_checkpoint': 123,
         # 'load_checkpoint': 123,
     }
     
@@ -54,10 +54,10 @@ def get_algorithm_option(algorithm_name):
             NUM_CLIENTS,  # d: 每轮预设选取的客户端数量
             0.1,  # committee_ratio: 委员会大小占参与客户端的比例
             1,  # K_min: 最小委员会节点数
-            0.5,  # w_acc: 准确率提升权重
-            0.4,  # w_grad: 梯度质量权重
-            0.05,  # w_time: 时间衰减权重
-            0.05,  # w_committee: 委员会奖励权重
+            0.3,  # w_acc: 准确率提升权重
+            0.3,  # w_grad: 梯度质量权重
+            0.2,  # w_time: 时间衰减权重
+            0.2,  # w_committee: 委员会奖励权重
             0.1,  # gamma: 时间衰减因子
             10,  # selected_round: 更新委员会的轮次间隔
             95,  # tau_percentile: 用于计算tau的百分位数
@@ -71,7 +71,7 @@ def get_algorithm_option(algorithm_name):
             0.7,  # w2: 初始全局准确率权重
             0.1,  # gamma: 用于得分计算中的时间衰减因子
             0.9,  # momentum: 动量因子，用于时间衰减
-            20,  # selected_round: 每隔多少轮更新一次委员会
+            10,  # selected_round: 每隔多少轮更新一次委员会
             0.005,  # adjust_rate: 自适应权重调整速率
             10,  # patience: 耐心轮数，用于判断全局准确率的变化
         ]
@@ -85,13 +85,13 @@ def get_algorithm_option(algorithm_name):
 
 # 根据不同的算法选择不同的simulator
 def get_algorithm_simulator(algorithm_name):
-    if algorithm_name == 'MyAlgorithmTime':
+    if algorithm_name in ['V1', 'V2']:
         simulator = ActivityHeterogeneitySimulator_Committee
-    elif algorithm_name == 'fedavg' or 'fedprox':
+    elif algorithm_name in ['fedavg', 'fedprox']:
         simulator = ActivityHeterogeneitySimulator_basic
     else:
-        # 退出并报错
-        print(f"Unknown algorithm: {algorithm_name}")
+        # 抛出异常并退出
+        raise ValueError(f"Unknown algorithm: {algorithm_name}")
     
     return simulator
         
@@ -100,10 +100,10 @@ def get_algorithm_simulator(algorithm_name):
 runner_dict = []
 partitions = list(configurations.keys())
 algorithm_list = [
-    # 'V1', 
+    'V1', 
     'V2',
-    'fedavg', 
-    'fedprox'
+    # 'fedavg', 
+    # 'fedprox'
 ]
 
 for partition in partitions:
@@ -117,11 +117,11 @@ for partition in partitions:
             'algorithm': algorithm,
             'option': option,
             # 'model': resnet18,
-            # 'Simulator': simulator
+            'Simulator': simulator
         })
         
 # 使用AutoScheduler，指定使用的GPU编号
-asc = ds.AutoScheduler([0,1,])
+asc = ds.AutoScheduler([0,1])
 
 if __name__ == '__main__':
     # 设置多进程启动方法和共享策略
