@@ -1,0 +1,5 @@
+v1_dynamic是v1版本动态修改权重
+v1_static是v1版本固定权重
+
+v2_origin是v2原始版本
+v2_change是v2根据v1的权重公式修改后的版本

@@ -1,16 +1,18 @@
 import os
 import flgo
+import flgo.experiment.logger
 import flgo.algorithm.fedavg as fedavg
 import flgo.algorithm.fedprox as fedprox
 from algorithms.v2 import V2
-from algorithms.v1 import V1
+from algorithms.v1_dynamic import V1_D
+from algorithms.v1_static import V1_S
 from algorithms.simulator import ActivityHeterogeneitySimulator_basic,ActivityHeterogeneitySimulator_Committee
 import flgo.experiment.device_scheduler as ds
 import torch.multiprocessing
 # import flgo.benchmark.cifar10_classification.model.resnet18_gn as resnet18
 
 # 设置基本路径
-BASE_PATH = 'tasks/9.22(0.9)'
+BASE_PATH = 'tasks/10.3'
 NUM_CLIENTS = 50
 
 # 确保基本路径存在
@@ -19,12 +21,12 @@ if not os.path.exists(BASE_PATH):
 
 # 定义不同的数据划分配置
 configurations = {
-    # "iid": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'IIDPartitioner', 'para': {'num_clients': NUM_CLIENTS}}},
-    "div01": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DiversityPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'diversity': 0.1}}},
-    "div05": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DiversityPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'diversity': 0.5}}},
-    "div09": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DiversityPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'diversity': 0.9}}},
-    "dir01": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DirichletPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'alpha': 0.1}}},
-    "dir10": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DirichletPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'alpha': 1.0}}},
+    "iid": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'IIDPartitioner', 'para': {'num_clients': NUM_CLIENTS}}},
+    # "div01": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DiversityPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'diversity': 0.1}}},
+    # "div05": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DiversityPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'diversity': 0.5}}},
+    # "div09": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DiversityPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'diversity': 0.9}}},
+    # "dir01": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DirichletPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'alpha': 0.1}}},
+    # "dir10": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DirichletPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'alpha': 1.0}}},
     "dir50": {'benchmark': {'name': 'flgo.benchmark.cifar10_classification'}, 'partitioner': {'name': 'DirichletPartitioner', 'para': {'num_clients': NUM_CLIENTS, 'alpha': 5.0}}}
 }
 
@@ -45,7 +47,7 @@ def get_algorithm_option(algorithm_name):
         'num_epochs': 1,
         # 'batch_size':64,
         # 'eval_interval': 1,
-        'save_checkpoint': 123,
+        # 'save_checkpoint': 123,
         # 'load_checkpoint': 123,
     }
     
@@ -62,7 +64,7 @@ def get_algorithm_option(algorithm_name):
             10,  # selected_round: 更新委员会的轮次间隔
             95,  # tau_percentile: 用于计算tau的百分位数
         ]
-    elif algorithm_name == 'V1':
+    elif algorithm_name == 'V1_D':
         base_option['algo_para'] = [
             NUM_CLIENTS,  # d: 每轮预设选取的客户端数量
             1,  # alpha: 用于计算委员会节点数 K 的参数
@@ -75,6 +77,17 @@ def get_algorithm_option(algorithm_name):
             0.005,  # adjust_rate: 自适应权重调整速率
             10,  # patience: 耐心轮数，用于判断全局准确率的变化
         ]
+    elif algorithm_name == 'V1_S':
+        base_option['algo_para'] = [
+            NUM_CLIENTS,  # d: 每轮预设选取的客户端数量
+            1,  # alpha: 用于计算委员会节点数 K 的参数
+            1,  # K_min: 最小委员会节点数，确保至少有一个客户端在委员会中
+            0.3,  # w1: 初始本地准确率权重
+            0.7,  # w2: 初始全局准确率权重
+            0.1,  # gamma: 用于得分计算中的时间衰减因子
+            0.9,  # momentum: 动量因子，用于时间衰减
+            10,  # selected_round: 每隔多少轮更新一次委员会
+        ]
     elif algorithm_name == 'fedprox':
         base_option['algo_para'] = [
             0.1,  # mu: fedprox的mu参数
@@ -85,7 +98,7 @@ def get_algorithm_option(algorithm_name):
 
 # 根据不同的算法选择不同的simulator
 def get_algorithm_simulator(algorithm_name):
-    if algorithm_name in ['V1', 'V2']:
+    if algorithm_name in ['V1_S', 'V1_D', 'V2']:
         simulator = ActivityHeterogeneitySimulator_Committee
     elif algorithm_name in ['fedavg', 'fedprox']:
         simulator = ActivityHeterogeneitySimulator_basic
@@ -100,8 +113,9 @@ def get_algorithm_simulator(algorithm_name):
 runner_dict = []
 partitions = list(configurations.keys())
 algorithm_list = [
-    'V1', 
-    'V2',
+    'V1_S',
+    'V1_D', 
+    # 'V2',
     # 'fedavg', 
     # 'fedprox'
 ]
@@ -117,7 +131,7 @@ for partition in partitions:
             'algorithm': algorithm,
             'option': option,
             # 'model': resnet18,
-            'Simulator': simulator
+            # 'Simulator': simulator
         })
         
 # 使用AutoScheduler，指定使用的GPU编号
