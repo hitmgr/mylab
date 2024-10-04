@@ -19,7 +19,7 @@ class ActivityHeterogeneitySimulator_Committee(flgo.simulator.base.BasicSimulato
         # pa = [0.1 for _ in self.clients]
         # pua = [0.1 for _ in self.clients]
 
-        # 高频率活跃性异构（注释掉）
+        # # 高频率活跃性异构（注释掉）,状态极易改变
         pa = [0.9 for _ in self.clients]
         pua = [0.9 for _ in self.clients]
 

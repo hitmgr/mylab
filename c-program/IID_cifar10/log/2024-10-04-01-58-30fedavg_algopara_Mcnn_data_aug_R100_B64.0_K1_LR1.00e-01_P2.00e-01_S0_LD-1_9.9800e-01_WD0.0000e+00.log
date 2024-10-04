@@ -1,0 +1,313 @@
+2024-10-04 01:58:30,413 fflow.py init [line:788] INFO PROCESS ID:	636742
+2024-10-04 01:58:30,414 fflow.py init [line:789] INFO Initializing devices: cuda:0 will be used for this running.
+2024-10-04 01:58:30,414 fflow.py init [line:792] INFO BENCHMARK:	flgo.benchmark.cifar10_classification
+2024-10-04 01:58:30,415 fflow.py init [line:793] INFO TASK:			./IID_cifar10
+2024-10-04 01:58:30,415 fflow.py init [line:794] INFO MODEL:		flgo.benchmark.cifar10_classification.model.cnn_data_aug
+2024-10-04 01:58:30,415 fflow.py init [line:795] INFO ALGORITHM:	fedavg
+2024-10-04 01:58:30,423 fflow.py init [line:841] INFO SCENE:		horizontal FL with 1 <class 'flgo.algorithm.fedbase.BasicServer'>, 100 <class 'flgo.algorithm.fedbase.BasicClient'>
+2024-10-04 01:58:30,454 fflow.py init [line:858] INFO SIMULATOR:	<class '__main__.MySimulator'>
+2024-10-04 01:58:30,455 fflow.py init [line:871] INFO Ready to start.
+2024-10-04 01:58:30,455 fedbase.py run [line:289] INFO --------------Initial Evaluation--------------
+2024-10-04 01:58:30,456 fedbase.py run [line:292] INFO Eval Time Cost:               0.0000s
+2024-10-04 01:58:30,456 base.py sample_with_availability [line:473] INFO The selected clients [44, 58, 66, 79, 72, 71, 34, 63, 93, 90, 20] are not currently available.
+2024-10-04 01:58:30,670 fedbase.py run [line:300] INFO --------------Round 1--------------
+2024-10-04 01:58:30,671 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:30,671 base.py sample_with_availability [line:473] INFO The selected clients [75, 40, 70, 59, 54, 4, 60] are not currently available.
+2024-10-04 01:58:30,976 fedbase.py run [line:300] INFO --------------Round 2--------------
+2024-10-04 01:58:30,976 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:30,977 base.py sample_with_availability [line:473] INFO The selected clients [86, 78, 54, 65, 62, 43, 9, 20, 70, 35, 46, 3, 30, 23] are not currently available.
+2024-10-04 01:58:31,121 fedbase.py run [line:300] INFO --------------Round 3--------------
+2024-10-04 01:58:31,122 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:31,122 base.py sample_with_availability [line:473] INFO The selected clients [77, 55, 37, 30, 42, 11, 99, 44, 23, 34, 46, 78, 15, 62] are not currently available.
+2024-10-04 01:58:31,266 fedbase.py run [line:300] INFO --------------Round 4--------------
+2024-10-04 01:58:31,267 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:31,268 base.py sample_with_availability [line:473] INFO The selected clients [9, 57, 68, 83, 66, 4, 2, 41, 99, 27, 73, 7, 37, 59, 44, 49] are not currently available.
+2024-10-04 01:58:31,365 fedbase.py run [line:300] INFO --------------Round 5--------------
+2024-10-04 01:58:31,365 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:31,366 base.py sample_with_availability [line:473] INFO The selected clients [73, 84, 66, 77, 42, 59, 15, 49, 6, 63, 68, 3, 52, 17, 60] are not currently available.
+2024-10-04 01:58:31,487 fedbase.py run [line:300] INFO --------------Round 6--------------
+2024-10-04 01:58:31,487 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:31,488 base.py sample_with_availability [line:473] INFO The selected clients [92, 69, 68, 31, 85, 52, 60, 71, 29, 87, 15, 23, 21, 56, 73, 41] are not currently available.
+2024-10-04 01:58:31,585 fedbase.py run [line:300] INFO --------------Round 7--------------
+2024-10-04 01:58:31,586 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:31,586 base.py sample_with_availability [line:473] INFO The selected clients [43, 13, 74, 17, 89, 10, 16, 37, 93, 79, 33, 6, 31, 80, 29] are not currently available.
+2024-10-04 01:58:31,710 fedbase.py run [line:300] INFO --------------Round 8--------------
+2024-10-04 01:58:31,710 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:31,711 base.py sample_with_availability [line:473] INFO The selected clients [61, 32, 69, 59, 29, 50, 48, 52, 79, 11, 78, 31, 3, 97, 25, 83, 10] are not currently available.
+2024-10-04 01:58:31,787 fedbase.py run [line:300] INFO --------------Round 9--------------
+2024-10-04 01:58:31,787 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:31,788 base.py sample_with_availability [line:473] INFO The selected clients [86, 77, 13, 76, 93, 57, 84, 43, 53, 30, 59, 41, 31, 42] are not currently available.
+2024-10-04 01:58:31,931 fedbase.py run [line:300] INFO --------------Round 10--------------
+2024-10-04 01:58:31,932 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:31,932 base.py sample_with_availability [line:473] INFO The selected clients [56, 6, 13, 47, 23, 19, 9, 94, 83, 91, 0, 79, 51, 34, 30, 54, 33] are not currently available.
+2024-10-04 01:58:32,008 fedbase.py run [line:300] INFO --------------Round 11--------------
+2024-10-04 01:58:32,008 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:32,008 base.py sample_with_availability [line:473] INFO The selected clients [69, 52, 47, 77, 73, 57, 50, 45, 13, 43, 34, 30, 9, 24] are not currently available.
+2024-10-04 01:58:32,153 fedbase.py run [line:300] INFO --------------Round 12--------------
+2024-10-04 01:58:32,154 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:32,154 base.py sample_with_availability [line:473] INFO The selected clients [0, 30, 44, 11, 77, 5, 52, 2, 89, 50, 67, 59, 62, 49, 96, 42, 10] are not currently available.
+2024-10-04 01:58:32,231 fedbase.py run [line:300] INFO --------------Round 13--------------
+2024-10-04 01:58:32,231 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:32,232 base.py sample_with_availability [line:473] INFO The selected clients [72, 87, 53, 92, 30, 71, 52, 69, 11, 67, 19, 25, 33, 84, 99, 59, 43, 7, 44] are not currently available.
+2024-10-04 01:58:32,261 fedbase.py run [line:300] INFO --------------Round 14--------------
+2024-10-04 01:58:32,262 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:32,262 base.py sample_with_availability [line:473] INFO The selected clients [78, 6, 76, 8, 45, 77, 36, 31, 52, 57, 0, 84, 99, 68, 85] are not currently available.
+2024-10-04 01:58:32,386 fedbase.py run [line:300] INFO --------------Round 15--------------
+2024-10-04 01:58:32,386 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:32,387 base.py sample_with_availability [line:473] INFO The selected clients [15, 8, 30, 22, 6, 42, 78, 3, 21, 68, 11, 39, 62, 99] are not currently available.
+2024-10-04 01:58:32,530 fedbase.py run [line:300] INFO --------------Round 16--------------
+2024-10-04 01:58:32,531 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:32,531 base.py sample_with_availability [line:473] INFO The selected clients [31, 36, 79, 87, 39, 29, 15, 30, 73, 67, 86, 78, 51] are not currently available.
+2024-10-04 01:58:32,698 fedbase.py run [line:300] INFO --------------Round 17--------------
+2024-10-04 01:58:32,699 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:32,700 base.py sample_with_availability [line:473] INFO The selected clients [46, 6, 28, 19, 30, 9, 69, 53, 22, 31, 12, 27, 37] are not currently available.
+2024-10-04 01:58:32,866 fedbase.py run [line:300] INFO --------------Round 18--------------
+2024-10-04 01:58:32,866 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:32,867 base.py sample_with_availability [line:473] INFO The selected clients [22, 62, 7, 55, 29, 97, 49, 58, 19, 87, 40, 72, 37, 69, 1] are not currently available.
+2024-10-04 01:58:32,987 fedbase.py run [line:300] INFO --------------Round 19--------------
+2024-10-04 01:58:32,987 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:32,988 base.py sample_with_availability [line:473] INFO The selected clients [35, 71, 18, 37, 5, 17, 86, 42, 52, 19, 79] are not currently available.
+2024-10-04 01:58:33,201 fedbase.py run [line:300] INFO --------------Round 20--------------
+2024-10-04 01:58:33,201 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:33,202 base.py sample_with_availability [line:473] INFO The selected clients [34, 90, 48, 1, 51, 8, 95, 56, 29, 64, 42, 74, 16, 38, 31, 33] are not currently available.
+2024-10-04 01:58:33,299 fedbase.py run [line:300] INFO --------------Round 21--------------
+2024-10-04 01:58:33,300 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:33,300 base.py sample_with_availability [line:473] INFO The selected clients [90, 75, 99, 1, 33, 18, 53, 74, 31, 60, 64, 89] are not currently available.
+2024-10-04 01:58:33,491 fedbase.py run [line:300] INFO --------------Round 22--------------
+2024-10-04 01:58:33,491 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:33,492 base.py sample_with_availability [line:473] INFO The selected clients [14, 88, 21, 74, 79, 28, 81, 72, 96, 44, 52, 39, 33, 16, 83] are not currently available.
+2024-10-04 01:58:33,612 fedbase.py run [line:300] INFO --------------Round 23--------------
+2024-10-04 01:58:33,613 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:33,613 base.py sample_with_availability [line:473] INFO The selected clients [74, 52, 67, 14, 36, 28, 0, 68, 72, 20, 46, 65, 84, 24, 59] are not currently available.
+2024-10-04 01:58:33,734 fedbase.py run [line:300] INFO --------------Round 24--------------
+2024-10-04 01:58:33,735 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:33,735 base.py sample_with_availability [line:473] INFO The selected clients [36, 34, 69, 81, 27, 3, 85, 63, 46, 48, 97, 71, 28, 62, 21] are not currently available.
+2024-10-04 01:58:33,856 fedbase.py run [line:300] INFO --------------Round 25--------------
+2024-10-04 01:58:33,856 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:33,857 base.py sample_with_availability [line:473] INFO The selected clients [21, 69, 63, 16, 8, 84, 0, 1, 28, 87, 86, 98, 24, 95] are not currently available.
+2024-10-04 01:58:34,001 fedbase.py run [line:300] INFO --------------Round 26--------------
+2024-10-04 01:58:34,001 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:34,002 base.py sample_with_availability [line:473] INFO The selected clients [64, 6, 44, 48, 42, 28, 31, 11, 16, 35, 62, 59, 43] are not currently available.
+2024-10-04 01:58:34,169 fedbase.py run [line:300] INFO --------------Round 27--------------
+2024-10-04 01:58:34,169 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:34,170 base.py sample_with_availability [line:473] INFO The selected clients [66, 83, 0, 72, 64, 60, 63, 85, 40, 42] are not currently available.
+2024-10-04 01:58:34,406 fedbase.py run [line:300] INFO --------------Round 28--------------
+2024-10-04 01:58:34,407 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:34,408 base.py sample_with_availability [line:473] INFO The selected clients [32, 51, 71, 69, 96, 54, 4, 11, 38, 76, 42, 82, 73, 66, 52] are not currently available.
+2024-10-04 01:58:34,528 fedbase.py run [line:300] INFO --------------Round 29--------------
+2024-10-04 01:58:34,528 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:34,529 base.py sample_with_availability [line:473] INFO The selected clients [64, 66, 96, 7, 97, 14, 9, 5, 29, 65, 81, 43, 19, 92, 68, 87, 80] are not currently available.
+2024-10-04 01:58:34,603 fedbase.py run [line:300] INFO --------------Round 30--------------
+2024-10-04 01:58:34,604 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:34,604 base.py sample_with_availability [line:473] INFO The selected clients [86, 30, 82, 6, 3, 91, 94, 53, 42, 26, 16, 81, 95, 7] are not currently available.
+2024-10-04 01:58:34,749 fedbase.py run [line:300] INFO --------------Round 31--------------
+2024-10-04 01:58:34,749 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:34,750 base.py sample_with_availability [line:473] INFO The selected clients [6, 54, 8, 41, 31, 63, 71, 34, 24, 88, 70, 91, 40, 82] are not currently available.
+2024-10-04 01:58:34,893 fedbase.py run [line:300] INFO --------------Round 32--------------
+2024-10-04 01:58:34,894 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:34,894 base.py sample_with_availability [line:473] INFO The selected clients [18, 34, 68, 82, 23, 37, 44, 55, 85, 70, 45, 7] are not currently available.
+2024-10-04 01:58:35,085 fedbase.py run [line:300] INFO --------------Round 33--------------
+2024-10-04 01:58:35,085 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:35,087 base.py sample_with_availability [line:473] INFO The selected clients [53, 78, 59, 76, 66, 15, 61, 84, 68, 67, 11, 56, 25, 44] are not currently available.
+2024-10-04 01:58:35,230 fedbase.py run [line:300] INFO --------------Round 34--------------
+2024-10-04 01:58:35,231 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:35,231 base.py sample_with_availability [line:473] INFO The selected clients [48, 79, 5, 45, 42, 17, 97, 47, 74, 91, 15, 50, 3, 11, 71] are not currently available.
+2024-10-04 01:58:35,352 fedbase.py run [line:300] INFO --------------Round 35--------------
+2024-10-04 01:58:35,352 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:35,353 base.py sample_with_availability [line:473] INFO The selected clients [32, 79, 23, 24, 53, 54, 51, 35, 45, 88, 68, 12, 42, 50] are not currently available.
+2024-10-04 01:58:35,497 fedbase.py run [line:300] INFO --------------Round 36--------------
+2024-10-04 01:58:35,497 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:35,505 base.py sample_with_availability [line:473] INFO The selected clients [15, 78, 61, 73, 16, 50, 19, 52, 27, 14, 3, 55, 66, 42, 44] are not currently available.
+2024-10-04 01:58:35,624 fedbase.py run [line:300] INFO --------------Round 37--------------
+2024-10-04 01:58:35,625 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:35,625 base.py sample_with_availability [line:473] INFO The selected clients [78, 72, 5, 8, 19, 83, 55, 1, 0, 66, 80, 25, 37] are not currently available.
+2024-10-04 01:58:35,793 fedbase.py run [line:300] INFO --------------Round 38--------------
+2024-10-04 01:58:35,793 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:35,794 base.py sample_with_availability [line:473] INFO The selected clients [4, 42, 74, 86, 50, 64, 65, 10, 15, 82, 99, 61, 39, 58] are not currently available.
+2024-10-04 01:58:35,937 fedbase.py run [line:300] INFO --------------Round 39--------------
+2024-10-04 01:58:35,938 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:35,938 base.py sample_with_availability [line:473] INFO The selected clients [83, 74, 60, 94, 1, 17, 80, 98, 34, 58, 3, 72, 51, 16] are not currently available.
+2024-10-04 01:58:36,082 fedbase.py run [line:300] INFO --------------Round 40--------------
+2024-10-04 01:58:36,083 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:36,083 base.py sample_with_availability [line:473] INFO The selected clients [35, 91, 66, 28, 98, 21, 87, 92, 56, 45, 74, 79, 84, 76] are not currently available.
+2024-10-04 01:58:36,227 fedbase.py run [line:300] INFO --------------Round 41--------------
+2024-10-04 01:58:36,228 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:36,228 base.py sample_with_availability [line:473] INFO The selected clients [17, 84, 45, 30, 73, 5, 52, 61, 55, 10, 69] are not currently available.
+2024-10-04 01:58:36,441 fedbase.py run [line:300] INFO --------------Round 42--------------
+2024-10-04 01:58:36,442 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:36,442 base.py sample_with_availability [line:473] INFO The selected clients [22, 23, 16, 70, 20, 7, 75, 80, 71, 72, 76, 59] are not currently available.
+2024-10-04 01:58:36,631 fedbase.py run [line:300] INFO --------------Round 43--------------
+2024-10-04 01:58:36,631 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:36,632 base.py sample_with_availability [line:473] INFO The selected clients [32, 68, 82, 12, 39, 13, 66, 20, 49, 50, 2] are not currently available.
+2024-10-04 01:58:36,844 fedbase.py run [line:300] INFO --------------Round 44--------------
+2024-10-04 01:58:36,844 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:36,845 base.py sample_with_availability [line:473] INFO The selected clients [53, 40, 48, 96, 23, 71, 85, 24, 70, 45, 65, 69, 55] are not currently available.
+2024-10-04 01:58:37,011 fedbase.py run [line:300] INFO --------------Round 45--------------
+2024-10-04 01:58:37,012 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:37,012 base.py sample_with_availability [line:473] INFO The selected clients [76, 52, 93, 1, 13, 33, 75, 78, 72, 22, 5, 51, 66] are not currently available.
+2024-10-04 01:58:37,179 fedbase.py run [line:300] INFO --------------Round 46--------------
+2024-10-04 01:58:37,179 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:37,180 base.py sample_with_availability [line:473] INFO The selected clients [74, 16, 69, 41, 79, 62, 37, 53, 19, 28, 13, 24, 83] are not currently available.
+2024-10-04 01:58:37,347 fedbase.py run [line:300] INFO --------------Round 47--------------
+2024-10-04 01:58:37,347 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:37,348 base.py sample_with_availability [line:473] INFO The selected clients [46, 29, 3, 70, 81, 12, 28, 26, 79, 80, 52, 64, 15, 57, 68] are not currently available.
+2024-10-04 01:58:37,468 fedbase.py run [line:300] INFO --------------Round 48--------------
+2024-10-04 01:58:37,469 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:37,469 base.py sample_with_availability [line:473] INFO The selected clients [70, 52, 38, 68, 80, 10, 16, 71, 25, 40, 9, 75, 36, 78, 4, 21] are not currently available.
+2024-10-04 01:58:37,567 fedbase.py run [line:300] INFO --------------Round 49--------------
+2024-10-04 01:58:37,567 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:37,568 base.py sample_with_availability [line:473] INFO The selected clients [91, 19, 97, 28, 67, 68, 83, 20, 27, 46, 51, 52] are not currently available.
+2024-10-04 01:58:37,757 fedbase.py run [line:300] INFO --------------Round 50--------------
+2024-10-04 01:58:37,757 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:37,758 base.py sample_with_availability [line:473] INFO The selected clients [85, 46, 27, 62, 40, 71, 5, 26, 97, 51, 98, 17, 36, 60, 29, 70] are not currently available.
+2024-10-04 01:58:37,855 fedbase.py run [line:300] INFO --------------Round 51--------------
+2024-10-04 01:58:37,855 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:37,856 base.py sample_with_availability [line:473] INFO The selected clients [76, 31, 97, 50, 40, 27, 59, 54, 93, 16, 29, 41, 83, 33, 52] are not currently available.
+2024-10-04 01:58:37,977 fedbase.py run [line:300] INFO --------------Round 52--------------
+2024-10-04 01:58:37,977 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:37,978 base.py sample_with_availability [line:473] INFO The selected clients [73, 25, 69, 20, 97, 81, 46, 95, 54, 84, 16, 83, 52, 61, 6, 53] are not currently available.
+2024-10-04 01:58:38,075 fedbase.py run [line:300] INFO --------------Round 53--------------
+2024-10-04 01:58:38,076 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:38,076 base.py sample_with_availability [line:473] INFO The selected clients [40, 10, 7, 5, 53, 12, 65, 99, 83, 44, 17, 61, 22, 28, 25] are not currently available.
+2024-10-04 01:58:38,294 fedbase.py run [line:300] INFO --------------Round 54--------------
+2024-10-04 01:58:38,294 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:38,295 base.py sample_with_availability [line:473] INFO The selected clients [12, 83, 46, 19, 73, 63, 43, 58, 70, 34, 97, 5, 91, 55, 67] are not currently available.
+2024-10-04 01:58:38,415 fedbase.py run [line:300] INFO --------------Round 55--------------
+2024-10-04 01:58:38,415 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:38,416 base.py sample_with_availability [line:473] INFO The selected clients [55, 86, 17, 65, 47, 7, 67, 8, 45, 59, 38, 66, 63, 29, 84, 54] are not currently available.
+2024-10-04 01:58:38,514 fedbase.py run [line:300] INFO --------------Round 56--------------
+2024-10-04 01:58:38,514 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:38,515 base.py sample_with_availability [line:473] INFO The selected clients [29, 74, 25, 44, 7, 31, 89, 93, 15, 17, 54, 12, 14, 73] are not currently available.
+2024-10-04 01:58:38,658 fedbase.py run [line:300] INFO --------------Round 57--------------
+2024-10-04 01:58:38,659 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:38,659 base.py sample_with_availability [line:473] INFO The selected clients [62, 60, 34, 65, 5, 8, 59, 0, 33, 90, 95, 96] are not currently available.
+2024-10-04 01:58:38,848 fedbase.py run [line:300] INFO --------------Round 58--------------
+2024-10-04 01:58:38,849 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:38,849 base.py sample_with_availability [line:473] INFO The selected clients [1, 3, 84, 50, 51, 94, 20, 44, 97, 68, 60, 6] are not currently available.
+2024-10-04 01:58:39,039 fedbase.py run [line:300] INFO --------------Round 59--------------
+2024-10-04 01:58:39,039 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:39,040 base.py sample_with_availability [line:473] INFO The selected clients [36, 40, 69, 18, 74, 78, 7, 34, 68, 97] are not currently available.
+2024-10-04 01:58:39,275 fedbase.py run [line:300] INFO --------------Round 60--------------
+2024-10-04 01:58:39,276 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:39,276 base.py sample_with_availability [line:473] INFO The selected clients [70, 25, 96, 95, 35, 99, 79, 50, 65, 63, 10, 51, 68, 20] are not currently available.
+2024-10-04 01:58:39,420 fedbase.py run [line:300] INFO --------------Round 61--------------
+2024-10-04 01:58:39,421 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:39,421 base.py sample_with_availability [line:473] INFO The selected clients [22, 8, 10, 55, 29, 65, 36, 9, 7, 86, 17, 18, 78, 58, 28] are not currently available.
+2024-10-04 01:58:39,542 fedbase.py run [line:300] INFO --------------Round 62--------------
+2024-10-04 01:58:39,542 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:39,543 base.py sample_with_availability [line:473] INFO The selected clients [61, 94, 32, 88, 70, 38, 51, 1, 44, 4, 50, 82, 46, 24, 7, 84, 2, 30] are not currently available.
+2024-10-04 01:58:39,595 fedbase.py run [line:300] INFO --------------Round 63--------------
+2024-10-04 01:58:39,595 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:39,596 base.py sample_with_availability [line:473] INFO The selected clients [96, 16, 90, 50, 44, 98, 76, 84, 93, 69, 54, 63, 53, 73, 30] are not currently available.
+2024-10-04 01:58:39,717 fedbase.py run [line:300] INFO --------------Round 64--------------
+2024-10-04 01:58:39,718 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:39,718 base.py sample_with_availability [line:473] INFO The selected clients [65, 66, 83, 48, 97, 19, 31, 62, 46, 98, 77, 47] are not currently available.
+2024-10-04 01:58:39,907 fedbase.py run [line:300] INFO --------------Round 65--------------
+2024-10-04 01:58:39,908 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:39,908 base.py sample_with_availability [line:473] INFO The selected clients [53, 21, 4, 47, 62, 60, 31, 98, 26, 91, 66] are not currently available.
+2024-10-04 01:58:40,120 fedbase.py run [line:300] INFO --------------Round 66--------------
+2024-10-04 01:58:40,120 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:40,121 base.py sample_with_availability [line:473] INFO The selected clients [35, 18, 80, 40, 22, 41, 5, 62, 48, 24, 63, 47, 31, 34, 25, 88, 67] are not currently available.
+2024-10-04 01:58:40,196 fedbase.py run [line:300] INFO --------------Round 67--------------
+2024-10-04 01:58:40,196 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:40,197 base.py sample_with_availability [line:473] INFO The selected clients [98, 48, 81, 80, 21, 39, 50, 45, 7, 60, 62, 75, 44, 1] are not currently available.
+2024-10-04 01:58:40,342 fedbase.py run [line:300] INFO --------------Round 68--------------
+2024-10-04 01:58:40,343 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:40,343 base.py sample_with_availability [line:473] INFO The selected clients [94, 65, 80, 62, 3, 97, 60, 17, 68, 40, 50, 66] are not currently available.
+2024-10-04 01:58:40,533 fedbase.py run [line:300] INFO --------------Round 69--------------
+2024-10-04 01:58:40,534 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:40,542 base.py sample_with_availability [line:473] INFO The selected clients [18, 51, 22, 69, 79, 64, 33, 84, 53, 37, 62, 72, 6, 68] are not currently available.
+2024-10-04 01:58:40,685 fedbase.py run [line:300] INFO --------------Round 70--------------
+2024-10-04 01:58:40,686 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:40,687 base.py sample_with_availability [line:473] INFO The selected clients [5, 36, 43, 85, 3, 61, 17, 55, 27, 92, 94, 73, 78, 79, 77] are not currently available.
+2024-10-04 01:58:40,807 fedbase.py run [line:300] INFO --------------Round 71--------------
+2024-10-04 01:58:40,807 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:40,808 base.py sample_with_availability [line:473] INFO The selected clients [7, 88, 46, 5, 57, 98, 81, 6, 29, 63, 27, 74, 99, 68, 87] are not currently available.
+2024-10-04 01:58:40,928 fedbase.py run [line:300] INFO --------------Round 72--------------
+2024-10-04 01:58:40,929 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:40,929 base.py sample_with_availability [line:473] INFO The selected clients [35, 3, 24, 43, 11, 94, 39, 72, 90, 47, 64, 18] are not currently available.
+2024-10-04 01:58:41,118 fedbase.py run [line:300] INFO --------------Round 73--------------
+2024-10-04 01:58:41,119 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:41,120 base.py sample_with_availability [line:473] INFO The selected clients [33, 16, 49, 91, 25, 89, 68, 32, 9, 36, 48, 72, 6, 39, 78, 21] are not currently available.
+2024-10-04 01:58:41,217 fedbase.py run [line:300] INFO --------------Round 74--------------
+2024-10-04 01:58:41,218 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:41,218 base.py sample_with_availability [line:473] INFO The selected clients [54, 39, 6, 94, 11, 91, 25, 22, 70, 81, 92, 73, 87] are not currently available.
+2024-10-04 01:58:41,385 fedbase.py run [line:300] INFO --------------Round 75--------------
+2024-10-04 01:58:41,385 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:41,386 base.py sample_with_availability [line:473] INFO The selected clients [34, 7, 81, 35, 8, 38, 90, 20, 16, 30, 96, 61, 48, 67, 92] are not currently available.
+2024-10-04 01:58:41,507 fedbase.py run [line:300] INFO --------------Round 76--------------
+2024-10-04 01:58:41,507 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:41,508 base.py sample_with_availability [line:473] INFO The selected clients [84, 79, 21, 57, 9, 61, 2, 49, 64, 81, 46] are not currently available.
+2024-10-04 01:58:41,720 fedbase.py run [line:300] INFO --------------Round 77--------------
+2024-10-04 01:58:41,721 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:41,721 base.py sample_with_availability [line:473] INFO The selected clients [76, 26, 51, 86, 10, 99, 21, 39, 90, 81, 44, 98] are not currently available.
+2024-10-04 01:58:41,910 fedbase.py run [line:300] INFO --------------Round 78--------------
+2024-10-04 01:58:41,911 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:41,911 base.py sample_with_availability [line:473] INFO The selected clients [26, 23, 11, 36, 56, 66, 37, 3, 53, 92, 87, 41, 43, 24] are not currently available.
+2024-10-04 01:58:42,055 fedbase.py run [line:300] INFO --------------Round 79--------------
+2024-10-04 01:58:42,055 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:42,056 base.py sample_with_availability [line:473] INFO The selected clients [53, 60, 37, 38, 1, 76, 91, 34, 4, 41, 70, 75, 20, 65] are not currently available.
+2024-10-04 01:58:42,200 fedbase.py run [line:300] INFO --------------Round 80--------------
+2024-10-04 01:58:42,200 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:42,201 base.py sample_with_availability [line:473] INFO The selected clients [5, 39, 43, 80, 99, 41, 89, 82, 64, 85, 75, 90, 49, 50, 59, 84, 25] are not currently available.
+2024-10-04 01:58:42,276 fedbase.py run [line:300] INFO --------------Round 81--------------
+2024-10-04 01:58:42,276 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:42,277 base.py sample_with_availability [line:473] INFO The selected clients [25, 84, 31, 78, 55, 80, 87, 99, 9, 49, 97, 38] are not currently available.
+2024-10-04 01:58:42,467 fedbase.py run [line:300] INFO --------------Round 82--------------
+2024-10-04 01:58:42,468 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:42,468 base.py sample_with_availability [line:473] INFO The selected clients [25, 66, 53, 14, 94, 8, 67, 45, 10, 87, 20, 4, 96, 55, 81, 89, 75] are not currently available.
+2024-10-04 01:58:42,543 fedbase.py run [line:300] INFO --------------Round 83--------------
+2024-10-04 01:58:42,544 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:42,544 base.py sample_with_availability [line:473] INFO The selected clients [41, 91, 74, 40, 55, 61, 6, 49, 30, 42, 8, 51, 9, 12, 25] are not currently available.
+2024-10-04 01:58:42,666 fedbase.py run [line:300] INFO --------------Round 84--------------
+2024-10-04 01:58:42,666 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:42,667 base.py sample_with_availability [line:473] INFO The selected clients [8, 46, 65, 48, 97, 73, 88, 67, 56, 6, 80] are not currently available.
+2024-10-04 01:58:42,879 fedbase.py run [line:300] INFO --------------Round 85--------------
+2024-10-04 01:58:42,880 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:42,880 base.py sample_with_availability [line:473] INFO The selected clients [9, 68, 32, 34, 31, 69, 72, 38, 28, 15, 65, 11, 75, 14, 27, 8] are not currently available.
+2024-10-04 01:58:42,978 fedbase.py run [line:300] INFO --------------Round 86--------------
+2024-10-04 01:58:42,978 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:42,979 base.py sample_with_availability [line:473] INFO The selected clients [12, 52, 53, 39, 70, 91, 11, 10, 76, 35, 48, 30, 83, 36, 85, 46] are not currently available.
+2024-10-04 01:58:43,077 fedbase.py run [line:300] INFO --------------Round 87--------------
+2024-10-04 01:58:43,077 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:43,078 base.py sample_with_availability [line:473] INFO The selected clients [60, 77, 89, 75, 9, 6, 79, 26, 47, 36, 71, 90, 56, 66, 10, 16, 13, 31] are not currently available.
+2024-10-04 01:58:43,130 fedbase.py run [line:300] INFO --------------Round 88--------------
+2024-10-04 01:58:43,131 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:43,131 base.py sample_with_availability [line:473] INFO The selected clients [12, 25, 17, 53, 79, 28, 60, 90, 51, 8, 52, 91, 72, 85, 58] are not currently available.
+2024-10-04 01:58:43,253 fedbase.py run [line:300] INFO --------------Round 89--------------
+2024-10-04 01:58:43,253 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:43,254 base.py sample_with_availability [line:473] INFO The selected clients [4, 9, 97, 70, 47, 41, 92, 59, 85, 94, 89, 8, 6, 52, 35, 90] are not currently available.
+2024-10-04 01:58:43,351 fedbase.py run [line:300] INFO --------------Round 90--------------
+2024-10-04 01:58:43,352 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:43,352 base.py sample_with_availability [line:473] INFO The selected clients [66, 28, 96, 52, 87, 70, 2, 76, 73, 81, 97, 60, 41] are not currently available.
+2024-10-04 01:58:43,519 fedbase.py run [line:300] INFO --------------Round 91--------------
+2024-10-04 01:58:43,519 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:43,520 base.py sample_with_availability [line:473] INFO The selected clients [98, 30, 17, 87, 12, 47, 38, 73, 63, 70, 68, 46, 49, 3, 65, 44] are not currently available.
+2024-10-04 01:58:43,617 fedbase.py run [line:300] INFO --------------Round 92--------------
+2024-10-04 01:58:43,617 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:43,618 base.py sample_with_availability [line:473] INFO The selected clients [12, 76, 57, 30, 0, 37, 83, 89, 55, 34, 84] are not currently available.
+2024-10-04 01:58:43,830 fedbase.py run [line:300] INFO --------------Round 93--------------
+2024-10-04 01:58:43,830 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:43,831 base.py sample_with_availability [line:473] INFO The selected clients [37, 60, 29, 34, 6, 15, 95, 54, 50, 79, 84] are not currently available.
+2024-10-04 01:58:44,043 fedbase.py run [line:300] INFO --------------Round 94--------------
+2024-10-04 01:58:44,044 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:44,044 base.py sample_with_availability [line:473] INFO The selected clients [8, 20, 23, 30, 47, 61, 43, 42, 34, 83, 13, 16, 95, 60, 29] are not currently available.
+2024-10-04 01:58:44,165 fedbase.py run [line:300] INFO --------------Round 95--------------
+2024-10-04 01:58:44,165 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:44,166 base.py sample_with_availability [line:473] INFO The selected clients [12, 51, 27, 38, 59, 6, 42, 52, 25, 55, 78, 95, 48] are not currently available.
+2024-10-04 01:58:44,334 fedbase.py run [line:300] INFO --------------Round 96--------------
+2024-10-04 01:58:44,335 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:44,335 base.py sample_with_availability [line:473] INFO The selected clients [73, 47, 49, 21, 76, 31, 78, 12, 94, 27, 36, 81, 9, 54] are not currently available.
+2024-10-04 01:58:44,480 fedbase.py run [line:300] INFO --------------Round 97--------------
+2024-10-04 01:58:44,480 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:44,481 base.py sample_with_availability [line:473] INFO The selected clients [18, 98, 0, 29, 57, 69, 3, 8, 65, 22, 38, 81] are not currently available.
+2024-10-04 01:58:44,670 fedbase.py run [line:300] INFO --------------Round 98--------------
+2024-10-04 01:58:44,671 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:44,671 base.py sample_with_availability [line:473] INFO The selected clients [19, 48, 95, 87, 81, 7, 75, 28, 24, 53, 38, 4, 12, 34, 13, 94, 18] are not currently available.
+2024-10-04 01:58:44,747 fedbase.py run [line:300] INFO --------------Round 99--------------
+2024-10-04 01:58:44,747 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:44,748 base.py sample_with_availability [line:473] INFO The selected clients [4, 42, 77, 87, 23, 49, 11, 39, 64, 52, 7, 90] are not currently available.
+2024-10-04 01:58:44,938 fedbase.py run [line:300] INFO --------------Round 100--------------
+2024-10-04 01:58:44,939 fedbase.py run [line:305] INFO Eval Time Cost:               0.0001s
+2024-10-04 01:58:44,939 fedbase.py run [line:313] INFO =================End==================
+2024-10-04 01:58:44,939 fedbase.py run [line:314] INFO Total Time Cost:              14.4838s
